@@ -120,7 +120,11 @@ Front Page
 } 
 
 .newsSlideshow .metaslider.metaslider-responsive.metaslider-500.ml-slider.nav-hidden img {
-	height: 47px;
+	height: 35px;
+}
+
+.newsSlideshow {
+    margin: -14px 0 0 0;
 }
 
 /* News Slideshow end */

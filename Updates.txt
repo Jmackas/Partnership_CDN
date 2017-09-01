@@ -10,7 +10,7 @@
 		- Make the background of each front page module have a network look.
 		
 		Blacktree:
-		- Menu items need to move to the right, while the logo stays on the left.
+		- // Menu items need to move to the right, while the logo stays on the left.
 		- The slideshow images need to look good.
 		- // The news slider needs to be a gray background as the menu background.
 		- // Make the header menu top colour the same as the 'Products and Services' colour.
