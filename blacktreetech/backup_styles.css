@@ -109,8 +109,8 @@ Front Page
 
 /* News Slideshow start */
 .newsSlideshow .metaslider.metaslider-responsive.metaslider-500.ml-slider.nav-hidden .caption-wrap {
-    background: lightgray;
-    color: black;
+    background: rgb(97, 141, 233);
+    color: white;
     font-size: 140%;
     text-align: center;
 }
