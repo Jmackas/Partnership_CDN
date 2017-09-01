@@ -143,6 +143,7 @@ Front Page
     text-align: center;
     font-size: 135%;
     padding: 0 20% 0 20%;
+    margin: -15px 0 0 0;
 }
 
 .frontPage .topBlurb h3, .frontPage .topBlurb p  {
