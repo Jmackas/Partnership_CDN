@@ -1,0 +1,235 @@
+/***********************
+Universal Elements
+***********************/
+.copyright {
+    display: none;
+}
+
+/* Fade in effect */
+.frontPage {
+    animation: fl-fade-in 5s ease-out;
+}
+
+@keyframes fl-fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.header-top {
+	display: none;
+}
+
+/* Fixing the menu header to the top (slight hack) */
+.header-inner-wrapper {
+    transform: initial !important;
+}
+
+/* Menu items moved down */
+.header-bottom .header-bottom-right-section {
+	float: initial;
+
+}
+
+nav#site-navigation {
+    padding: 18px 0 0 0;
+}
+
+/* Menu items bolded */
+ul#menu-primary-menu li {
+    font-weight: bold;
+}
+
+/* Logo padding reduced */
+.site-identity-container {
+    padding: 2px 0 2px 0;
+}
+
+/* Header colour + left/right padding */
+.header-bottom {
+	background-color: #d3d3d3;
+	 padding: 0 50px 0 50px;
+}
+
+/* Header border removes */
+nav#site-navigation {
+    border: none;   
+}
+
+
+/* Pushed the image slider higher */
+.metaslider.metaslider-flex.metaslider-380.ml-slider {
+    margin: -60px 0 0 0 !important;
+}
+
+@media only screen and (max-width: 762px) {
+    .metaslider.metaslider-flex.metaslider-380.ml-slider {
+		margin: initial !important;
+	}
+}
+
+
+/* Fixing the width of the overall margins */
+.container {
+	width: 100%;
+	padding: initial;
+}
+
+footer#colophon {
+    padding: 0 10px 2px 10px;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+/* Centering the titles on other pages */
+.breadcrumbs .container {
+    display: flex;
+    justify-content: center;
+}
+
+/***********************
+Front Page
+***********************/
+
+/* Top slideshow */
+.topSlideshow {
+	
+}
+
+/* News Slideshow start */
+.newsSlideshow .metaslider.metaslider-responsive.metaslider-500.ml-slider.nav-hidden .caption-wrap {
+    background: lightgray;
+    color: black;
+    font-size: 140%;
+    text-align: center;
+}
+
+.newsSlideshow .metaslider.metaslider-responsive.metaslider-500.ml-slider.nav-hidden a.rslides_nav.rslides1_nav.prev, .newsSlideshow .metaslider.metaslider-responsive.metaslider-500.ml-slider.nav-hidden a.rslides_nav.rslides1_nav.next {
+	background: rgba(0,0,0,0);
+} 
+
+.newsSlideshow .metaslider.metaslider-responsive.metaslider-500.ml-slider.nav-hidden img {
+	height: 47px;
+}
+
+/* News Slideshow end */
+
+
+.frontPage .topBlurb p {
+    line-height: 200%;
+}
+
+.frontPage .topBlurb {
+    text-align: center;
+    font-size: 135%;
+    padding: 0 20% 0 20%;
+    margin: 2% 0 0.4% 0;
+}
+
+.frontPage .text {
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 4% 10%;
+    background: lightgray;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.text.centre {
+    background: white;
+}
+
+.frontPage hr {
+	border: 1px solid rgba(211, 211, 211, 0.38);
+}
+
+.frontPage .text h3 {
+    margin: 0;
+}
+
+.frontPage .text p {
+    margin: 1% 0 0 0;
+}
+
+.frontPage .text .blockDis {
+    display: block;
+    padding: 5px;
+}
+
+.frontPage .hexagon {
+    float: left;
+    padding: 5px 15px 5px 0;
+}
+
+.frontPage img {
+	max-width: initial;
+}
+
+@media only screen and (max-width: 762px) {
+    .hexagon {
+        display: none;
+    }
+
+    .frontPage .text {
+        border: none;
+        margin: 0 0 5% 0;
+        padding: 5px 15px 5px 0;
+    }
+	
+	.frontPage .topBlurb {
+		padding: 0 3% 0 3%;
+	}
+}
+
+/***********************
+Contact Page
+***********************/
+/* Send Button */
+input#nf-field-16 {
+    padding: 20px 30px;
+    background: #466cf4;
+    border: none;
+    color: white;
+}
+
+input#nf-field-16:hover {
+    background: rgba(70, 108, 244, 0.5);
+}
+
+@media only screen and (max-width: 400px) {
+    input#nf-field-16 {
+		width: 100%;
+	}
+}
+
+/***********************
+Footer
+***********************/
+/* Footer calender text colour white */
+table#wp-calendar {
+    color: white;
+}
+
+/* 'CONTACT US' text colour white */
+.footer-widgets .widget p {
+	color: #ffffff;
+}
+
+/* Removed sub menu services */
+.footer-navigation ul.sub-menu {
+    display: none;
+}
+
+/* Removed large margin */
+.site-footer {
+	margin-top: 0px;
+}

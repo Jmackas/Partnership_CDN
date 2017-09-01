@@ -1,0 +1,19 @@
+17-Aug-2017 Meeting:
+Updates:
+	- Menu items have been moved to the left.
+	- The top logo's padding has been reduced. 
+	- The overall website margins have been reduced.
+	- The blurb text's title has been bolded.
+	- Menu items have been bolded.
+	- Calender text colour has been made white + decided to make the 'CONTACT US' text white also.
+	- Removed sub menu services in the footer area (via display:none;).
+	- Changed the background. Made it more transparent, while covering the whole page.
+	- Fixed the background issue displaying weirdly on different pages.
+	- Sort of fixed the offset on the 'Page scroll to ID' plugin. It is loosely based on the height of the header (125px).
+	- Changed the padding on the top blurb.
+	- The front page images are all the same size.
+Notes:
+	- Is it possible to have a widget in the header? For the language bar purposes.
+	
+
+	
