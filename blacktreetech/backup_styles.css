@@ -171,6 +171,10 @@ Front Page
     align-items: center;
 }
 
+.frontPage .text.centre p {
+	background: rgba(255,255,255,0.7);
+}
+
 .text.centre {
     background: white;
     background-image: url(http://i.imgur.com/5hSbwFh.png);
