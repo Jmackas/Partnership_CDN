@@ -129,7 +129,7 @@ Front Page
 
 
 .rslides_nav {
-    top: 34%;
+    top: 34% !important;
 }
 
 /* News Slideshow end */
