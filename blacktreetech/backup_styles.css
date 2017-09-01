@@ -223,8 +223,8 @@ Front Page
 
     .frontPage .text {
         border: none;
-        margin: 0 0 5% 0;
-        padding: 5px 15px 5px 0;
+        /* margin: 0 0 5% 0; */
+        padding: 10% 0;
     }
 	
 	.frontPage .topBlurb {
