@@ -1,0 +1,69 @@
+/********************
+Universal
+********************/
+/* Header size increase */
+nav#site-navigation {
+    padding: 30px;
+}
+
+/* Waterseal image size maximum */
+.logo {
+    max-height: 100%;
+}
+
+
+
+
+
+
+
+/********************
+Home Page
+********************/
+/* Modules */
+.divOne {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+	text-align: center;
+	font-size: 130%;
+    line-height: 170%;
+}
+
+.textwidget.custom-html-widget {
+    background: lightgray;
+}
+
+.divOne .left, .divOne .right {
+    float: left;
+    width: 50%;
+	padding: 20px;
+	background: lightgray;
+
+}
+
+@media only screen and (max-width: 767px) {
+    .divOne {
+		display: initial;
+		
+	}
+	
+	.divOne .left, .divOne .right {
+        float: initial;
+		width: initial;
+    }
+	
+	p {
+		font-size: 90%;
+	}
+}
+
+
+
+
+
+
+
+/********************
+Website colours amendment
+********************/
