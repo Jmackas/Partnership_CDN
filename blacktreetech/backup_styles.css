@@ -165,14 +165,22 @@ Front Page
     display: -ms-flexbox;
     display: flex;
     padding: 4% 20%;
-    background: lightgray;
+    background: rgba(84, 132, 232, 0.92);
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
 }
 
-.frontPage .text.centre p {
+.frontPage .text h3, .frontPage .text p {
+	color: white;
+}
+
+.frontPage .text .centre p {
 	background: rgba(255,255,255,0.7);
+}
+
+.frontPage .text.centre h3, .frontPage .text.centre p {
+	color: black
 }
 
 .text.centre {
