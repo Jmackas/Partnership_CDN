@@ -56,8 +56,8 @@ ul#menu-primary-menu li {
 
 /* Header colour + left/right padding */
 .header-bottom {
-	background-color: #d3d3d3;
-	 padding: 0 50px 0 50px;
+	background-color: white;
+	padding: 0 50px 0 50px;
 }
 
 /* Header border removes */
