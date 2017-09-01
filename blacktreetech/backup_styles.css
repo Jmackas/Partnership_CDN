@@ -44,6 +44,11 @@ ul#menu-primary-menu li {
     font-weight: bold;
 }
 
+/* Menu items pushed to the right */
+.navigation-default, .main-navigation-max-mega-menu {
+    float: right;
+}
+
 /* Logo padding reduced */
 .site-identity-container {
     padding: 2px 0 2px 0;
