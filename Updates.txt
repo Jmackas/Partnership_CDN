@@ -11,7 +11,7 @@ General:
 			- Make the background of each front page module have a network look.
 		
 		Blacktree:
-			- More space in blurb.
+			
 		
 	Done:
 		Blacktree:
@@ -21,7 +21,8 @@ General:
 			- Make the header menu top colour the same as the 'Products and Services' colour.
 			- 'upcoming events' removed.
 			- Fix the 'news' page padding.
-
+			- More space in blurb.
+			
 	Notes:
 	
 	
