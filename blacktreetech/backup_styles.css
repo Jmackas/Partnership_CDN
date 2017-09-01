@@ -146,6 +146,7 @@ Front Page
         /* margin: 0 0 0 0; */
         background-image: url(http://i.imgur.com/5hSbwFh.png);
         background-attachment: fixed;
+		    background-size: cover;
 
 }
 
