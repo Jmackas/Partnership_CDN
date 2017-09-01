@@ -140,10 +140,12 @@ Front Page
 }
 
 .frontPage .topBlurb {
-    text-align: center;
+        text-align: center;
     font-size: 135%;
-    padding: 0 20% 0 20%;
-    margin: -15px 0 0 0;
+    padding: 1% 20% 2% 20%;
+    /* margin: 0 0 0 0; */
+    background-image: url(http://i.imgur.com/PK3KZnF.png);
+    background-attachment: fixed;
 }
 
 .frontPage .topBlurb h3, .frontPage .topBlurb p  {

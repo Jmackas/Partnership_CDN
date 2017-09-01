@@ -16,6 +16,7 @@
 		- // Make the header menu top colour the same as the 'Products and Services' colour.
 		- // 'upcoming events' removed.
 		- Fix the 'news' page padding.
+		- More space in blurb.
 		
 
 	Notes:
