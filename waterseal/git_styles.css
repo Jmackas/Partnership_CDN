@@ -38,9 +38,7 @@ Home Page
 .divOne .left, .divOne .right {
     float: left;
     width: 50%;
-	padding: 20px;
-	background: lightgray;
-
+    padding: 20px;
 }
 
 @media only screen and (max-width: 767px) {
