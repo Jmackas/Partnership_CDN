@@ -10,9 +10,10 @@ General:
 		General:
 		
 		Waterseal:
-				
-		Blacktree:
 		- Continue styling the Waterseal front page.
+		
+		Blacktree:
+		- Fix the slideshow look.
 		
 	Done:
 			

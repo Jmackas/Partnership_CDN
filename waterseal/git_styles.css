@@ -38,10 +38,18 @@ Home Page
 	*/
 }
 
-
-.textwidget.custom-html-widget {
+/* Div Backgrounds */
+div#custom_html-5 {
     background: white;
 }
+
+div#custom_html-7 {
+	background: lightgray;
+}
+
+
+
+
 .divOne .left, .divOne .right {
     float: left;
     width: 50%;
