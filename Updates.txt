@@ -10,15 +10,16 @@ General:
 		General:
 		
 		Waterseal:
-		- Continue styling the Waterseal front page.
+		
 		
 		Blacktree:
-		- Fix the slideshow look.
+			- Fix the slideshow look.
 		
 	Done:
+		- Continue styling the Waterseal front page.
 			
 	Notes:
-	- Partnership has formally been terminated.
+		- Partnership has formally been terminated.
 
 /******************************************************/
 /******************************************************/
