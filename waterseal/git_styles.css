@@ -11,7 +11,17 @@ nav#site-navigation {
     max-height: 100%;
 }
 
-
+/* Header changes in mobile */
+@media only screen and (max-width: 991px) {
+    .site-header img.logo {
+    display: none;
+	}
+	
+	nav#site-navigation {
+    padding: 0;
+}
+	
+}
 
 
 
