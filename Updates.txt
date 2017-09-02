@@ -16,8 +16,9 @@ General:
 			- Fix the slideshow look.
 		
 	Done:
-		- Continue styling the Waterseal front page.
-			
+		- Styled the Waterseal front page.
+		- Hidden the header logo in mobile.	
+		
 	Notes:
 		- Partnership has formally been terminated.
 
@@ -26,10 +27,8 @@ General:
 01-September-2017:
 	To Do:
 		General:
-			- Push all the CDN CSS onto a different repository.
 
 		Waterseal:
-			- Make the background of each front page module have a network look.
 		
 		Blacktree:
 			
