@@ -38,6 +38,11 @@ Home Page
 	*/
 }
 
+.divOne a {
+	color: white;
+	padding: 19px 17px;
+}
+
 /* Div Backgrounds */
 div#custom_html-5 {
     background: white;
