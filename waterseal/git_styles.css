@@ -23,6 +23,25 @@ nav#site-navigation {
 	
 }
 
+/* Margin removal site wide */
+@media (min-width: 768px) {
+    .container {
+        width:100%
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width:100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}
+
 
 
 
@@ -39,7 +58,6 @@ Home Page
     text-align: center;
     font-size: 130%;
     line-height: 170%;
-  
   background-image: url(https://i.imgur.com/p2qWKsq.png);
     background-repeat: no-repeat;
     background-position: 8% 96%;
