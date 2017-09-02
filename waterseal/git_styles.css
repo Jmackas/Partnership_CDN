@@ -24,23 +24,11 @@ nav#site-navigation {
 }
 
 /* Margin removal site wide */
-@media (min-width: 768px) {
-    .container {
-        width:100%
-    }
+
+.container {
+	width: 100%;
 }
 
-@media (min-width: 992px) {
-    .container {
-        width:100%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        width: 100%;
-    }
-}
 
 
 
