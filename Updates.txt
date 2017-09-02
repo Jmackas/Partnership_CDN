@@ -1,6 +1,26 @@
 General:
 	Key words: Waterseal, Blacktree
+/******************************************************/
+/******************************************************/
 
+02-September-2017:
+	To Do:
+		General:
+		
+		Waterseal:
+				
+		Blacktree:
+		- Continue styling the Waterseal front page.
+		
+	Done:
+			
+	Notes:
+	- Partnership has formally been terminated.
+
+
+
+/******************************************************/
+/******************************************************/
 
 01-September-2017:
 	To Do:
