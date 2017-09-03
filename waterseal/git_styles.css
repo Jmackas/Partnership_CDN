@@ -20,35 +20,40 @@ h2.post-title {
 /* Header changes in mobile */
 @media only screen and (max-width: 991px) {
     .site-header img.logo {
-    display: none;
-	}
-	
-	nav#site-navigation {
-    padding: 0;
-}
-	
+        display: none;
+    }
+
+    nav#site-navigation {
+        padding: 0;
+    }
 }
 
 /* Margin removal site wide */
-
 .container {
-	width: 100%;
+    width: 100%;
 }
 
 .full-width {
     padding: 0;
 }
 
-
-
-
-
-
 /********************
 Home Page
 ********************/
 /* Modules */
-.divOne { display: flex; justify-content: center; padding: 20px; margin: 0 10%; text-align: center; font-size: 130%; line-height: 170%; background-image: url(https://imgur.com/P42pZGe.png); background-repeat: no-repeat; background-position: 8% 100%; background-size: 103% 57%; }
+.divOne {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 10%;
+    text-align: center;
+    font-size: 130%;
+    line-height: 170%;
+    background-image: url(https://imgur.com/P42pZGe.png);
+    background-repeat: no-repeat;
+    background-position: 8% 100%;
+    background-size: 103% 57%;
+}
 
 /* Div Backgrounds */
 div#custom_html-5 {
@@ -56,11 +61,8 @@ div#custom_html-5 {
 }
 
 div#custom_html-7 {
-	background: lightgray;
+    background: lightgray;
 }
-
-
-
 
 .divOne .left, .divOne .right {
     float: left;
@@ -70,25 +72,18 @@ div#custom_html-7 {
 
 @media only screen and (max-width: 767px) {
     .divOne {
-		display: initial;
-		
-	}
-	
-	.divOne .left, .divOne .right {
-        float: initial;
-		width: initial;
+        display: initial;
     }
-	
-	p {
-		font-size: 90%;
-	}
+
+    .divOne .left, .divOne .right {
+        float: initial;
+        width: initial;
+    }
+
+    p {
+        font-size: 90%;
+    }
 }
-
-
-
-
-
-
 
 /********************
 Website colours amendment
