@@ -10,7 +10,7 @@ General:
 		General:
 		
 		Waterseal:
-		
+		- Fix the look of the background styling on the front page.
 		
 		Blacktree:
 			- Fix the slideshow look.
