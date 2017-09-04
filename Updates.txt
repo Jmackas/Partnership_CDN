@@ -10,14 +10,15 @@ General:
 		General:
 		
 		Waterseal:
-		- Fix the look of the background styling on the front page.
+			- Fix the look of the background styling on the front page.
+			- Images on the front page need to be the same size.
 		
 		Blacktree:
 			- Fix the slideshow look.
 		
 	Done:
 		- Styled the Waterseal front page.
-		- Hidden the header logo in mobile.	
+		- Hidden the header logo in mobile.
 		
 	Notes:
 		- Partnership has formally been terminated.
