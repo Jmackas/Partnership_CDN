@@ -20,9 +20,16 @@ Universal Elements
     }
 }
 
+/* Hiding the top contact details bar */
 .header-top {
 	display: none;
 }
+
+/* Hiding the search function */
+.header-action-container {
+    display: none;
+}
+
 
 /* Fixing the menu header to the top (slight hack) */
 .header-inner-wrapper {
