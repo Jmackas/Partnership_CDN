@@ -157,8 +157,7 @@ Front Page
         padding: 3% 20% 3% 20%;
         background-image: url(http://i.imgur.com/5hSbwFh.png);
         background-attachment: fixed;
-		    background-size: cover;
-
+        background-size: cover;
 }
 
 .frontPage .topBlurb p {
@@ -167,7 +166,7 @@ Front Page
 
 
 .frontPage .topBlurb h3, .frontPage .topBlurb p  {
-	margin: 0;
+	margin: 13px 0 0 0;
 }
 
 .frontPage .text {
