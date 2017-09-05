@@ -16,3 +16,11 @@ General Elements
 /******************************
 Cascading Elements
 ******************************/
+
+.divOne {
+	background: red;
+}
+
+.divTwo {
+		background: green;
+}
