@@ -12,8 +12,10 @@ General:
 		Waterseal:
 			- Fix the look of the background styling on the front page.
 			- Images on the front page need to be the same size.
+			- Waterseal needs to be done by the end of September.
 		
 		Blacktree:
+			- Website needs to be migrated by Thursday.
 
 		
 	Done:
