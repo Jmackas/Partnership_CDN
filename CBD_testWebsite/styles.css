@@ -1,12 +1,6 @@
 /******************************
 General Elements
 ******************************/
-/* Full width margins */
-.wrap {
-    max-width: 100%;
-    padding: 0;
-}
-
 /* Top header styling */
 .site-branding {
     padding: 80px 0 80px 0;
