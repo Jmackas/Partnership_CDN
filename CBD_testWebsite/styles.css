@@ -16,12 +16,18 @@ General Elements
 /******************************
 Cascading Elements
 ******************************/
+/* Overall Content Encapsulation */
+.mainBody {
+	
+}
 
+/* Section One */
 .divOne {
 	background: red;
 	padding: 40px 0 60px 0;
 }
 
+/* Section Two */
 .divTwo {
 		background: green;
 }
