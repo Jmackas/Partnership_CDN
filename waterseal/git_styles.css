@@ -33,10 +33,9 @@ Home Page
 ********************/
 /* Top parallax image */
 .topParallax {
-    padding: 3% 0 6% 0;
+    padding: 3% 2% 6% 2%;
     text-align: center;
     color: white;
-
     background-image: url(http://037.e61.myftpupload.com/wp-content/uploads/2017/08/Test-Picture-6.png);
     background-attachment: fixed;
     background-size: cover;
