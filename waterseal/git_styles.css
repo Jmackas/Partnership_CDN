@@ -40,7 +40,16 @@ h2.post-title {
 /********************
 Home Page
 ********************/
-/* Modules */
+/* Top parallax image */
+.topParallax {
+    background-image: url(/wp-content/uploads/2017/08/Test-Picture-6.png);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5% 0 5% 0;
+}
+
+
+/* Middle section modules */
 .divOne {
     display: flex;
     justify-content: center;
