@@ -92,6 +92,10 @@ div#custom_html-7 {
     padding: 15px;
 }
 
+.contactForm input {
+    border: 1px solid #aebbc3;
+}
+
 /********************
 Website colours amendment
 ********************/
