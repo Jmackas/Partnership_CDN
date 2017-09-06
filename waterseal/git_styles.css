@@ -28,6 +28,16 @@ h2.post-title {
     }
 }
 
+/* Page margins full width */
+.container {
+    width: 100%;
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
 /********************
 Home Page
 ********************/
