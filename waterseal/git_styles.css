@@ -55,6 +55,10 @@ Home Page
 	font-weight: bold;
 }
 
+.topParallax img {
+	    width: 310px;
+}
+
 /* Middle section modules */
 .divOne {
     display: flex;
