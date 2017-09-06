@@ -31,10 +31,7 @@ h2.post-title {
 /* Margin removal site wide */
 .container {
     width: 100%;
-}
-
-.full-width {
-    padding: 0;
+	padding: 0;
 }
 
 /********************
