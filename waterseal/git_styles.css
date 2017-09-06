@@ -28,12 +28,6 @@ h2.post-title {
     }
 }
 
-/* Margin removal site wide */
-.container {
-    width: 100%;
-	padding: 0;
-}
-
 /********************
 Home Page
 ********************/
