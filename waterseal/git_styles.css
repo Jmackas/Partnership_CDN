@@ -92,7 +92,7 @@ div#custom_html-7 {
     padding: 15px;
 }
 
-.contactForm input {
+.contactForm input, .contactForm textarea {
     border: 1px solid #aebbc3;
 }
 
