@@ -85,6 +85,13 @@ div#custom_html-7 {
     }
 }
 
+/* Front Page Contact Form*/
+.contactForm {
+    margin: 4% 3% 0 3%;
+    border: 1px solid #aebbc3;
+    padding: 15px;
+}
+
 /********************
 Website colours amendment
 ********************/
