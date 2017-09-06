@@ -51,6 +51,9 @@ Home Page
     background-size: cover;
 }
 
+.topParallax h1 {
+	color: white;
+}
 
 /* Middle section modules */
 .divOne {
