@@ -53,6 +53,8 @@ Home Page
 
 .topParallax h1 {
 	color: white;
+	text-transform: uppercase;
+	color: #00ffff;
 	font-weight: bold;
 }
 
