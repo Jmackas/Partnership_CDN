@@ -15,7 +15,7 @@ General:
 			- Waterseal needs to be done by the end of September.
 		
 		Blacktree:
-			- 
+			- Fix the white space on the side of the screen.
 		
 	Done:
 		- 
