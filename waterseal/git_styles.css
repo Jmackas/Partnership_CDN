@@ -65,6 +65,14 @@ Home Page
 	    width: 310px;
 }
 
+@media only screen and (max-width: 500px) {
+    .topParallax {
+        background-attachment: initial;
+        background-position: initial;
+        background-repeat: initial;
+    }
+}
+
 /* Middle section modules */
 .divOne {
     display: flex;
