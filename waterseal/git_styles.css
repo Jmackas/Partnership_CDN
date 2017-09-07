@@ -38,6 +38,11 @@ h2.post-title {
     margin: 0;
 }
 
+/* Removal of top header padding #CAUTION# */
+section, footer {
+    padding: 0;
+}
+
 /********************
 Home Page
 ********************/
