@@ -1,6 +1,28 @@
 General:
 	Key words: Waterseal, Blacktree
-
+	
+/******************************************************/
+/******************************************************/
+/******************************************************/
+/******************************************************/
+07-Sep-2017:
+	To Do:
+		General:
+		
+		Waterseal:
+			- Fix the look of the background styling on the front page.
+			- Images on the front page need to be the same size.
+			- Waterseal needs to be done by the end of September.
+		
+		Blacktree:
+			- 
+		
+	Done:
+		- 
+		
+	Notes:
+	
+	
 /******************************************************/
 /******************************************************/
 /******************************************************/
@@ -15,11 +37,10 @@ General:
 			- Waterseal needs to be done by the end of September.
 		
 		Blacktree:
-			- Website needs to be migrated by Thursday.
 
 		
 	Done:
-		- 
+		- Website needs to be migrated by Thursday.
 		
 	Notes:
 		-
