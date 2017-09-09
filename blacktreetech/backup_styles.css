@@ -1,6 +1,11 @@
 /***********************
 Universal Elements
 ***********************/
+@font-face {
+    font-family: ttdUploadFont.tff;
+    src: url(/wp-content/uploads/2017/08/ttdUploadFont.ttf);
+}
+
 .copyright {
     display: none;
 }
