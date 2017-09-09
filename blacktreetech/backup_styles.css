@@ -118,7 +118,7 @@ Front Page
 
 /* Top slideshow */
 .metaslider.metaslider-flex.metaslider-380.ml-slider.nav-hidden {
-	max-width: 100%;
+	max-width: 97% !important;
 }
 
 /* News Slideshow start */
