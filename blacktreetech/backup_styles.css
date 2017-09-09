@@ -2,13 +2,19 @@
 Universal Elements
 ***********************/
 @font-face {
-    font-family: ttdUploadFont.tff;
-    src: url(/wp-content/uploads/2017/08/ttdUploadFont.ttf);
+    font-family: ttd;
+    src: url(http://www.blacktree.com.au/wp-content/uploads/2017/08/ttdUploadFont.ttf);
+}
+
+h1, h2, h3, h4 {
+	font-family: ttd;
 }
 
 .copyright {
     display: none;
 }
+
+
 
 /* Fade in effect */
 .frontPage {
