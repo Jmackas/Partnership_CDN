@@ -117,8 +117,8 @@ Front Page
 ***********************/
 
 /* Top slideshow */
-.topSlideshow {
-	
+.metaslider.metaslider-flex.metaslider-380.ml-slider.nav-hidden {
+	max-width: 100%;
 }
 
 /* News Slideshow start */
