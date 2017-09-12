@@ -139,3 +139,10 @@ div#custom_html-7 {
 /********************
 Website colours amendment
 ********************/
+
+/********************
+Hacky Edits 
+********************/
+.header-callout {
+    display: none;
+}
