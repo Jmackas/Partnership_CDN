@@ -1,0 +1,38 @@
+To Do:
+	Blacktree:
+		
+	Waterseal:
+		- Looking into Leon's attempt at header styling. Want the headers to be nice.
+		- The creation metadata on each page will need to be hidden somehow. Example: August 28, 2017by watersealadmin.
+
+Done:
+	Blacktree:
+		- Removed unecessary pages from menu items.
+		- Haven't hidden the logo when the screen reduces, as it doesn't look so bad with the reduced menu items.
+		- Moved the 'Contact Us' link to second from the left. Also rearranged some of the order of the footer items.
+		- Increased the footer padding.
+		
+	Waterseal:
+		- Analysis of Leon's code: 
+		
+Decomposition:
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
