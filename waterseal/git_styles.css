@@ -1,3 +1,7 @@
+/*
+https://github.com/leontan15/Partnership_CDN/blob/master/waterseal/Leons_Updates.CSS
+*/
+
 /********************
 Universal
 ********************/
@@ -15,7 +19,6 @@ nav#site-navigation {
 /* Page Headers Centre */
 h2.post-title {
     text-align: center;
-	padding: 5% 0 5% 0;
 }
 
 /* Header changes in mobile */
@@ -27,6 +30,11 @@ h2.post-title {
     nav#site-navigation {
         padding: 0;
     }
+}
+
+/* List drop down menu styling */
+.menu > li > ul li a:hover, .dropdown-menu > .active > a:hover {
+    background: #00dfff;
 }
 
 /* Page margins full width */
@@ -44,9 +52,6 @@ section, footer {
     padding: 0;
 }
 
-/* Header on each page that is not the front page */
-
-
 /********************
 Home Page
 ********************/
@@ -55,11 +60,10 @@ Home Page
     padding: 3% 2% 6% 2%;
     text-align: center;
     color: white;
-    background-image: url(http://037.e61.myftpupload.com/wp-content/uploads/2017/09/front-2.png);
+    background-image: url(http://037.e61.myftpupload.com/wp-content/uploads/2017/08/Test-Picture-6.png);
     background-attachment: fixed;
     background-size: cover;
 }
-
 
 .topParallax .upperCase {
 	text-transform: uppercase;
@@ -141,31 +145,5 @@ div#custom_html-7 {
 }
 
 /********************
-About Page
-********************/
-
-
-
-
-
-
-
-
-
-
-/********************
 Website colours amendment
 ********************/
-
-/********************
-Hacky Edits  or Display None's
-********************/
-/* Hiding the top gray box */
-.header-callout {
-    display: none;
-}
-
-/* Footer credit hide */
-.footer-credits {
-		display: none;
-	}
