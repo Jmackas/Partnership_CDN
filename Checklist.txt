@@ -2,7 +2,7 @@ To Do:
 	Blacktree:
 		
 	Waterseal:
-		- Looking into Leon's attempt at header styling. Want the headers to be nice.
+		- Looking into Leon's attempt at header styling. Want the headers to be styled like the Waterseal logo.
 		- The creation metadata on each page will need to be hidden somehow. Example: 'August 28, 2017by watersealadmin'.
 
 Done:
