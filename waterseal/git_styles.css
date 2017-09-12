@@ -152,3 +152,33 @@ div#custom_html-7 {
 /********************
 Website colours amendment
 ********************/
+
+/********************
+About Page
+********************/
+
+
+
+
+
+
+
+
+
+
+/********************
+Website colours amendment
+********************/
+
+/********************
+Hacky Edits  or Display None's
+********************/
+/* Hiding the top gray box */
+.header-callout {
+    display: none;
+}
+
+/* Footer credit hide */
+.footer-credits {
+		display: none;
+	}
