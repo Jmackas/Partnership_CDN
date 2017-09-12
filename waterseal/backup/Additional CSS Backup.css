@@ -35,15 +35,19 @@ input[type="submit"] {
     text-transform: uppercase;
     width: 100%;
 }
-/* Add padding to titles */
-h2.post-title {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-/* cant remember rip */
-ul.post-meta {
-    display: none;
-}
+
+/* Amended the syntax, but this looks good otherwise */
+	/* Add padding to titles */
+	h2.post-title {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+/* This was to hide the creation of the page date. Will look into it. */
+	/* cant remember rip */
+	ul.post-meta {
+		display: none;
+	}
 
 /* Implemented */
 	/* Remove credits from theme */
