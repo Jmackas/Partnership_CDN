@@ -3,7 +3,7 @@ To Do:
 		
 	Waterseal:
 		- Looking into Leon's attempt at header styling. Want the headers to be nice.
-		- The creation metadata on each page will need to be hidden somehow. Example: August 28, 2017by watersealadmin.
+		- The creation metadata on each page will need to be hidden somehow. Example: 'August 28, 2017by watersealadmin'.
 
 Done:
 	Blacktree:
