@@ -13,7 +13,7 @@ Done:
 		- Increased the footer padding.
 		
 	Waterseal:
-		- Analysis of Leon's code: 
+		- Analysis of Leon's code: https://raw.githubusercontent.com/Jmackas/Partnership_CDN/d88b7013c1c2752154ea517790e737fe10adf2f8/waterseal/backup/Additional%20CSS%20Backup.css
 		
 Decomposition:
 	
