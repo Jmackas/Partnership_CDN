@@ -41,6 +41,13 @@ i.fa.fa-search {
     display: none;
 }
 
+/* Hide the logo at a certain size */
+@media only screen and (max-width: 1192px) {
+    .logo-container {
+    display: none;
+}
+}
+
 
 /* Fixing the menu header to the top (slight hack) */
 .header-inner-wrapper {
