@@ -1,0 +1,57 @@
+section.page-title-section.bg-secondary {
+    display: none;
+}
+
+section.page-title-section.bg-secondary {
+    display: none;
+}
+
+section.page-title-section.bg-secondary {
+    display: none;
+}
+/* Replace main image with new */
+.topParallax {
+    padding: 3% 2% 6% 2%;
+    text-align: center;
+    color: white;
+    background-image: url(http://037.e61.myftpupload.com/wp-content/uploads/2017/09/front-2.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Attempted to change button colours still testing */
+input[type="submit"] {
+    background: #5cf9ec;
+    border-radius: 0 !important;
+    border: 2px solid #5cf9ec;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    height: 50px;
+    letter-spacing: 1px;
+    line-height: 48px;
+    max-width: 250px;
+    padding: 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+/* Add padding to titles */
+h2.post-title {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* cant remember rip */
+ul.post-meta {
+    display: none;
+}
+/* Remove credits from theme */
+.footer-credits {
+    display: none;
+}
+/* Title border styling */
+h2.post-title {
+	border-style: solid;
+	border-color: #00dfff;
+	box-shadow: 0 0 0 19px #133b51;
+	border-width: 15px;
+}
