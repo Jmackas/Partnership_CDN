@@ -44,15 +44,18 @@ h2.post-title {
 ul.post-meta {
     display: none;
 }
-/* Remove credits from theme */
-.footer-credits {
-    display: none;
-}
 
-/* Title border styling */
-h2.post-title {
-	border-style: solid;
-	border-color: #00dfff;
-	box-shadow: 0 0 0 19px #133b51;
-	border-width: 15px;
-}
+/* Implemented */
+	/* Remove credits from theme */
+	.footer-credits {
+		display: none;
+	}
+
+/* Will look into the below */
+	/* Title border styling */
+	h2.post-title {
+		border-style: solid;
+		border-color: #00dfff;
+		box-shadow: 0 0 0 19px #133b51;
+		border-width: 15px;
+	}

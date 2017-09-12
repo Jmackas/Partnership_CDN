@@ -43,6 +43,9 @@ section, footer {
     padding: 0;
 }
 
+/* Header on each page that is not the front page */
+
+
 /********************
 Home Page
 ********************/
@@ -137,12 +140,31 @@ div#custom_html-7 {
 }
 
 /********************
+About Page
+********************/
+
+
+
+
+
+
+
+
+
+
+/********************
 Website colours amendment
 ********************/
 
 /********************
-Hacky Edits 
+Hacky Edits  or Display None's
 ********************/
+/* Hiding the top gray box */
 .header-callout {
     display: none;
 }
+
+/* Footer credit hide */
+.footer-credits {
+		display: none;
+	}
