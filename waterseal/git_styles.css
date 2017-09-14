@@ -151,10 +151,13 @@ div#custom_html-7 {
 
 /* Front Page Contact Form */
 .contactForm {
-    margin: 4% 3% 3% 3%;
+    margin: 5% 15% 0% 15%;
     border: 1px solid #aebbc3;
-    padding: 15px;
+    padding: 5%;
+    background-color: aliceblue;
 }
+
+
 
 .contactForm input, .contactForm textarea {
     border: 1px solid #aebbc3;
