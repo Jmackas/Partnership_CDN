@@ -102,14 +102,9 @@ Home Page
     display: flex;
     justify-content: center;
     padding: 20px;
-    margin: 0 10%;
     text-align: center;
     font-size: 130%;
     line-height: 170%;
-    background-image: url(http://i.imgur.com/QC9O0K4.png);
-    background-repeat: no-repeat;
-    background-position: 8% 100%;
-    background-size: 100% 23%;
 }
 
 /* Div Backgrounds */
@@ -119,6 +114,13 @@ div#custom_html-5 {
 
 div#custom_html-7 {
     background: lightgray;
+}
+.divOne .left {
+	margin: 0 0 0 15%;
+}
+
+.divOne .right {
+	margin: 0 15% 0 0;
 }
 
 .divOne .left, .divOne .right {
