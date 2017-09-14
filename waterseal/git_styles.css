@@ -145,6 +145,10 @@ div#custom_html-7 {
     }
 }
 
+.contactFormBackground {
+	background: red;
+}
+
 /* Front Page Contact Form */
 .contactForm {
     margin: 4% 3% 3% 3%;
