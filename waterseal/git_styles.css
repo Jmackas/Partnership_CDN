@@ -148,9 +148,13 @@ div#custom_html-7 {
 /* Front Page Contact Form */
 .contactForm {
     margin: 5% 15% 0% 15%;
+	text-align: center;
+	color: #253a50;
     border: 1px solid #aebbc3;
     padding: 5%;
-    background-color: aliceblue;
+	background-image: url(https://i.imgur.com/ElJAWLA.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
