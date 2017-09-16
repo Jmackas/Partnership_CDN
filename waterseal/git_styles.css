@@ -150,9 +150,7 @@ div#custom_html-7 {
     margin: 5% 15% 0% 15%;
     border: 1px solid #aebbc3;
     padding: 5%;
-	background-image: url(https://i.imgur.com/ElJAWLA.jpg);
-    background-attachment: fixed;
-    background-size: cover;
+	background: white;
 }
 
 .contactFormBackground {
