@@ -76,10 +76,15 @@ section, footer {
 }
 
 /* Extended divider */
-.extendedDivider {
-	
+.extendedDivider .ex1 {
+    padding: 10px;
+    background: #00dfff;
 }
 
+.extenderDivider .ex2 {
+    padding: 10px;
+    background: blue;
+}
 /********************
 Home Page
 ********************/
