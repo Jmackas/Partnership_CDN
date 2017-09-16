@@ -76,12 +76,12 @@ section, footer {
 }
 
 /* Extended divider */
-.extendedDivider .ex1 {
+.extenderOne {
     padding: 10px;
     background: #00dfff;
 }
 
-.extenderDivider .ex2 {
+.extenderTwo {
     padding: 10px;
     background: blue;
 }
