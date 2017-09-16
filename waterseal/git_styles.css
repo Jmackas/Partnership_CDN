@@ -23,15 +23,11 @@ h2.post-title {
 
 /* Header styling elements */
 h2.post-title {
-    border-bottom: 15px solid rgba(19, 59, 81, 0.25);
-}
-
-/* Header styling elements v2 */
-h2.post-title:after {
-  content:'';
-  display: block;
-  border-bottom: 8px solid rgba(0, 223, 255, 0.25);
-  box-sizing: border-box;
+	border-style: solid;
+	border-color: #00dfff;
+	box-shadow: 0 0 0 19px #133b51;
+	border-width: 15px;
+	padding: 20px 0 20px 0;
 }
 
 /* Header changes in mobile */
