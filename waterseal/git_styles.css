@@ -118,6 +118,10 @@ Home Page
     text-align: center;
     font-size: 130%;
     line-height: 170%;
+    background-image: url(http://037.e61.myftpupload.com/wp-content/uploads/2017/08/bottom433.png);
+    background-position: bottom;
+    background-size: 100% 88px;
+    background-repeat: no-repeat;
 }
 
 /* Div Backgrounds */

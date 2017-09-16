@@ -2,14 +2,12 @@ To Do:
 	Blacktree:
 		
 	Waterseal:
-		
-		- The creation metadata on each page will need to be hidden somehow. Example: 'August 28, 2017 by watersealadmin'.
 		- Add the background image pipe style between to the two pipe sections.
 		- Fix the module look.
 
 Done:
 	- Looking into Leon's attempt at header styling. Want the headers to be styled like the Waterseal logo.
-		
+	- The creation metadata on each page will need to be hidden somehow. Example: 'August 28, 2017 by watersealadmin'.
 		
 Decomposition:
 		Blacktree:
