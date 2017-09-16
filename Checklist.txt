@@ -2,13 +2,17 @@ To Do:
 	Blacktree:
 		
 	Waterseal:
-		- Looking into Leon's attempt at header styling. Want the headers to be styled like the Waterseal logo.
+		
 		- The creation metadata on each page will need to be hidden somehow. Example: 'August 28, 2017 by watersealadmin'.
 		- Add the background image pipe style between to the two pipe sections.
 		- Fix the module look.
 
 Done:
-	Blacktree:
+	- Looking into Leon's attempt at header styling. Want the headers to be styled like the Waterseal logo.
+		
+		
+Decomposition:
+		Blacktree:
 		- Removed unecessary pages from menu items.
 		- Haven't hidden the logo when the screen reduces, as it doesn't look so bad with the reduced menu items.
 		- Moved the 'Contact Us' link to second from the left. Also rearranged some of the order of the footer items.
@@ -16,10 +20,6 @@ Done:
 		
 	Waterseal:
 		- Analysis of Leon's code: https://raw.githubusercontent.com/Jmackas/Partnership_CDN/d88b7013c1c2752154ea517790e737fe10adf2f8/waterseal/backup/Additional%20CSS%20Backup.css
-		
-Decomposition:
-	
-		
 		
 		
 		

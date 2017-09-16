@@ -21,6 +21,19 @@ h2.post-title {
     text-align: center;
 }
 
+/* Header styling elements */
+h2.post-title {
+    border-bottom: 15px solid #133b51;
+}
+
+/* Header styling elements v2 */
+h2.post-title:after {
+  content:'';
+  display: block;
+  border-bottom: 8px solid #00dfff;
+  box-sizing: border-box;
+}
+
 /* Header changes in mobile */
 @media only screen and (max-width: 991px) {
     .site-header img.logo {
@@ -154,6 +167,7 @@ div#custom_html-7 {
 }
 
 .contactFormBackground {
+	padding: 4% 18% 4% 18%;
 	color: #253a50;
 	text-align: center;
 	background-image: url(https://i.imgur.com/ElJAWLA.jpg);
