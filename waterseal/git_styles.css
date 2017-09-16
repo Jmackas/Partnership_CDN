@@ -152,10 +152,25 @@ div#custom_html-7 {
         float: initial;
         width: initial;
     }
+	
+	 .left {
+    	margin: 0 !important;
+    	text-align: center;
+    }
 
     p {
         font-size: 90%;
     }
+	
+	.contactFormBackground {
+    padding: 0;
+	}
+
+	.contactForm {
+    margin: 0;
+	}	
+	
+	
 }
 
 /* Front Page Contact Form */
