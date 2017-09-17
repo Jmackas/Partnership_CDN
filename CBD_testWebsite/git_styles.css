@@ -22,12 +22,16 @@ Cascading Elements
 }
 
 
-/* section one */
+/* section one - header */
 .divOne {
 	background: #1e1e1e;
 	padding: 5% 1% 5% 1%;
 	text-align: center;
 	color: white;
+}
+
+.divOne h1 {
+	font-size: 800%;
 }
 
 /* section two */
