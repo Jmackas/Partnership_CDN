@@ -72,18 +72,25 @@ Section three
 
 .divThree .left, .divThree .centre, .divThree .right {
     width: calc(100%  /3);
+    padding: 1%;
+    height: 300px;
+    transition: 0.8s;
+}
+
+.divThree .left:hover, .divThree .centre:hover, .divThree .right:hover {
+	background: filter: brightness(125%);
 }
 
 .divThree .left {
-    background: red;
+    background: #7fd2ec;
 }
 
 .divThree .centre {
-    background: red;
+    background: #f0f0f0;
 }
 
 .divThree .right {
-    background: red;
+    background: #7fd2ec;
 }
 
 /******************************
