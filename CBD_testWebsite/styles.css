@@ -1,14 +1,14 @@
 /******************************
 General Elements
 ******************************/
-/* Top header styling */
+/* top header styling */
 .site-branding {
     padding: 80px 0 80px 0;
     background: #bfbfbf;
     text-align: center;
 }
 
-/* Removal of page scroll down button */
+/* removal of page scroll down button */
 .site-header .menu-scroll-down {
     display: none;
 }
@@ -16,18 +16,23 @@ General Elements
 /******************************
 Cascading Elements
 ******************************/
-/* Overall Content Encapsulation */
+/* article encapsulation */
+.site-content-contain {
+    margin: -24px 0 0 0;
+}
+
+/* overall content encapsulation */
 .mainBody {
 	
 }
 
-/* Section One */
+/* section one */
 .divOne {
 	background: red;
 	padding: 40px 0 60px 0;
 }
 
-/* Section Two */
+/* section two */
 .divTwo {
 		background: green;
 }
