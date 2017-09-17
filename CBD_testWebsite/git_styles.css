@@ -31,8 +31,13 @@ Cascading Elements
 }
 
 .divOne h1 {
-	font-size: 780%;
-	margin: 0;
+	    font-size: 780%;
+	    margin: 0;
+	    padding: 0;
+	    position: absolute;
+	    top: 0;
+	    right: 30%;
+	    left: 30%;
 }
 
 /* section two */
