@@ -47,10 +47,17 @@ Section two
     padding: 1%;
     width: 50%;
     height: 628px;
+    transition: 0.8s;
+
+}
+
+.divTwo .left:hover, .divTwo .right:hover {
+    filter: brightness(125%);
 }
 
 .divTwo .left {
     background: #f0f0f0;
+
 }
 
 .divTwo .right {
