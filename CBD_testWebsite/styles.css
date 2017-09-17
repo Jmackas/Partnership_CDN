@@ -26,10 +26,16 @@ Cascading Elements
 	
 }
 
+/* all sections */
+.divOne, .divTwo {
+	padding: 1%;
+}
+
+
 /* section one */
 .divOne {
 	background: red;
-	padding: 40px 0 60px 0;
+	
 }
 
 /* section two */
