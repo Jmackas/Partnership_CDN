@@ -70,8 +70,21 @@ Section three
 	
 }
 
+.divThree .left, .divThree .centre, .divThree .right {
+    width: calc(100%  /3);
+}
 
+.divThree .left {
+    background: red;
+}
 
+.divThree .centre {
+    background: red;
+}
+
+.divThree .right {
+    background: red;
+}
 
 /******************************
 Display none's
