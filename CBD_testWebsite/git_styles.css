@@ -20,23 +20,6 @@ General Elements
 	display: flex;
 }
 
-/* right/left module */
-.right {
-    display: flex;
-    width: 50%;
-    background: #7fd2ec;
-    padding: 1%;
-    height: 500px;
-}
-/* right/left module 2 */
-   .left {
-    display: flex;
-    width: 50%;
-    height: 500px;
-    background: #f2f2f2;
-    padding: 1%;
-}
-
 /******************************
 Section one - header
 ******************************/
@@ -59,38 +42,21 @@ Section one - header
 Section two 
 ******************************/
 .divTwo {
-
+    border-top: 1px solid #7fd2ec;
+    border-bottom: 1px solid #7fd2ec;
 }
 
-<<<<<<< HEAD
-
-
-.divTwo 
-}
-
-/******************************
-Section two 
-******************************/
-.divThree {
-
-=======
 .divTwo .left {
     display: flex;
-    align-items: left;
+    /* align-items: left; */
+    width: 50%;
 }
 
 .divTwo .right {
     display: flex;
-    align-items: right;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 2eda1db... Update
-=======
->>>>>>> parent of 2eda1db... Update
-=======
->>>>>>> parent of 2eda1db... Update
+    /* align-items: right; */
+    width: 50%;
 }
-
 
 /******************************
 Display none's
