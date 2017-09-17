@@ -1,8 +1,6 @@
 /******************************
 General Elements
 ******************************/
-
-
 /******************************
 Cascading Elements
 ******************************/
@@ -13,36 +11,34 @@ Cascading Elements
 
 /* overall content encapsulation */
 .mainBody {
-	
 }
 
 /* all sections */
 .divOne, .divTwo {
-	padding: 1% 20% 1% 20%;
+    padding: 1% 20% 1% 20%;
 }
-
 
 /* section one - header */
 .divOne {
-	background: #1e1e1e;
-	padding: 0;
-	text-align: center;
-	color: white;
+    background: #1e1e1e;
+    padding: 0;
+    text-align: center;
+    color: white;
 }
 
 .divOne h1 {
-	    font-size: 780%;
-	    margin: 0;
-	    padding: 0;
-	    position: absolute;
-	    top: 0;
-	    right: 30%;
-	    left: 30%;
+    font-size: 780%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 30%;
+    left: 30%;
 }
 
 /* section two */
 .divTwo {
-		background: green;
+    background: green;
 }
 
 /******************************
@@ -50,7 +46,7 @@ Display none's
 ******************************/
 /* hiding the header */
 .site-branding {
-display: none;
+    display: none;
 }
 
 /* removal of page scroll down button */
