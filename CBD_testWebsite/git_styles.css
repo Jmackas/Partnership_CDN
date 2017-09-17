@@ -55,12 +55,11 @@ Section two
 }
 
 .divTwo .left {
-    background: #f0f0f0;
-
+    background: #ec7f7f;
 }
 
 .divTwo .right {
-    background: #7fd2ec;
+    background: #8aec7f;
 }
 
 /******************************
@@ -90,7 +89,7 @@ Section three
 }
 
 .divThree .right {
-    background: #7fd2ec;
+    background: #eb7fec;
 }
 
 /******************************
