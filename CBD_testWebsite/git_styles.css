@@ -42,20 +42,24 @@ Section one - header
 Section two 
 ******************************/
 .divTwo {
-    border-top: 1px solid #7fd2ec;
-    border-bottom: 1px solid #7fd2ec;
+    /* border-top: 1px solid #7fd2ec; */
+    /* border-bottom: 1px solid #7fd2ec; */
 }
 
 .divTwo .left {
     display: flex;
     /* align-items: left; */
     width: 50%;
+    padding: 1%;
+    background: #f0f0f0;
 }
 
 .divTwo .right {
     display: flex;
     /* align-items: right; */
     width: 50%;
+    padding: 1%;
+    background: #7fd2ec;
 }
 
 /******************************
