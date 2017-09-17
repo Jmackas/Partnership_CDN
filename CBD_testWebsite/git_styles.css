@@ -13,7 +13,7 @@ General Elements
 
 /* all sections */
 .divOne, .divTwo {
-    padding: 1% 20% 1% 20%;
+    /* padding: 1% 20% 1% 20%; */
 }
 
 /******************************
@@ -40,7 +40,16 @@ Section two
 .divTwo {
     border-top: 1px solid #7fd2ec;
     border-bottom: 1px solid #7fd2ec;
+}
 
+.divTwo .left {
+    display: flex;
+    align-items: left;
+}
+
+.divTwo .right {
+    display: flex;
+    align-items: right;
 }
 
 /******************************
