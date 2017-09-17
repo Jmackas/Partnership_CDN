@@ -78,7 +78,7 @@ Section three
 }
 
 .divThree .left:hover, .divThree .centre:hover, .divThree .right:hover {
-	background: filter: brightness(125%);
+	filter: brightness(125%);
 }
 
 .divThree .left {
@@ -114,3 +114,6 @@ footer#colophon {
 /******************************
 Gross code that needs to be amended
 ******************************/
+.divThree {
+    margin: -24px 0 0 0;
+}
