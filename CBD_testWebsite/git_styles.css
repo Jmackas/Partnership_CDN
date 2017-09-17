@@ -62,6 +62,7 @@ Section two
 
 }
 
+<<<<<<< HEAD
 
 
 .divTwo 
@@ -72,6 +73,16 @@ Section two
 ******************************/
 .divThree {
 
+=======
+.divTwo .left {
+    display: flex;
+    align-items: left;
+}
+
+.divTwo .right {
+    display: flex;
+    align-items: right;
+>>>>>>> parent of 2eda1db... Update
 }
 
 
