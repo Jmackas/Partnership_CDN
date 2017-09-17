@@ -25,7 +25,7 @@ Cascading Elements
 /* section one - header */
 .divOne {
 	background: #1e1e1e;
-	padding: 4% 1% 4% 1%;
+	padding: 0;
 	text-align: center;
 	color: white;
 }
@@ -50,5 +50,10 @@ display: none;
 
 /* removal of page scroll down button */
 .site-header .menu-scroll-down {
+    display: none;
+}
+
+/* hiding the footer */
+footer#colophon {
     display: none;
 }
