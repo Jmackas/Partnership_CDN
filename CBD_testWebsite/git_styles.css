@@ -1,22 +1,7 @@
 /******************************
 General Elements
 ******************************/
-/* top header styling */
-.site-branding {
-    padding: 5% 0 5% 0;
-    background: #000000;
-    text-align: center;
-}
 
-/* site title header */
-.site-branding .site-branding-text a {
-    color: white;
-}
-
-/* removal of page scroll down button */
-.site-header .menu-scroll-down {
-    display: none;
-}
 
 /******************************
 Cascading Elements
@@ -46,4 +31,17 @@ Cascading Elements
 /* section two */
 .divTwo {
 		background: green;
+}
+
+/******************************
+Display none's
+******************************/
+/* hiding the header */
+.site-branding {
+display: none;
+}
+
+/* removal of page scroll down button */
+.site-header .menu-scroll-down {
+    display: none;
 }
