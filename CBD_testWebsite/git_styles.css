@@ -3,9 +3,14 @@ General Elements
 ******************************/
 /* top header styling */
 .site-branding {
-    padding: 80px 0 80px 0;
-    background: #bfbfbf;
+    padding: 5% 0 5% 0;
+    background: #000000;
     text-align: center;
+}
+
+/* site title header */
+.site-branding .site-branding-text a {
+    color: white;
 }
 
 /* removal of page scroll down button */
