@@ -1,9 +1,7 @@
 /******************************
 General Elements
 ******************************/
-/******************************
-Cascading Elements
-******************************/
+
 /* article encapsulation */
 .site-content-contain {
     margin: -24px 0 0 0;
@@ -18,7 +16,9 @@ Cascading Elements
     padding: 1% 20% 1% 20%;
 }
 
-/* section one - header */
+/******************************
+Section one - header
+******************************/
 .divOne {
     padding: 0;
     text-align: center;
@@ -26,6 +26,7 @@ Cascading Elements
     padding: 5% 0 5% 0;
 }
 
+/* header */
 .divOne h1 {
     font-size: 780%;
     margin: 0;
@@ -33,12 +34,13 @@ Cascading Elements
     color: #7fd2ec;
 }
 
-/* section two */
+/******************************
+Section two 
+******************************/
 .divTwo {
-    /* background: #0ce000; */
     border-top: 1px solid #7fd2ec;
     border-bottom: 1px solid #7fd2ec;
-    /* background: rgba(127, 210, 236, 0.2); */
+
 }
 
 /******************************
