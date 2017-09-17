@@ -35,7 +35,10 @@ Cascading Elements
 
 /* section two */
 .divTwo {
-    background: green;
+    /* background: #0ce000; */
+    border-top: 1px solid #7fd2ec;
+    border-bottom: 1px solid #7fd2ec;
+    /* background: rgba(127, 210, 236, 0.2); */
 }
 
 /******************************
