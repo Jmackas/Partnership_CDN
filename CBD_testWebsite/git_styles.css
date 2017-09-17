@@ -48,12 +48,14 @@ Section two
 
 .divTwo .left {
     display: flex;
-    align-items: left;
+    /* align-items: left; */
+    width: 50%;
 }
 
 .divTwo .right {
     display: flex;
-    align-items: right;
+    /* align-items: right; */
+    width: 50%;
 }
 
 /******************************
