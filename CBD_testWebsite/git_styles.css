@@ -46,9 +46,8 @@ Section two
 .divTwo .left, .divTwo .right {
     padding: 1%;
     width: 50%;
-    height: 628px;
+    height: 411px;
     transition: 0.8s;
-
 }
 
 .divTwo .left:hover, .divTwo .right:hover {
