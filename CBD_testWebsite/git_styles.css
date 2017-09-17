@@ -1,7 +1,6 @@
 /******************************
 General Elements
 ******************************/
-
 /* article encapsulation */
 .site-content-contain {
     margin: -24px 0 0 0;
@@ -17,7 +16,7 @@ General Elements
 
 /* invoke flex */
 .flex {
-	display: flex;
+    display: flex;
 }
 
 /******************************
@@ -42,12 +41,12 @@ Section one - header
 Section two 
 ******************************/
 .divTwo {
-	
 }
 
 .divTwo .left, .divTwo .right {
-	    padding: 1%;
-		  width: 50%;
+    padding: 1%;
+    width: 50%;
+    height: 628px;
 }
 
 .divTwo .left {
