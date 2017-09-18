@@ -198,6 +198,11 @@ div#custom_html-7 {
     border: 1px solid #aebbc3;
 }
 
+/* Contact form submit button */
+input#nf-field-16 {
+    padding: 1%;
+}
+
 /********************
 Website colours amendment
 ********************/
