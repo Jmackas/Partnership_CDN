@@ -163,18 +163,6 @@ div#custom_html-7 {
         font-size: 90%;
     }
 	
-	.contactFormBackground {
-    padding: 0;
-	}
-
-	.contactForm {
-    margin: 0;
-	}	
-	
-	.divOne .right {
-		margin: 0;
-	}
-	
 }
 
 /* Front Page Contact Form */
@@ -207,6 +195,20 @@ input#nf-field-16 {
 /* footer padding */
 footer#colophon .container.footer-inner .row {
     padding: 1%;
+}
+
+@media only screen and (max-width: 767px) {
+		.contactFormBackground {
+    padding: 0;
+	}
+
+	.contactForm {
+    margin: 0;
+	}	
+	
+	.divOne .right {
+		margin: 0;
+	}
 }
 
 /********************
