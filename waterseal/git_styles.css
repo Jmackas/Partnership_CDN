@@ -114,8 +114,8 @@ Home Page
 /* Middle section modules */
 .divOne {
     display: flex;
-    justify-content: center;
-    padding: 20px;
+        justify-content: center;
+    padding: 4% 1% 1% 1%;
     text-align: center;
     font-size: 130%;
     line-height: 170%;
