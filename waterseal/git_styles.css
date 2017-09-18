@@ -22,6 +22,7 @@ h2.post-title {
 	border: 10px solid rgba(0, 223, 255, 0.5);
 	outline: 15px solid rgba(19, 59, 81, 0.5);
 	padding: 20px 0 20px 0;
+	    margin-top: 15px;
 }
 
 /* Header changes in mobile */
