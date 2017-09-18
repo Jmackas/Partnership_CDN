@@ -203,6 +203,11 @@ input#nf-field-16 {
     padding: 1%;
 }
 
+/* footer padding */
+footer#colophon .container.footer-inner .row {
+    padding: 1%;
+}
+
 /********************
 Website colours amendment
 ********************/
