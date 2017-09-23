@@ -1,0 +1,119 @@
+/******************************
+General Elements
+******************************/
+/* article encapsulation */
+.site-content-contain {
+    margin: -24px 0 0 0;
+}
+
+/* overall content encapsulation */
+.mainBody {
+    background: rgb(30,30,30);
+}
+
+/* all sections */
+.divOne, .divTwo {
+}
+
+/* invoke flex */
+.flex {
+    display: flex;
+}
+
+/******************************
+Section one - header
+******************************/
+.divOne {
+    padding: 0;
+    text-align: center;
+    color: white;
+    padding: 5% 0 5% 0;
+}
+
+/* header */
+.divOne h1 {
+    font-size: 780%;
+    margin: 0;
+    padding: 0;
+    color: #7fd2ec;
+}
+
+/******************************
+Section two 
+******************************/
+.divTwo {
+}
+
+.divTwo .left, .divTwo .right {
+    padding: 1%;
+    width: 50%;
+    height: 411px;
+    transition: 0.8s;
+}
+
+.divTwo .left:hover, .divTwo .right:hover {
+    filter: brightness(125%);
+}
+
+.divTwo .left {
+    background: #ec7f7f;
+}
+
+.divTwo .right {
+    background: #8aec7f;
+}
+
+/******************************
+Section three
+******************************/
+.divThree {
+	
+}
+
+.divThree .left, .divThree .centre, .divThree .right {
+    width: calc(100%  /3);
+    padding: 1%;
+    height: 300px;
+    transition: 0.8s;
+}
+
+.divThree .left:hover, .divThree .centre:hover, .divThree .right:hover {
+	filter: brightness(125%);
+}
+
+.divThree .left {
+    background: #7fd2ec;
+}
+
+.divThree .centre {
+    background: #f0f0f0;
+}
+
+.divThree .right {
+    background: #eb7fec;
+}
+
+/******************************
+Display none's
+******************************/
+/* hiding the header */
+.site-branding {
+    display: none;
+}
+
+/* removal of page scroll down button */
+.site-header .menu-scroll-down {
+    display: none;
+}
+
+/* hiding the footer */
+footer#colophon {
+    display: none;
+}
+
+/******************************
+Gross code that needs to be amended
+******************************/
+.divThree {
+    margin: -24px 0 0 0;
+}
