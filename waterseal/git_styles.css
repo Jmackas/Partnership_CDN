@@ -19,10 +19,10 @@ nav#site-navigation {
 /* Page Headers Centre */
 h2.post-title {
     text-align: center;
-	border: 10px solid rgba(0, 223, 255, 0.5);
-	outline: 15px solid rgba(19, 59, 81, 0.5);
-	padding: 20px 0 20px 0;
-	    margin-top: 15px !important;
+    border: 10px solid rgba(0, 223, 255, 0.5);
+    outline: 15px solid rgba(19, 59, 81, 0.5);
+    padding: 20px 0 20px 0;
+    margin-top: 15px !important;
 }
 
 /* Header changes in mobile */
@@ -89,31 +89,36 @@ Home Page
     background-size: cover;
 }
 
-.topParallax .upperCase {
-	text-transform: uppercase;
-}
+    .topParallax .upperCase {
+        text-transform: uppercase;
+    }
 
-.topParallax h1 {
-	color: white;
-	color: #00ffff;
-	font-weight: bold;
-}
+    .topParallax h1 {
+        color: white;
+        color: #00ffff;
+        font-weight: bold;
+    }
 
-.topParallax img {
-	    width: 310px;
-}
+    .topParallax img {
+        width: 310px;
+    }
 
 @media only screen and (max-width: 500px) {
     .topParallax {
         background-attachment: initial;
         background-repeat: initial;
     }
+
+    /* Hide image in mobile */
+    imageHide {
+        display: none;
+    }
 }
 
 /* Middle section modules */
 .divOne {
     display: flex;
-        justify-content: center;
+    justify-content: center;
     padding: 4% 1% 1% 1%;
     text-align: center;
     font-size: 130%;
@@ -128,12 +133,13 @@ div#custom_html-5 {
 div#custom_html-7 {
     background: lightgray;
 }
+
 .divOne .left {
-	margin: 0 0 0 15%;
+    margin: 0 0 0 15%;
 }
 
 .divOne .right {
-	margin: 0 15% 0 0;
+    margin: 0 15% 0 0;
 }
 
 .divOne .left, .divOne .right {
@@ -145,23 +151,22 @@ div#custom_html-7 {
 @media only screen and (max-width: 767px) {
     .divOne {
         display: initial;
-		background-image: initial;
+        background-image: initial;
     }
 
-    .divOne .left, .divOne .right {
-        float: initial;
-        width: initial;
-    }
-	
-	 .left {
-    	margin: 0 !important;
-    	text-align: center;
+        .divOne .left, .divOne .right {
+            float: initial;
+            width: initial;
+        }
+
+    .left {
+        margin: 0 !important;
+        text-align: center;
     }
 
     p {
         font-size: 90%;
     }
-	
 }
 
 /* Front Page Contact Form */
@@ -169,16 +174,16 @@ div#custom_html-7 {
     margin: 5% 15% 0% 15%;
     border: 1px solid #aebbc3;
     padding: 5%;
-	background: white;
+    background: white;
 }
 
 .contactFormBackground {
-	padding: 4% 18% 4% 18%;
-	color: #253a50;
-	text-align: center;
-	background-image: url(https://i.imgur.com/4KLCsE7.jpg);
-	background-attachment: fixed;
-	background-size: cover;
+    padding: 4% 18% 4% 18%;
+    color: #253a50;
+    text-align: center;
+    background-image: url(https://i.imgur.com/4KLCsE7.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
@@ -197,17 +202,17 @@ footer#colophon .container.footer-inner .row {
 }
 
 @media only screen and (max-width: 767px) {
-		.contactFormBackground {
-    padding: 0;
-	}
+    .contactFormBackground {
+        padding: 0;
+    }
 
-	.contactForm {
-    margin: 0;
-	}	
-	
-	.divOne .right {
-		margin: 0;
-	}
+    .contactForm {
+        margin: 0;
+    }
+
+    .divOne .right {
+        margin: 0;
+    }
 }
 
 /********************
@@ -232,5 +237,5 @@ Hacky Edits  or Display None's
 
 /* Footer credit hide */
 .footer-credits {
-		display: none;
-	}
+    display: none;
+}
