@@ -106,7 +106,6 @@ Home Page
 @media only screen and (max-width: 500px) {
     .topParallax {
         background-attachment: initial;
-        /* background-position: initial; */
         background-repeat: initial;
     }
 }
