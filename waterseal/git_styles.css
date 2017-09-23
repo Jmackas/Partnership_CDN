@@ -223,7 +223,13 @@ Website colours amendment
 About Page
 ********************/
 
-
+/********************
+Project Gallery Page
+********************/
+/* Encapsulating the image background completely */
+.mfp-wrap.mfp-gallery.mfp-auto-cursor.mfp-ready .mfp-figure {
+    background: #444444;
+}
 
 
 
@@ -234,6 +240,7 @@ Hacky Edits  or Display None's
 .header-callout {
     display: none;
 }
+
 
 /* Footer credit hide */
 .footer-credits {
