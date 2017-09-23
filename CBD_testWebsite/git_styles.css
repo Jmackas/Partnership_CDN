@@ -10,7 +10,7 @@ General Elements
 
 /* overall content encapsulation */
 .mainBody {
-    background: rgba(30,30,30);
+    background: rgb(30,30,30);
 }
 
 /* all sections */
