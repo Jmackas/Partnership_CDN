@@ -13,6 +13,10 @@ General Elements Main
     color: #b3b3b3;
 }
 
+a {
+    color: white;
+}
+
 h2 {
     color: #dcdcdc;
     font-size: 200%;
