@@ -1,5 +1,4 @@
 /* Website linked to: http://e1a.c1f.myftpupload.com/ */
-
 /******************************
 General Elements Main
 ******************************/
@@ -10,7 +9,7 @@ General Elements Main
 
 /* overall content encapsulation */
 .mainBody {
-    background: rgb(30,30,30);
+    background: rgb(10, 10, 10);
     color: #b3b3b3;
 }
 
@@ -56,6 +55,10 @@ Section two
     width: 50%;
     height: 411px;
     transition: 0.8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .divTwo .left:hover, .divTwo .right:hover {
@@ -63,7 +66,7 @@ Section two
 }
 
 .divTwo .left {
-    background:#000644;
+    background: #000644;
 }
 
 .divTwo .right {
@@ -74,18 +77,17 @@ Section two
 Section three
 ******************************/
 .divThree {
-	
 }
 
 .divThree .left, .divThree .centre, .divThree .right {
-    width: calc(100%  /3);
+    width: calc(100% /3);
     padding: 1%;
     height: 300px;
     transition: 0.8s;
 }
 
 .divThree .left:hover, .divThree .centre:hover, .divThree .right:hover {
-	filter: brightness(125%);
+    filter: brightness(125%);
 }
 
 .divThree .left {
