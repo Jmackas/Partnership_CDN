@@ -52,8 +52,6 @@ Section two
 
 .divTwo .left, .divTwo .right {
     padding: 1%;
-    width: 50%;
-    height: 411px;
     transition: 0.8s;
     display: flex;
     justify-content: center;
@@ -62,8 +60,8 @@ Section two
 }
 
 .divTwo a {
-    font-size: 300%;
-    display: block;
+    height: 411px;
+    width: 50%;
 }
 
 .divTwo .left:hover, .divTwo .right:hover {
