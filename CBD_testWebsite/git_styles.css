@@ -61,6 +61,11 @@ Section two
     text-align: center;
 }
 
+.divTwo a {
+    font-size: 300%;
+    display: block;
+}
+
 .divTwo .left:hover, .divTwo .right:hover {
     filter: brightness(125%);
 }
