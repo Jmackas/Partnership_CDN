@@ -11,6 +11,11 @@ General Elements
 /* overall content encapsulation */
 .mainBody {
     background: rgb(30,30,30);
+    color: #b3b3b3;
+}
+
+h2 {
+    color: #dcdcdc;
 }
 
 /* all sections */
@@ -58,11 +63,11 @@ Section two
 }
 
 .divTwo .left {
-    background: #ec7f7f;
+    background: #000a6d;
 }
 
 .divTwo .right {
-    background: #8aec7f;
+    background: #4e004e;
 }
 
 /******************************
