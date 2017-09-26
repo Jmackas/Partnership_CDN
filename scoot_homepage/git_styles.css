@@ -23,12 +23,12 @@ h1 {
 Header section
 ********************/
 .headerSection {
-    padding: 5% 0 5% 0;
+    padding: 3% 0 3% 0;
     text-align: center;
 }
 
 .headerSection h1 {
-    font-size: 400%;
+    font-size: 700%;
 }
 
 
