@@ -17,7 +17,6 @@ universal elements
 
 
 /* flexbox block link 50% width */
-
 .flex a {
     display: block;
     width: 50%;
@@ -25,7 +24,6 @@ universal elements
 
 
 /* initialise flex class */
-
 .flex {
     display: flex;
 }
