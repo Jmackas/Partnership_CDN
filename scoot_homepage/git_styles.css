@@ -17,13 +17,13 @@ universal elements
 
 
 /* flexbox block link 50% width */
-.flex .halfBlockSize {
+.halfBlockSize {
     display: block;
     width: 50%;
     height: 500px;
 }
 
-.flex .halfBlockSize a {
+.halfBlockSize a {
     display: block;
     width: 100%;
     height: 500px;
@@ -56,12 +56,9 @@ header section
 first section
 ********************/
 
-
 /* first block for website design */
-
 .websiteDesign {
-    background: red;
-    
+    background: #38074f;
 }
 
 
