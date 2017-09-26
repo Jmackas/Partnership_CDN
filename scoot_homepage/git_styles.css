@@ -19,6 +19,11 @@ universal elements
     width: 50%;
 }
 
+/* initialise flex class */
+.flex {
+    display: flex;
+}
+
 /********************
 header section
 ********************/
