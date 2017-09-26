@@ -1,32 +1,39 @@
 /********************
 universal elements
 ********************/
+
 .mainBody {
-    animation: fadein 2s;   
+    animation: fadein 2s;
 }
 
 @keyframes fadein {
     from {
-        opacity:0;
+        opacity: 0;
     }
     to {
-        opacity:1;
+        opacity: 1;
     }
 }
 
+
 /* flexbox block 50% width */
+
 .halfBlockSize {
     width: 50%;
 }
 
+
 /* initialise flex class */
+
 .flex {
     display: flex;
 }
 
+
 /********************
 header section
 ********************/
+
 .headerSection {
     padding: 3% 0 3% 0;
     text-align: center;
@@ -38,23 +45,17 @@ header section
     font-size: 700%;
 }
 
+
 /********************
 first section
 ********************/
+
+
 /* first block for website design */
+
 .websiteDesign {
     background: red;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /********************
