@@ -16,9 +16,10 @@ universal elements
 }
 
 
-/* flexbox block 50% width */
+/* flexbox block link 50% width */
 
-.halfBlockSize {
+.flex a {
+    display: block;
     width: 50%;
 }
 
