@@ -21,12 +21,15 @@ universal elements
     display: block;
     width: 50%;
     height: 500px;
+
 }
 
 .halfBlockSize a {
-    display: block;
+    display: flex;
     width: 100%;
     height: 500px;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -59,6 +62,8 @@ first section
 /* first block for website design */
 .websiteDesign {
     background: #38074f;
+    text-align: center;
+    
 }
 
 
