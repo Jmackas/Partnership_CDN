@@ -20,5 +20,28 @@ h1 {
 }
 
 /********************
-Universal Elements
+Header section
+********************/
+.headerSection {
+    padding: 5% 0 5% 0;
+    text-align: center;
+}
+
+.headerSection h1 {
+    font-size: 400%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/********************
+TBA
 ********************/
