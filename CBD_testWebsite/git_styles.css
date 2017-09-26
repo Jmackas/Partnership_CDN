@@ -1,0 +1,17 @@
+/******************************
+Display none's
+******************************/
+/* hiding the header */
+.site-branding {
+    display: none;
+}
+
+/* removal of page scroll down button */
+.site-header .menu-scroll-down {
+    display: none;
+}
+
+/* hiding the footer */
+footer#colophon {
+    display: none;
+}
