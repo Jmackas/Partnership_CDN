@@ -1,5 +1,5 @@
 /********************
-Universal Elements
+universal elements
 ********************/
 .mainBody {
     animation: fadein 2s;   
@@ -14,13 +14,13 @@ Universal Elements
     }
 }
 
-h1 {
-    margin: 0;
-    padding: 0;
+/* flexbox block 50% width */
+.halfBlockSize {
+    width: 50%;
 }
 
 /********************
-Header section
+header section
 ********************/
 .headerSection {
     padding: 3% 0 3% 0;
@@ -28,7 +28,17 @@ Header section
 }
 
 .headerSection h1 {
+    margin: 0;
+    padding: 0;
     font-size: 700%;
+}
+
+/********************
+first section
+********************/
+/* first block for website design */
+.websiteDesign {
+
 }
 
 
