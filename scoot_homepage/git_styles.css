@@ -54,9 +54,20 @@ header section
 first section
 ********************/
 /* first block for website design */
+.seo, .websiteDesign {
+    transition: 1s;
+}
+
 .websiteDesign {
-    background: #38074f;
-    text-align: center;
+    background: #350035;
+}
+
+.seo {
+    background: #5b0000;
+}
+
+.seo:hover, .websiteDesign:hover {
+    filter: brightness(140%);
 }
 
 /********************
