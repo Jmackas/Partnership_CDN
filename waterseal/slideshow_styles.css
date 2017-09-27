@@ -1,0 +1,6 @@
+/* background styles */
+#demos .owl-carousel .item {
+    height: initial;
+    padding: initial;
+    background: none;
+}
