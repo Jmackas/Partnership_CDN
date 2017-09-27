@@ -6,6 +6,6 @@
 }
 
 /* color styles of modules */
-#demos .owl-carousel .item p {
-
+#demos .owl-carousel .item div {
+    color: black;
 }
