@@ -232,10 +232,10 @@ About Page
 Services Page
 ********************/
 .slideShowIframe {
-    width: 53em;
+    width: 72em;
     margin: 10px 0 0 0;
     border: 1px solid rgba(0,0,0,0);
-    height: 44em;
+    height: 26em;
 }
 
 /********************
