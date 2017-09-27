@@ -223,16 +223,11 @@ About Page
 /********************
 Services Page
 ********************/
-/* Slider left/right icons made blue */
-.fl-content-slider-navigation path {
-    fill: #00dfff;
-}
-
-/* Slider left/right icons made blue in mobile */
-@media only screen and (max-width: 767px) {
-    .fl-content-slider-navigation path {
-        fill: #f5f5f5;
-    }
+.slideShowIframe {
+    width: 53em;
+    margin: 10px 0 0 0;
+    border: 1px solid rgba(0,0,0,0);
+    height: 44em;
 }
 
 /********************
@@ -259,9 +254,3 @@ Hacky Edits  or Display None's
 
 
 
-iframe {
-    width: 53em;
-    margin: 10px 0 0 0;
-    border: 1px solid rgba(0,0,0,0);
-    height: 44em;
-}
