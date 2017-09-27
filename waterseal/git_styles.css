@@ -1,7 +1,6 @@
 /*
 https://github.com/leontan15/Partnership_CDN/blob/master/waterseal/Leons_Updates.CSS
 */
-
 /********************
 Universal
 ********************/
@@ -76,6 +75,7 @@ section, footer {
     padding: 15px;
     background: #133b51;
 }
+
 /********************
 Home Page
 ********************/
@@ -89,19 +89,19 @@ Home Page
     background-size: cover;
 }
 
-    .topParallax .upperCase {
-        text-transform: uppercase;
-    }
+.topParallax .upperCase {
+    text-transform: uppercase;
+}
 
-    .topParallax h1 {
-        color: white;
-        color: #00ffff;
-        font-weight: bold;
-    }
+.topParallax h1 {
+    color: white;
+    color: #00ffff;
+    font-weight: bold;
+}
 
-    .topParallax img {
-        width: 310px;
-    }
+.topParallax img {
+    width: 310px;
+}
 
 @media only screen and (max-width: 500px) {
     .topParallax {
@@ -154,10 +154,10 @@ div#custom_html-7 {
         background-image: initial;
     }
 
-        .divOne .left, .divOne .right {
-            float: initial;
-            width: initial;
-        }
+    .divOne .left, .divOne .right {
+        float: initial;
+        width: initial;
+    }
 
     .left {
         margin: 0 !important;
@@ -185,7 +185,6 @@ div#custom_html-7 {
     background-attachment: fixed;
     background-size: cover;
 }
-
 
 .contactForm input, .contactForm textarea {
     border: 1px solid #aebbc3;
@@ -218,10 +217,23 @@ footer#colophon .container.footer-inner .row {
 /********************
 Website colours amendment
 ********************/
-
 /********************
 About Page
 ********************/
+/********************
+Services Page
+********************/
+/* Slider left/right icons made blue */
+.fl-content-slider-navigation path {
+    fill: #00dfff;
+}
+
+/* Slider left/right icons made blue in mobile */
+@media only screen and (max-width: 767px) {
+    .fl-content-slider-navigation path {
+        fill: #f5f5f5;
+    }
+}
 
 /********************
 Project Gallery Page
@@ -231,8 +243,6 @@ Project Gallery Page
     background: #444444;
 }
 
-
-
 /********************
 Hacky Edits  or Display None's
 ********************/
@@ -240,7 +250,6 @@ Hacky Edits  or Display None's
 .header-callout {
     display: none;
 }
-
 
 /* Footer credit hide */
 .footer-credits {
