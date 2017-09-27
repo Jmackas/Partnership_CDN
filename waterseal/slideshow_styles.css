@@ -6,6 +6,7 @@
 }
 
 /* color styles of modules */
-#demos .owl-carousel .item div {
+.servicesModule {
     color: black;
+    background: #FF2626;
 }
