@@ -33,43 +33,7 @@
   </head>
   <body>
 
-    <!-- header -->
-    <header class="header">
-      <div class="row">
-        <div class="large-12 columns">
-          <div class="brand left">
-            <h3>
-              <a href="/OwlCarousel2/">owl.carousel.js</a> 
-            </h3>
-          </div>
-          <a id="toggle-nav" class="right">
-            <span></span> <span></span> <span></span> 
-          </a> 
-          <div class="nav-bar">
-            <ul class="clearfix">
-              <li> <a href="/OwlCarousel2/index.html">Home</a>  </li>
-              <li class="active">
-                <a href="/OwlCarousel2/demos/demos.html">Demos</a> 
-              </li>
-              <li> <a href="/OwlCarousel2/docs/started-welcome.html">Docs</a>  </li>
-              <li>
-                <a href="https://github.com/OwlCarousel2/OwlCarousel2/archive/2.2.1.zip">Download</a> 
-                <span class="download"></span> 
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </header>
 
-    <!-- title -->
-    <section class="title">
-      <div class="row">
-        <div class="large-12 columns">
-          <h1>Url Hash Navigation</h1>
-        </div>
-      </div>
-    </section>
 
     <!--  Demos -->
     <section id="demos">
@@ -131,21 +95,7 @@
           <a class="button secondary url" href="#five">five</a> 
           <a class="button secondary url" href="#seven">seven</a> 
           <a class="button secondary url" href="#ten">ten</a> 
-          <h3 id="overview">Overview</h3>
-          <blockquote>
-            <p>URLhashListener option is listening for url hash change and is looking for slide with the same data name e.g. <code>data-hash=&quot;zero&quot;</code></p>
-          </blockquote>
-          <p>Also <code>startPosition</code> option accept string: <code>&#39;URLHash&#39;</code>. This will load corresponding items on startup. Browser history back button is also affected.</p>
-          <h3 id="setup">Setup</h3>
-          <pre><code>    $(&#39;.owl-carousel&#39;).owlCarousel({
-        items:4,
-        loop:false,
-        center:true,
-        margin:10,
-        URLhashListener:true,
-        autoplayHoverPause:true,
-        startPosition: &#39;URLHash&#39;
-    });</code></pre>
+
           <script>
             $(document).ready(function() {
               $('.owl-carousel').owlCarousel({
@@ -163,19 +113,6 @@
         </div>
       </div>
     </section>
-
-    <!-- footer -->
-    <footer class="footer">
-      <div class="row">
-        <div class="large-12 columns">
-          <h5>
-            <a href="/OwlCarousel2/docs/support-contact.html">David Deutsch</a> 
-            <a id="custom-tweet-button" href="https://twitter.com/share?url=https://github.com/OwlCarousel2/OwlCarousel2&text=Owl Carousel - This is so awesome! " target="_blank"></a> 
-          </h5>
-        </div>
-      </div>
-    </footer>
-
     <!-- vendors -->
     <script src="../assets/vendors/highlight.js"></script>
     <script src="../assets/js/app.js"></script>
