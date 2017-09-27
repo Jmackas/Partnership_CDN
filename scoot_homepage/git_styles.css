@@ -3,6 +3,7 @@ universal elements
 ********************/
 .mainBody {
     animation: fadein 2s;
+    font-family: ubuntu;
 }
 
 @keyframes fadein {
