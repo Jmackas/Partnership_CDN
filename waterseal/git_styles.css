@@ -40,12 +40,6 @@ h2.post-title {
     display: none;
 }
 
-/* Flex centre element */
-.flex {
-    display: flex;
-    justify-content: center;
-}
-
 
 /* List drop down menu styling */
 .menu > li > ul li a:hover, .dropdown-menu > .active > a:hover {
