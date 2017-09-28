@@ -14,6 +14,11 @@
 /* margins made full width */
 .row {
    margin: 0;
+   max-width: initial;
 }
 
+/* carasoul stage full width */
+.owl-stage {
+    width: 2930px !important;
+}
 
