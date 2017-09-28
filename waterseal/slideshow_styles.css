@@ -11,4 +11,9 @@
     background: white;
 }
 
+/* margins made full width */
+.row {
+   margin: 0;
+}
+
 
