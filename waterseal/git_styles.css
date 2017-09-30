@@ -228,12 +228,6 @@ Services Page
     margin: 0 -15px 0 -15px;
 }
 
-/* All sections encapsulated */
-.secOne, .secTwo, .secThree, .secFour, .secFive, .secSix, .secSeven, .secEight, .secNine {
-    padding: 2%;
-    display: flex;
-}
-
 /* left side */
 .servicesPage .secLeft {
     width:50%;
@@ -245,11 +239,26 @@ Services Page
     padding: 0 0 0 1%;
 }
 
+/* All sections encapsulated */
+.secOne, .secTwo, .secThree, .secFour, .secFive, .secSix, .secSeven, .secEight, .secNine {
+    padding: 2%;
+    display: flex;
+}
 
 /* Section one */
 .servicesPage .secOne {
     background: #00ffff;
 }
+
+/* Section two */
+.servicesPage .secTwo {
+}
+
+.servicesPage .secThree {
+    background: #00ffff;
+}
+
+
 
 /********************
 Project Gallery Page
