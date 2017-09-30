@@ -223,14 +223,30 @@ About Page
 /********************
 Services Page
 ********************/
+/* Targeting divs */
 .servicesPage {
     margin: 0 -15px 0 -15px;
 }
 
+/* All sections encapsulated */
 .secOne, .secTwo, .secThree, .secFour, .secFive, .secSix, .secSeven, .secEight, .secNine {
     padding: 2%;
+    display: flex;
 }
 
+/* left side */
+.servicesPage .secLeft {
+    width:50%;
+}
+
+/* right side */
+.servicesPage .secRight  {
+    width: 70%;
+    padding: 0 0 0 1%;
+}
+
+
+/* Section one */
 .servicesPage .secOne {
     background: #00ffff;
 }
