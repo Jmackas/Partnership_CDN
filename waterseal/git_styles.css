@@ -300,7 +300,7 @@ Hacky Edits  or Display None's
     display: none;
 }
 
-#anchor {
+#below_watertable, #suspended_slab,   #living_roofs_gardens, #internal_waterproofing, #fire_water_tanks, #exposed_trafficable, #crack_mitigation_injection {
     position: relative;
-    top: -300px;
+    top: -200px;
 }
