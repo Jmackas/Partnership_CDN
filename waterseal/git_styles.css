@@ -41,7 +41,6 @@ h2.post-title {
     display: none;
 }
 
-
 /* List drop down menu styling */
 .menu > li > ul li a:hover, .dropdown-menu > .active > a:hover {
     background: #00dfff;
@@ -116,7 +115,6 @@ Home Page
         display: none;
     }
 }
-
 
 /* Middle section modules */
 .divOne {
@@ -230,11 +228,11 @@ Services Page
 
 /* left side */
 .servicesPage .secLeft {
-    width:50%;
+    width: 18%;
 }
 
 /* right side */
-.servicesPage .secRight  {
+.servicesPage .secRight {
     width: 70%;
     padding: 0 0 0 1%;
 }
@@ -251,16 +249,16 @@ Services Page
 }
 
 /* Section two */
-.servicesPage .secTwo {}
+.servicesPage .secTwo {
+}
 
 /* Section three */
 .servicesPage .secThree {
     background: #00ffff;
 }
 
-.servicesPage .secFour {}
-
-
+.servicesPage .secFour {
+}
 
 /********************
 Project Gallery Page
@@ -282,7 +280,3 @@ Hacky Edits  or Display None's
 .footer-credits {
     display: none;
 }
-
-
-
-
