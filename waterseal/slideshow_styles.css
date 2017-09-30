@@ -18,12 +18,12 @@
 
 /* Width of each module */
 .owl-item {
-    width: 288px !important;
+    width: 450px !important;
 }
 
 /* carasoul stage full width */
 .owl-stage {
-    width: 2930px !important;
+    width: 7000px !important;
 }
 
 /* active background colour */
