@@ -227,6 +227,10 @@ Services Page
     margin: 0 -15px 0 -15px;
 }
 
+.secOne, .secTwo, .secThree, .secFour, .secFive, .secSix, .secSeven, .secEight, .secNine {
+    padding: 2%;
+}
+
 .servicesPage .secOne {
     background: #00ffff;
 }
