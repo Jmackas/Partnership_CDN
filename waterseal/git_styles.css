@@ -246,6 +246,7 @@ Services Page
 /* Section one */
 .servicesPage .secOne {
     background: #00ffff;
+    flex: block;
 }
 
 /* Section two */
