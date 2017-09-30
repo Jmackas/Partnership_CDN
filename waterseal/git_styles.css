@@ -22,6 +22,7 @@ h2.post-title {
     outline: 15px solid rgba(19, 59, 81, 0.5);
     padding: 20px 0 20px 0;
     margin-top: 15px !important;
+    margin-bottom: 2% !important;
 }
 
 /* Header changes in mobile */
@@ -217,15 +218,18 @@ footer#colophon .container.footer-inner .row {
 }
 
 /********************
-Website colours amendment
-********************/
-/********************
 About Page
 ********************/
 /********************
 Services Page
 ********************/
+.servicesPage {
+    margin: 0 -15px 0 -15px;
+}
 
+.servicesPage .secOne {
+    background: #00ffff;
+}
 
 /********************
 Project Gallery Page
