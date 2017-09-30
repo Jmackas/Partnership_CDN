@@ -243,6 +243,12 @@ Services Page
     display: flex;
 }
 
+/* All ID links */
+#below_watertable, #suspended_slab,   #living_roofs_gardens, #internal_waterproofing, #fire_water_tanks, #exposed_trafficable, #crack_mitigation_injection {
+    position: relative;
+    top: -200px;
+}
+
 /* Section one */
 .servicesPage .secOne {
     background: #00ffff;
@@ -258,25 +264,41 @@ Services Page
     background: #00ffff;
 }
 
+/* Section four */
 .servicesPage .secFour {
 }
 
+/* Section five */
 .servicesPage .secFive {
     background: #00ffff;
 }
 
+/* Section six */
 .servicesPage .secSix {
 }
 
+/* Section seven */
 .servicesPage .secSeven {
     background: #00ffff;
 }
 
+/* Section eight */
 .servicesPage .secEight {
 }
 
+/* Section nine */
 .servicesPage .secNine {
     background: #00ffff;
+}
+
+@media only screen and (max-width: 991px) {
+    .servicesPage .secLeft {
+        display: none;
+    }
+
+    .servicesPage .secRight {
+        width: 100%;
+    }
 }
 
 /********************
@@ -298,9 +320,4 @@ Hacky Edits  or Display None's
 /* Footer credit hide */
 .footer-credits {
     display: none;
-}
-
-#below_watertable, #suspended_slab,   #living_roofs_gardens, #internal_waterproofing, #fire_water_tanks, #exposed_trafficable, #crack_mitigation_injection {
-    position: relative;
-    top: -200px;
 }
