@@ -234,12 +234,12 @@ Services Page
     transition: 0.3s;
 }
 
-[data-slide-index="0"] {
-        background-image: url(https://i.imgur.com/PcMEFJ2.png) !important;
+[data-slide-index="0"]:hover, [data-slide-index="1"]:hover, [data-slide-index="2"]:hover, [data-slide-index="3"]:hover, [data-slide-index="4"]:hover, [data-slide-index="5"]:hover, [data-slide-index="6"]:hover, [data-slide-index="7"]:hover, [data-slide-index="8"]:hover {
+    filter: brightness(75%);
 }
 
-[data-slide-index="0"]:hover {
-    filter: brightness(50%);
+[data-slide-index="0"] {
+        background-image: url(https://i.imgur.com/PcMEFJ2.png) !important;
 }
 
 [data-slide-index="1"] {
