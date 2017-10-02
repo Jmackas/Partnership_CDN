@@ -221,6 +221,20 @@ About Page
 /********************
 Services Page
 ********************/
+[data-slide-index="1"], [data-slide-index="2"], [data-slide-index="3"], [data-slide-index="4"], [data-slide-index="5"], [data-slide-index="6"], [data-slide-index="7"], [data-slide-index="8"] {
+    width: 100px !important;
+    border-radius: 0 !important;
+    height: 40px !important;
+}
+
+[data-slide-index="1"] {
+    background-image: url("https://www.w3schools.com/cssref/paper.gif") !important;
+}
+
+[data-slide-index="2"] {
+    background: green;
+}
+
 
 
 /********************
