@@ -232,6 +232,7 @@ Services Page
     padding: 50px 73px 0 0 !important;
     border-radius: 0 !important;
     transition: 0.3s;
+    border: 1px solid #bfbfbf;
 }
 
 [data-slide-index="0"]:hover, [data-slide-index="1"]:hover, [data-slide-index="2"]:hover, [data-slide-index="3"]:hover, [data-slide-index="4"]:hover, [data-slide-index="5"]:hover, [data-slide-index="6"]:hover, [data-slide-index="7"]:hover, [data-slide-index="8"]:hover {
