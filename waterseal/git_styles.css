@@ -222,10 +222,13 @@ About Page
 Services Page
 ********************/
 /* All the slide buttons encapsulated */
-[data-slide-index="1"], [data-slide-index="2"], [data-slide-index="3"], [data-slide-index="4"], [data-slide-index="5"], [data-slide-index="6"], [data-slide-index="7"], [data-slide-index="8"] {
-    width: 100px !important;
+[data-slide-index="0"], [data-slide-index="1"], [data-slide-index="2"], [data-slide-index="3"], [data-slide-index="4"], [data-slide-index="5"], [data-slide-index="6"], [data-slide-index="7"], [data-slide-index="8"] {
+    padding: 30px 150px 0 0 !important;
     border-radius: 0 !important;
-    height: 40px !important;
+}
+
+[data-slide-index="0"] {
+    margin: 0 0 0 0 !important;
 }
 
 [data-slide-index="1"] {
