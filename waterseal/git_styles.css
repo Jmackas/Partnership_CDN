@@ -239,6 +239,10 @@ Services Page
     filter: brightness(75%);
 }
 
+[data-slide-index="0"]:focus, [data-slide-index="1"]:focus, [data-slide-index="2"]:focus, [data-slide-index="3"]:focus, [data-slide-index="4"]:focus, [data-slide-index="5"]:focus, [data-slide-index="6"]:focus, [data-slide-index="7"]:focus, [data-slide-index="8"]:focus {
+    filter: brightness(75%);
+}
+
 [data-slide-index="0"] {
         background-image: url(https://i.imgur.com/PcMEFJ2.png) !important;
 }
