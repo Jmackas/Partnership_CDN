@@ -245,6 +245,25 @@ Services Page
     background: green;
 }
 
+[data-slide-index="3"] {
+    background: green;
+}
+
+[data-slide-index="4"] {
+    background: green;
+}
+
+[data-slide-index="5"] {
+    background: green;
+}
+
+[data-slide-index="6"] {
+    background: green;
+}
+
+[data-slide-index="7"] {
+    background: green;
+}
 
 
 /********************
