@@ -229,6 +229,7 @@ Services Page
 /* Image thumbnail frame size */
 .ms-thumb-frame {
     height: 67px !important;
+    border: 1px solid lightgray;
 }
 
 /* Image thumbnail size */
