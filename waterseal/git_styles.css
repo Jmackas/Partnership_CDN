@@ -226,6 +226,15 @@ Services Page
     padding: 0 2% 0 2%;
 }
 
+/* Image thumbnail frame size */
+.ms-thumb-frame {
+    height: 75px !important;
+}
+
+/* image thumbnail size */
+img.ms-thumb {
+    height: 75px !important;
+}
 
 
 /********************
