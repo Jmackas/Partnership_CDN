@@ -228,12 +228,14 @@ Services Page
 
 /* Image thumbnail frame size */
 .ms-thumb-frame {
-    height: 67px !important;
+    height: 50px !important;
+    width: 73px !important;
 }
 
 /* image thumbnail size */
 img.ms-thumb {
-    height: 67px !important;
+    height: 50px !important;
+    width: 73px !important;
 }
 
 
