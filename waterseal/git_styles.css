@@ -228,16 +228,13 @@ Services Page
 
 /* Image thumbnail frame size */
 .ms-thumb-frame {
-    height: 50px !important;
-    width: 73px !important;
+    height: 67px !important;
 }
 
 /* image thumbnail size */
 img.ms-thumb {
-    height: 50px !important;
-    width: 73px !important;
+    height: 66px !important;
 }
-
 
 /********************
 Project Gallery Page
