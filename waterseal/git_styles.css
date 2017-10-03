@@ -221,6 +221,12 @@ About Page
 /********************
 Services Page
 ********************/
+/* Targeted all the blurbs of the slideshow in a div */
+.slideshowBlurb {
+    padding: 0 2% 0 2%;
+}
+
+
 
 /********************
 Project Gallery Page
