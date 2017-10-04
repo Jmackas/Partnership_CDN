@@ -253,6 +253,10 @@ img.ms-thumb {
     .ms-thumb-list.ms-dir-h.ms-align-top {
         transform: initial;
     }
+
+    .ms-info {
+        margin: 130px 0 0 0;
+    }
 }
 
 
