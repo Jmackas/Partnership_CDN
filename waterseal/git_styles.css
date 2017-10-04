@@ -227,6 +227,7 @@ Services Page
     margin: 130px 0 0 0;
 }
 
+/* Pushing the tabs to the top of the page */
 .ms-thumb-list.ms-dir-h.ms-align-top {
     transform: translate(0, -350px);
 }
@@ -247,6 +248,14 @@ img.ms-thumb {
         padding: 0 1% 0 1%;
     }
 }
+
+@media only screen and (max-width: 513px) {
+    .ms-thumb-list.ms-dir-h.ms-align-top {
+        transform: initial;
+    }
+}
+
+
 
 /********************
 Project Gallery Page
