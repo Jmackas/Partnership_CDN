@@ -224,12 +224,6 @@ Services Page
 /* Targeted all the blurbs of the slideshow in a div */
 .ms-info {
     padding: 0 18% 0 18%;
-    margin: 130px 0 0 0;
-}
-
-/* Pushing the tabs to the top of the page */
-.ms-thumb-list.ms-dir-h.ms-align-top {
-    transform: translate(0, -350px);
 }
 
 /* Image thumbnail frame size */
@@ -246,16 +240,6 @@ img.ms-thumb {
 @media only screen and (max-width: 991px) {
     .ms-info {
         padding: 0 1% 0 1%;
-    }
-}
-
-@media only screen and (max-width: 513px) {
-    .ms-thumb-list.ms-dir-h.ms-align-top {
-        transform: initial;
-    }
-
-    .ms-info {
-        margin: 130px 0 0 0;
     }
 }
 
