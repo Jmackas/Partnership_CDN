@@ -223,7 +223,7 @@ Services Page
 ********************/
 /* Targeted all the blurbs of the slideshow in a div */
 .ms-info {
-    padding: 0 2% 0 2%;
+    padding: 0 20% 0 20%;
 }
 
 /* Image thumbnail frame size */
@@ -235,6 +235,12 @@ Services Page
 /* Image thumbnail size */
 img.ms-thumb {
     height: 67px !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .ms-info {
+        padding: 0 1% 0 1%;
+    }
 }
 
 /********************
