@@ -1,8 +1,8 @@
 /*
 The stylesheet has been positioned below Leon's to ensure specificity override.
 
-Completed:
-
+Completed (excluding stylesheet updates below):
+    
 
 */
 
@@ -16,10 +16,13 @@ Menu items
 *********************/
 /* Menu style removal */
 .main-navigation li a::before, .main-navigation li.current-menu-item > a::before, .main-navigation li.current_page_item > a::before {
-    
     transition: initial;
     background: initial;
-    
+}
+
+/* Menu mobile view pushed to the top */
+.logged-in #mobile-trigger {
+    top: 0;
 }
 
 
