@@ -15,12 +15,11 @@ Universal elements
 Menu items
 *********************/
 /* Menu style removal */
-.main-navigation li a::before, .main-navigation li.current-menu-item > a::before, .main-navigation li.current_page_item > a::before {
-    transition: initial;
-    background: initial;
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item a.mega-menu-link:before {
+    position: absolute;
 }
 
-/* Menu mobile view pushed to the top */
+/* Menu mobile view banner pushed to the top */
 .logged-in #mobile-trigger {
     top: 0;
 }
