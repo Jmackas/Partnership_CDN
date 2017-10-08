@@ -27,3 +27,7 @@ Menu items
 /*********************
 Front page
 *********************/
+/* force the width of the product range ('our range') to 100% */
+.product-list-wrap img {
+    width: 100%;
+}
