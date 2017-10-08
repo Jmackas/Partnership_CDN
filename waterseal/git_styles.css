@@ -239,9 +239,17 @@ img.ms-thumb {
 
 @media only screen and (max-width: 936px) {
     div#MS59d978049754c {
-        margin: 0 0 0 51px !important;
+        margin: 0 0 0 0 !important;
         width: initial !important;
         height: 900px;
+    }
+    
+    .ms-info {
+        transform: translate(513px, 613px);
+    }
+    
+    .ms-slide-info.ms-dir-v.ms-align-left {
+        width: 100% !important;
     }
     
 }
