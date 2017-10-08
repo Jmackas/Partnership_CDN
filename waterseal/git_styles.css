@@ -263,6 +263,12 @@ img.ms-thumb {
     
 }
 
+@media only screen and (max-width: 515px) {
+    .ms-info {
+        transform: translate(513px, 466px);
+    }
+}
+
 
 
 
