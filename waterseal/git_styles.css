@@ -77,8 +77,17 @@ section, footer {
     background: #133b51;
 }
 
+
 /********************
-Home Page
+Top 'Contact Us' banner
+********************/
+div#scb-wrapper span {
+    color: white;
+    text-decoration: underline;
+}
+
+/********************
+Home page
 ********************/
 /* Top parallax image */
 .topParallax {
