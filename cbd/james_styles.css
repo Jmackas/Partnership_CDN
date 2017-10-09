@@ -1,0 +1,35 @@
+/*
+The stylesheet has been positioned below Leon's to ensure specificity override.
+
+Completed (excluding stylesheet updates below):
+    
+
+*/
+
+/*********************
+Universal elements
+*********************/
+
+
+/*********************
+Menu items
+*********************/
+/* Top menu item won't move down on hover */
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item a.mega-menu-link:before {
+    position: absolute;
+}
+
+/* Menu mobile view banner pushed to the top */
+.logged-in #mobile-trigger {
+    top: 0;
+}
+
+
+
+/*********************
+Front page
+*********************/
+/* Force the width of the product range ('our range') to 100% */
+.product-list-wrap img {
+    width: 100%;
+}
