@@ -77,17 +77,8 @@ section, footer {
     background: #133b51;
 }
 
-
 /********************
-Top 'Contact Us' banner
-********************/
-div#scb-wrapper span {
-    color: white;
-    text-decoration: underline;
-}
-
-/********************
-Home page
+Home Page
 ********************/
 /* Top parallax image */
 .topParallax {
@@ -232,7 +223,7 @@ Services Page
 ********************/
 /* Targeted all the blurbs of the slideshow in a div */
 .ms-info {
-    padding: 0 1% 0 3%;
+    padding: 0 18% 0 18%;
 }
 
 /* Image thumbnail frame size */
@@ -246,29 +237,11 @@ img.ms-thumb {
     height: 67px !important;
 }
 
-@media only screen and (max-width: 936px) {
-    .master-slider {
-        margin: 0 0 0 0 !important;
-        width: initial !important;
-        height: 900px;
-    }
-    
+@media only screen and (max-width: 991px) {
     .ms-info {
-        transform: translate(513px, 613px);
-    }
-    
-    .ms-slide-info.ms-dir-v.ms-align-left {
-        width: 100% !important;
-    }
-    
-}
-
-@media only screen and (max-width: 515px) {
-    .ms-info {
-        transform: translate(513px, 466px);
+        padding: 0 1% 0 1%;
     }
 }
-
 
 
 
