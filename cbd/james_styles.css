@@ -38,3 +38,11 @@ Front page
 .product-list-wrap img {
     width: 100%;
 }
+
+/*********************
+Footer 
+*********************/
+/* Product category links underlined */
+ul.product-categories {
+    text-decoration: underline;
+}
