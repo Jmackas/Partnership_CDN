@@ -26,7 +26,17 @@ header {
 .menuItems {
     display: flex;
     width: 80%;
-    align-items: flex-end;
+    align-items: center;
+}
+
+/* Menu item individual group */
+.menuItemOne, .menuItemTwo {
+    padding: 2%;
+}
+
+/* Menu item individual group hover */
+.menuItemOne:hover, .menuItemTwo:hover {
+    background: lightgray;
 }
 
 /******************************
