@@ -1,0 +1,18 @@
+/******************************
+Header
+******************************/
+/* Display all elements as a flex */
+header {
+    display: flex;
+}
+
+/* logo div styling */
+.headerLogo {
+    width: 30%;
+}
+
+/* menu items styling */
+.menuItems {
+    width: 70%;
+}
+
