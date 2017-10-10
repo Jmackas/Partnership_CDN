@@ -18,5 +18,9 @@ header {
     align-items: flex-end;
 }
 
-
-
+/******************************
+Content One
+******************************/
+.contentOne {
+    background: #17b9bb;
+}
