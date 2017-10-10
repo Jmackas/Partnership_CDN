@@ -8,13 +8,13 @@ header {
 
 /* logo div styling */
 .headerLogo {
-    width: 20%;
+    width: 30%;
 }
 
 /* menu items styling */
 .menuItems {
     display: flex;
-    width: 80%;
+    width: 70%;
     align-items: flex-end;
 }
 
