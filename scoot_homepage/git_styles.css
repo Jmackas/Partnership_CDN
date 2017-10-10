@@ -13,6 +13,9 @@ header {
 
 /* menu items styling */
 .menuItems {
+    display: flex;
     width: 80%;
 }
+
+
 
