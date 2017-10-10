@@ -15,6 +15,7 @@ header {
 .menuItems {
     display: flex;
     width: 80%;
+    align-items: flex-end;
 }
 
 
