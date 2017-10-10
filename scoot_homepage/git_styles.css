@@ -1,6 +1,13 @@
 /*
     Link to website: http://4ff.b17.myftpupload.com/
 */
+/******************************
+Universal elements
+******************************/
+/* The element that can target everything */
+.frontPage {
+    padding: 2%;
+}
 
 /******************************
 Header
