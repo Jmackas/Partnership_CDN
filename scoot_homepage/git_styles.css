@@ -10,12 +10,12 @@ header {
     display: flex;
 }
 
-/* logo div styling */
+/* Logo div styling */
 .headerLogo {
     width: 20%;
 }
 
-/* menu items styling */
+/* Menu items styling */
 .menuItems {
     display: flex;
     width: 80%;
