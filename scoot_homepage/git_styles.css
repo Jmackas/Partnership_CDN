@@ -8,6 +8,7 @@ Header
 /* Display all elements as a flex */
 header {
     display: flex;
+    padding: 2%;
 }
 
 /* Logo div styling */
@@ -28,3 +29,5 @@ Content One
 .contentOne {
     background: #17b9bb;
 }
+
+
