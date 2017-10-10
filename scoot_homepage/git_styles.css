@@ -6,7 +6,6 @@ Universal elements
 ******************************/
 /* The element that can target everything */
 .frontPage {
-    padding: 2%;
 }
 
 /******************************
@@ -33,6 +32,10 @@ header {
 /******************************
 Content One
 ******************************/
+.contentOne {
+    padding: 2%;
+}
+
 .contentOne {
     background: #17b9bb;
 }
