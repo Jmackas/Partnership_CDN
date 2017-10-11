@@ -8,6 +8,10 @@ Universal elements
 .frontPage {
 }
 
+.divider {
+    background: #17b9bb;
+}
+
 /******************************
 Header
 ******************************/
@@ -47,9 +51,4 @@ Content One
 .contentOne {
     padding: 2%;
 }
-
-.contentOne {
-    background: #17b9bb;
-}
-
 
