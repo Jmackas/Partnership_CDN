@@ -32,6 +32,8 @@ header {
 /* Menu item individual group */
 .menuItemOne, .menuItemTwo {
     padding: 2%;
+    display: flex;
+    align-items: center;
 }
 
 /* Menu item individual group hover */
