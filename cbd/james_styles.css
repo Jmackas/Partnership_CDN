@@ -40,6 +40,15 @@ Front page
     width: 100%;
 }
 
+/* Reduce the size of the 'Contemporary' text under 'Get Inspired' */
+@media only screen and (max-width: 442px) {
+    .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-3 span {
+        font-size: 180% !important;
+    }    
+}
+
+
+
 /*********************
 Footer 
 *********************/
