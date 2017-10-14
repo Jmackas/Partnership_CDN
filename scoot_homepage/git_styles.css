@@ -15,6 +15,7 @@ Slider
 /* main header styling */
 .frontPage header {
     display: flex;
+    padding: 1%;
 }
 
 /* logo styling */
