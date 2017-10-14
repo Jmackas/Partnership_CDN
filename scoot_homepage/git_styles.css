@@ -1,5 +1,5 @@
 /*
-    Link to website: http://4ff.b17.myftpupload.com/
+Link to website: http://4ff.b17.myftpupload.com/
 */
 /******************************
 Universal elements
@@ -7,6 +7,10 @@ Universal elements
 /* The element that can target everything */
 body {
     font-family: roboto;
+}
+
+.headingDivider {
+    background: lightgray;
 }
 
 /******************************
