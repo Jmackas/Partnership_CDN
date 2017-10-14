@@ -1,5 +1,6 @@
 /*
 Link to website: http://4ff.b17.myftpupload.com/
+Inspiration: https://myst.gr/ 
 */
 /******************************
 Universal elements
@@ -17,7 +18,7 @@ body {
 }
 
 /******************************
-Slider
+Header styling
 ******************************/
 /* main header styling */
 .frontPage header {
@@ -29,4 +30,15 @@ Slider
 .frontPage header img {
     width: 120px;
     height: 40px;
+}
+
+.imageLogo {
+    background-image: url(https://raw.githubusercontent.com/Jmackas/Partnership_CDN/master/scoot_homepage/elements/logo.jpg);
+}
+
+/******************************
+Slider styling
+******************************/
+.frontPage .slider {
+    background: green;
 }
