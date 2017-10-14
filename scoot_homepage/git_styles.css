@@ -7,10 +7,13 @@ Universal elements
 /* The element that can target everything */
 body {
     font-family: roboto;
+    color: #595959;
 }
 
 .headingDivider {
-    background: lightgray;
+    background: #ececec;
+    font-size: 300%;
+    padding: 1%;
 }
 
 /******************************
@@ -24,6 +27,6 @@ Slider
 
 /* logo styling */
 .frontPage header img {
-    width: 300px;
-    height: 90px;
+    width: 120px;
+    height: 40px;
 }
