@@ -5,3 +5,13 @@
 Universal elements
 ******************************/
 /* The element that can target everything */
+body {
+    font-family: roboto;
+}
+
+/******************************
+Slider
+******************************/
+.frontPage header {
+    display: flex;
+}
