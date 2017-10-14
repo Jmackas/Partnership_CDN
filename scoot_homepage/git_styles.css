@@ -12,6 +12,12 @@ body {
 /******************************
 Slider
 ******************************/
+/* main header styling */
 .frontPage header {
     display: flex;
+}
+
+/* logo styling */
+.frontPage header img {
+    width: 300px;
 }
