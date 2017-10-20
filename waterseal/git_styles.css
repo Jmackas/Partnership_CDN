@@ -276,9 +276,16 @@ img.ms-thumb {
     }
 }
 
+/* The following media queries push the description up when the user reduces the display size */
 @media only screen and (max-width: 515px) {
     .ms-info {
         transform: translate(513px, 466px);
+    }
+}
+
+@media only screen and (max-width: 446px) {
+    .ms-info {
+        transform: translate(513px, 413px);
     }
 }
 
