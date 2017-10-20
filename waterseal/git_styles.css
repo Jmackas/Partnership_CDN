@@ -83,8 +83,6 @@ section, footer {
     background: #133b51;
 }
 
-
-
 /********************
 Top 'Contact Us' banner
 ********************/
@@ -253,12 +251,10 @@ img.ms-thumb {
     height: 67px !important;
 }
 
-/* Remove thumbnail 'left' and 'right' arrows */
-/*
+/* Remove thumbnail 'left' and 'right' arrows in desktop */
 .ms-thumblist-fwd, .ms-thumblist-bwd {
     display: none;
 }
-*/
 
 @media only screen and (max-width: 936px) {
     .master-slider {
@@ -266,15 +262,18 @@ img.ms-thumb {
         width: initial !important;
         height: 900px;
     }
-    
+
     .ms-info {
         transform: translate(513px, 613px);
     }
-    
+
     .ms-slide-info.ms-dir-v.ms-align-left {
         width: 100% !important;
     }
-    
+
+    .ms-thumblist-fwd, .ms-thumblist-bwd {
+        display: initial;
+    }
 }
 
 @media only screen and (max-width: 515px) {
