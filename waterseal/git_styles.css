@@ -46,7 +46,13 @@ h2.post-title {
     background: #00dfff;
 }
 
-/* Search button styling */
+/* Search function button colour */
+input#searchsubmit {
+    background: #0d2938;
+    border: rgba(0,0,0,0);
+}
+
+/* Search button styling on hover */
 .btn.searchsubmit:hover {
     background: #00dfff;
 }
@@ -76,6 +82,7 @@ section, footer {
     padding: 15px;
     background: #133b51;
 }
+
 
 
 /********************
