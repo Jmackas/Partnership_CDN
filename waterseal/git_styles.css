@@ -251,6 +251,11 @@ img.ms-thumb {
     height: 67px !important;
 }
 
+/* Slider padding */
+.ms-parent-id-1 {
+    padding: 1% 1% 1% 8px;
+}
+
 /* Remove thumbnail 'left' and 'right' arrows in desktop */
 .ms-thumblist-fwd, .ms-thumblist-bwd {
     display: none;
