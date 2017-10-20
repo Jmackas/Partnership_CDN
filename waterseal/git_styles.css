@@ -263,10 +263,6 @@ img.ms-thumb {
         height: 900px;
     }
 
-    .ms-info {
-        transform: translate(513px, 613px);
-    }
-
     .ms-slide-info.ms-dir-v.ms-align-left {
         width: 100% !important;
     }
@@ -277,15 +273,37 @@ img.ms-thumb {
 }
 
 /* The following media queries push the description up when the user reduces the display size */
-@media only screen and (max-width: 515px) {
+.ms-info {
+    transform: translate(513px, 600px);
+}
+
+@media only screen and (max-width: 585px) {
     .ms-info {
-        transform: translate(513px, 466px);
+        transform: translate(513px, 500px);
     }
 }
 
-@media only screen and (max-width: 446px) {
+@media only screen and (max-width: 570px) {
+    .ms-info {
+        transform: translate(513px, 480px);
+    }
+}
+
+@media only screen and (max-width: 515px) {
+    .ms-info {
+        transform: translate(513px, 450px);
+    }
+}
+
+@media only screen and (max-width: 474px) {
     .ms-info {
         transform: translate(513px, 413px);
+    }
+}
+
+@media only screen and (max-width: 338px) {
+    .ms-info {
+        transform: translate(513px, 320px);
     }
 }
 
