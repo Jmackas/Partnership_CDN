@@ -320,6 +320,17 @@ Project Gallery Page
     background: #444444;
 }
 
+/* Targeting the slideshow left arrow colours */
+button.mfp-arrow.mfp-arrow-left.mfp-prevent-close:after {
+    border-right: 17px solid #0fa7a4;
+}
+
+
+/* Targeting the slideshow right arrow colours */
+button.mfp-arrow.mfp-arrow-right.mfp-prevent-close:after {
+   border-left: 17px solid #0fa7a4;
+}
+
 /********************
 Hacky Edits  or Display None's
 ********************/
