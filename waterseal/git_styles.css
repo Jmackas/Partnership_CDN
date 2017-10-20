@@ -53,7 +53,7 @@ input#searchsubmit {
 }
 
 /* Search button styling on hover */
-.btn.searchsubmit:hover {
+input#searchsubmit:hover {
     background: #00dfff;
 }
 
