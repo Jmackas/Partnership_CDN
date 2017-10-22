@@ -235,6 +235,11 @@ About Page
 /********************
 Services Page
 ********************/
+/* padding at the top of the slideshow */
+.shapely-content {
+    padding: 1% 0 0 0;
+}
+
 /* Targeted all the blurbs of the slideshow in a div */
 .ms-info {
     padding: 0 1% 0 3%;
