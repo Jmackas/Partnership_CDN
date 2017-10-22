@@ -279,7 +279,13 @@ img.ms-thumb {
 
 /* The following media queries push the description up when the user reduces the display size */
 .ms-info {
-    transform: translate(513px, 600px);
+    transform: translate(0,0);
+}
+
+@media only screen and (max-width: 936px) {
+    .ms-info {
+        transform: translate(513px, 650px);
+    }
 }
 
 @media only screen and (max-width: 585px) {
@@ -325,10 +331,9 @@ button.mfp-arrow.mfp-arrow-left.mfp-prevent-close:after {
     border-right: 17px solid #0fa7a4;
 }
 
-
 /* Targeting the slideshow right arrow colours */
 button.mfp-arrow.mfp-arrow-right.mfp-prevent-close:after {
-   border-left: 17px solid #0fa7a4;
+    border-left: 17px solid #0fa7a4;
 }
 
 /********************
