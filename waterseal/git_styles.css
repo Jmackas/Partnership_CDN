@@ -353,6 +353,11 @@ button.mfp-arrow.mfp-arrow-right.mfp-prevent-close {
     opacity: 1;
 }
 
+/* Removal of arrow move down on select */
+.mfp-arrow {
+    margin-top: -54px !important;
+}
+
 
 /********************
 Hacky Edits  or Display None's
