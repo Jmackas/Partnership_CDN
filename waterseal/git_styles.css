@@ -349,7 +349,7 @@ button.mfp-arrow.mfp-arrow-right.mfp-prevent-close {
 }
 
 /* Arrow opacity increased to full brightness */
-.mfp-arrow:hover, .mfp-arrow:focus {
+.mfp-arrow {
     opacity: 1;
 }
 
