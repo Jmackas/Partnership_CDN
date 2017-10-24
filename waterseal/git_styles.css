@@ -327,12 +327,12 @@ Project Gallery Page
 
 /* Targeting the slideshow left arrow colours */
 button.mfp-arrow.mfp-arrow-left.mfp-prevent-close:after {
-    border-right: 17px solid #35dfff;
+    border: none;
 }
 
-/* Targeting the slideshow right arrow colours */
-button.mfp-arrow.mfp-arrow-right.mfp-prevent-close:after {
-    border-left: 17px solid #35dfff;
+/* Removing the default slideshow arrows */
+button.mfp-arrow.mfp-arrow-right.mfp-prevent-close:after, .mfp-arrow-right:before, .mfp-arrow-right .mfp-b {
+    border: none;
 }
 
 /********************
