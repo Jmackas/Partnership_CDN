@@ -335,6 +335,21 @@ button.mfp-arrow.mfp-arrow-right.mfp-prevent-close:after, .mfp-arrow-right:befor
     border: none;
 }
 
+/* Implementation of new arrows, left and right */
+button.mfp-arrow.mfp-arrow-left.mfp-prevent-close {
+    background: url(https://waterseal.net.au/wp-content/uploads/2017/10/projectgaller_leftarrow.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+button.mfp-arrow.mfp-arrow-right.mfp-prevent-close {
+    background: url(https://waterseal.net.au/wp-content/uploads/2017/10/projectgaller_rightarrow.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+
+
 /********************
 Hacky Edits  or Display None's
 ********************/
