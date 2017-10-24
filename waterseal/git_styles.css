@@ -326,7 +326,7 @@ Project Gallery Page
 }
 
 /* Targeting the slideshow left arrow colours */
-button.mfp-arrow.mfp-arrow-left.mfp-prevent-close:after {
+button.mfp-arrow.mfp-arrow-left.mfp-prevent-close:after, .mfp-arrow-left:before, .mfp-arrow-left .mfp-b {
     border: none;
 }
 
