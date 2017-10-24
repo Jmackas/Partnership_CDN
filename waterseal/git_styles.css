@@ -46,15 +46,9 @@ h2.post-title {
     background: #00dfff;
 }
 
-/* Search function button colour */
-input#searchsubmit {
-    background: #0d2938;
-    border: rgba(0,0,0,0);
-}
-
-/* Search button styling on hover */
-input#searchsubmit:hover {
-    background: #00dfff;
+/* Removal of search function */
+.module.widget-handle.search-widget-handle.left.hidden-xs.hidden-sm {
+    display: none;
 }
 
 /* Page margins full width */
