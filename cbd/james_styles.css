@@ -9,7 +9,6 @@ Completed (excluding stylesheet updates below):
     - The font size of the text on the first page under the header 'Carpets By Design', + some grammar fixes.
 
 */
-
 /*********************
 Universal elements
 *********************/
@@ -20,8 +19,7 @@ body {
 /* Border around buttons */
 .so-widget-sow-button-wire-f94a0f44a242 .ow-button-base a {
     border: 1px solid black !important;
-  }
-  
+}
 
 /*********************
 Menu items
@@ -36,8 +34,6 @@ Menu items
     top: 0;
 }
 
-
-
 /*********************
 Front page
 *********************/
@@ -50,10 +46,21 @@ Front page
 @media only screen and (max-width: 442px) {
     .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-3 span {
         font-size: 180% !important;
-    }    
+    }
 }
 
+/* Change the hover and focus styles under the 'Get Inspired' Modules */
+.siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-2, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-3, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-4, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-5 {
+    transition: 0.4s;
+}
 
+.siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-2 a, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-3 a, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-4 a, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-5 a {
+    color: white;
+}
+
+.siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-2:hover, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-3:hover, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-4:hover, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-5:hover {
+    transform: scale(1.01);
+}
 
 /*********************
 Footer 
