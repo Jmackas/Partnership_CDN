@@ -1,0 +1,67 @@
+/*
+The stylesheet has been positioned below Leon's to ensure specificity override.
+
+Notes:
+    - The 'Sale Items' on the front page don't have the hyperlink wrapping the entire block... and I'm not quite sure why.
+    - The Youtube link in the footer needs to be removed. It displays an almost irrelevant video.
+
+Completed (excluding stylesheet updates below):
+    - The font size of the text on the first page under the header 'Carpets By Design', + some grammar fixes.
+
+*/
+/*********************
+Universal elements
+*********************/
+body {
+    font-family: roboto;
+}
+
+/* Border around buttons */
+.so-widget-sow-button-wire-f94a0f44a242 .ow-button-base a {
+    border: 1px solid black !important;
+}
+
+/*********************
+Menu items
+*********************/
+/* Top menu item won't move down on hover */
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item a.mega-menu-link:before {
+    position: absolute;
+}
+
+/* Menu mobile view banner pushed to the top */
+.logged-in #mobile-trigger {
+    top: 0;
+}
+
+/*********************
+Front page
+*********************/
+/* Force the width of the product range ('our range') to 100% */
+.product-list-wrap img {
+    width: 100%;
+}
+
+/* Reduce the size of the 'Contemporary' text under 'Get Inspired' */
+@media only screen and (max-width: 442px) {
+    .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-3 span {
+        font-size: 180% !important;
+    }
+}
+
+/* Change the hover and focus styles under the 'Get Inspired' Modules */
+.siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-2, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-3, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-4, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-5 {
+    transition: 0.4s;
+}
+
+.siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-2 a, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-3 a, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-4 a, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-5 a {
+    color: white;
+}
+
+/*********************
+Footer 
+*********************/
+/* Product category links underlined */
+ul.product-categories {
+    text-decoration: underline;
+}
