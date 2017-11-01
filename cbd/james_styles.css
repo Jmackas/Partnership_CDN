@@ -49,10 +49,6 @@ Front page
     }
 }
 
-/* Change the hover and focus styles under the 'Get Inspired' Modules */
-.siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-2, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-3, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-4, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-5 {
-    transition: 0.4s;
-}
 
 .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-2 a, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-3 a, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-4 a, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-5 a {
     color: white;
