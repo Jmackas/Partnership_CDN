@@ -104,6 +104,8 @@ header {
 .menuItems a {
     padding: 3% 3%;
     transition: 0.4s;
+    display: flex;
+    align-items: center;
 }
 
 /* Individual menu items interaction */
@@ -227,12 +229,12 @@ a.seo:hover, a.seo:active, a.seo:focus, a.webDesign:hover, a.webDesign:active, a
 }
 
 /* Increase the size of the paragraph text */
-.contactUs {
+.contactUs p {
     font-size: 140%;
 }
 
-/* Remove the generated form header */
-.contactUs h3 {
+/* Remove the generated form header and some text */
+.contactUs h3, .nf-form-fields-required {
     display: none;
 }
 
