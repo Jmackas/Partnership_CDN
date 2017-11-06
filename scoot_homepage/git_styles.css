@@ -18,3 +18,19 @@ Header styling
 .imageLogo {
     background-image: url(https://raw.githubusercontent.com/Jmackas/Partnership_CDN/master/scoot_homepage/elements/logo.jpg);
 }
+
+/* Menu items */
+header li {
+    float: left;
+    list-style-type: none;
+}
+
+/* Menu items hyperlink */
+header li a {
+    padding: 20px;
+}
+
+/* Menu item 'Contact Us' */
+.contactUs {
+    background: rgb(23,185,186);
+}
