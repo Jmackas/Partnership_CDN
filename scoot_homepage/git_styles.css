@@ -13,7 +13,7 @@ body {
 }
 
 /* Module divider */
-.moduleDivider {;
+.moduleDivider {
     border-top: 2px solid white;
 }
 
@@ -114,16 +114,24 @@ h3 {
 }
 
 /******************************
-About Us
+'About Us' section
 ******************************/
+/* About Us section' encapsulation */
+.aboutUs{
+    background: #3e89cb;
+    padding: 2% 3%;
+}
+
 /* Header two styling (universal) */
 h2 {
     color: white;
     font-size: 300%;
 }
 
-/* About Us section' encapsulation */
-.aboutUs{
-    background: #3e89cb;
+/******************************
+'Services' section
+******************************/
+.ourServices {
+    background: rgb(23,185,186);;
     padding: 2% 3%;
 }
