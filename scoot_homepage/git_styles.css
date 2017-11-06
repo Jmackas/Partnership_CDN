@@ -84,6 +84,7 @@ header {
     width: 50%;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 /* Targeted logo */
