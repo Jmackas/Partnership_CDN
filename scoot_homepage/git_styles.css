@@ -30,7 +30,7 @@ body {
 /* Scoot custom button action */
 .scootButton:hover, .scootButton:focus,.scootButton:active {
     background: white;
-    color: #333;
+    color: #3e89cb;
 }
 
 /* Header one styling (universal) */
@@ -157,8 +157,9 @@ Introductory module
 
 /* 'Digital marketing' bubble */
 a.digitalMarketing {
+    transition: 0.4s;
     border: 1px solid white;
-    font-size: 200%;
+    font-size: 230%;
     border-radius: 5px;
     color: white;
     display: flex;
@@ -170,7 +171,9 @@ a.digitalMarketing {
 
 /*'Web Design' bubble */
 a.webDesign {
+    transition: 0.4s;
     border: 1px solid white;
+    font-size: 160%;
     color: white;
     border-radius: 5px;
     display: flex;
@@ -183,10 +186,18 @@ a.webDesign {
 /*'Search Engine Optimisation' bubble */
 a.seo {
     border: 1px solid white;
+    transition: 0.4s;
+    font-size: 160%;
     color: white;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 185px;
+}
+
+/* All bubbles on interaction */
+a.seo:hover, a.seo:active, a.seo:focus, a.webDesign:hover, a.webDesign:active, a.webDesign:focus, a.digitalMarketing:hover, a.digitalMarketing:active, a.digitalMarketing:focus {
+    background: white;
+    color: rgb(23, 185, 186);
 }
