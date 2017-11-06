@@ -15,10 +15,15 @@ body {
 /******************************
 Header styling
 ******************************/
+/* Header encapsulation */
+header {
+    padding: 0 3%;
+}
+
+/* Image top left logo styling */
 .imageLogo {
     float: left;
     width: 300px;
-    margin: 0 0 0 10px;
 }
 
 /* Menu encapsulated items */
