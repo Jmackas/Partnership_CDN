@@ -67,6 +67,23 @@ header {
 /******************************
 Introductory module
 ******************************/
+/* Introductory module encapsulation */
 .introModule {
     background: rgb(66,138,201);
+    text-align: center;
+    padding: 4% 0 19% 0;
+}
+
+/* Header one styling (universal) */
+h1 {
+    color: white;
+    font-size: 450%;
+    margin: 0;
+}
+
+/* Header two styling (universal) */
+h2 {
+    color: white;
+    font-size: 200%;
+    margin: 0;
 }
