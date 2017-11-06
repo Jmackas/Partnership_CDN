@@ -11,14 +11,12 @@ body {
     color: #595959;
 }
 
-
 /******************************
 Header styling
 ******************************/
 /* Header encapsulation */
 header {
-    padding: 2%;
-    border-bottom: 1px solid black;
+    display: flex;
 }
 
 /* Image top left logo styling */
@@ -28,19 +26,18 @@ header {
 
 /* Menu encapsulated items */
 header ul {
-    float: right;
-    padding: 1%;
+    margin: 48px 0 0 0;
+    display: flex;
 }
 
 /* Menu individual items */
 header li {
-    float: left;
     list-style-type: none;
 }
 
 /* Menu items hyperlink */
 header li a {
-    padding: 20px;
+    padding: 50px 20px;
     margin: 0 20px;
 }
 
@@ -48,4 +45,11 @@ header li a {
 .contactUs {
     background: rgb(23,185,186);
     color: white;
+}
+
+/******************************
+Introductory module
+******************************/
+.introModule {
+    background: rgb(66,138,201);
 }
