@@ -53,7 +53,6 @@ h3 {
     margin: 0 0 10% 0;
 }
 
-
 /******************************
 Header styling
 ******************************/
@@ -114,17 +113,21 @@ Introductory module
 .introModule {
     text-align: center;
     padding: 4% 0 15% 0;
-    background: -moz-linear-gradient(top, #428ac9 0%, #2989d8 68%, #17b9ba 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #428ac9 0%,#2989d8 68%,#17b9ba 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #428ac9 0%,#2989d8 68%,#17b9ba 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#428ac9', endColorstr='#17b9ba',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(top, #428ac9 0%, #2989d8 68%, #17b9ba 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #428ac9 0%,#2989d8 68%,#17b9ba 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #428ac9 0%,#2989d8 68%,#17b9ba 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#428ac9', endColorstr='#17b9ba',GradientType=0 );
+    /* IE6-9 */
 }
 
 /******************************
 'About Us' section
 ******************************/
 /* About Us section' encapsulation */
-.aboutUs{
+.aboutUs {
     background: #3e89cb;
     padding: 2% 3%;
 }
@@ -132,7 +135,54 @@ Introductory module
 /******************************
 'Services' section
 ******************************/
+/* 'Services section' encapsulation */
 .ourServices {
-    background: rgb(23,185,186);;
+    background: rgb(23,185,186);
     padding: 2% 3%;
+}
+
+/* Encapsulating the bubbles */
+.servicesBubbles {
+    display: flex;
+}
+
+/* Encapsulating the 'Web Design' bubble and 'Search Engine Optimisation' bubble */
+.webDesignSeo {
+    width: 49%;
+    margin-left: 2%;
+}
+
+/* 'Digital marketing' bubble */
+a.digitalMarketing {
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    height: 400px;
+}
+
+/*'Web Design' bubble */
+a.webDesign {
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 185px;
+    margin-bottom: 30px;
+}
+
+/*'Search Engine Optimisation' bubble */
+a.seo {
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 185px;
 }
