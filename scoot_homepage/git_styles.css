@@ -16,11 +16,9 @@ body {
 Header styling
 ******************************/
 .imageLogo {
-    background-image: url(https://raw.githubusercontent.com/Jmackas/Partnership_CDN/master/scoot_homepage/elements/logo.jpg);
     float: left;
-    padding: 20px 72px;
-    margin: -5px 13px;
-    background-size: cover;
+    width: 300px;
+    margin: 0 0 0 10px;
 }
 
 /* Menu encapsulated items */
