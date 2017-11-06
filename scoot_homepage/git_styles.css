@@ -26,18 +26,12 @@ header {
 }
 
 /* Menu encapsulated items */
+.menuItems {
 
-/* Menu individual items */
-header li {
-    list-style-type: none;
-}
-
-/* Menu items hyperlink */
-header li a {
 }
 
 /* Menu item 'Contact Us' */
-.contactUs {
+.menuItems .contactUs {
     background: rgb(23,185,186);
     color: white;
 }
