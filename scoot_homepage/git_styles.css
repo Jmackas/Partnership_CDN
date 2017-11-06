@@ -44,12 +44,24 @@ header {
 /* Individual menu items */
 .menuItems a {
     padding: 3% 3%;
+    transition: 0.4s;
+}
+
+/* Individual menu items interaction */
+.menuItems a:hover, .menuItems a:active, .menuItems a:focus {
+    background: rgb(23,185,186);
+    color: white;
 }
 
 /* Menu item 'Contact Us' */
 .menuItems .contactUs {
     background: rgb(23,185,186);
     color: white;
+}
+
+/* Menu item 'Contact Us' interaction */
+.menuItems .contactUs:hover, .menuItems .contactUs:active, .menuItems .contactUs:focus {
+    background: rgb(66,138,201);
 }
 
 /******************************
