@@ -38,12 +38,14 @@ h1 {
     color: white;
     font-size: 450%;
     margin: 0;
+    text-shadow: 1px 1px 1px black;
 }
 
 /* Header two styling (universal) */
 h2 {
     color: white;
     font-size: 300%;
+    text-shadow: 1px 1px 1px black;
 }
 
 /* Header three styling (universal) */
@@ -51,6 +53,7 @@ h3 {
     color: white;
     font-size: 200%;
     margin: 0 0 10% 0;
+    text-shadow: 1px 1px 1px black;
 }
 
 /******************************
@@ -155,6 +158,7 @@ Introductory module
 /* 'Digital marketing' bubble */
 a.digitalMarketing {
     border: 1px solid white;
+    font-size: 200%;
     border-radius: 5px;
     color: white;
     display: flex;
