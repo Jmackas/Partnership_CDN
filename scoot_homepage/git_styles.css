@@ -2,6 +2,20 @@
 Link to website: http://4ff.b17.myftpupload.com/
 Inspiration: https://myst.gr/ 
 Gradient colour inspiration: http://www.colorzilla.com/gradient-editor/
+
+What needs to be done:
+    Mobile friendliness
+
+    Logo fixed to not look weird on the top left.
+
+    A little more excitement.
+
+    Fill in the lorem ipsum text.
+
+    The contact details need to be fixed up.
+
+    The footer needs to be added.
+
 */
 /******************************
 Universal elements
@@ -200,4 +214,19 @@ a.seo {
 a.seo:hover, a.seo:active, a.seo:focus, a.webDesign:hover, a.webDesign:active, a.webDesign:focus, a.digitalMarketing:hover, a.digitalMarketing:active, a.digitalMarketing:focus {
     background: white;
     color: rgb(23, 185, 186);
+}
+
+/******************************
+'Contact Us' section
+******************************/
+/* Contact Form encapsulation */
+.contactUsForm {
+    text-align: center;
+    padding: 2% 23%;
+    background: #3e89cb;
+}
+
+/* Remove the generated form header */
+.contactUsForm h3 {
+    display: none;
 }
