@@ -19,7 +19,12 @@ Header styling
     background-image: url(https://raw.githubusercontent.com/Jmackas/Partnership_CDN/master/scoot_homepage/elements/logo.jpg);
 }
 
-/* Menu items */
+/* Menu encapsulated items */
+header ul {
+    float: right;
+}
+
+/* Menu individual items */
 header li {
     float: left;
     list-style-type: none;
