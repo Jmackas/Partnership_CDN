@@ -33,6 +33,27 @@ body {
     color: #333;
 }
 
+/* Header one styling (universal) */
+h1 {
+    color: white;
+    font-size: 450%;
+    margin: 0;
+}
+
+/* Header two styling (universal) */
+h2 {
+    color: white;
+    font-size: 300%;
+}
+
+/* Header three styling (universal) */
+h3 {
+    color: white;
+    font-size: 200%;
+    margin: 0 0 10% 0;
+}
+
+
 /******************************
 Header styling
 ******************************/
@@ -99,20 +120,6 @@ Introductory module
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#428ac9', endColorstr='#17b9ba',GradientType=0 ); /* IE6-9 */
 }
 
-/* Header one styling (universal) */
-h1 {
-    color: white;
-    font-size: 450%;
-    margin: 0;
-}
-
-/* Header three styling (universal) */
-h3 {
-    color: white;
-    font-size: 200%;
-    margin: 0 0 10% 0;
-}
-
 /******************************
 'About Us' section
 ******************************/
@@ -120,12 +127,6 @@ h3 {
 .aboutUs{
     background: #3e89cb;
     padding: 2% 3%;
-}
-
-/* Header two styling (universal) */
-h2 {
-    color: white;
-    font-size: 300%;
 }
 
 /******************************
