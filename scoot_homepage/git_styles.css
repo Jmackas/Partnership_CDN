@@ -11,34 +11,10 @@ body {
     color: #595959;
 }
 
-.headingDivider {
-    background: #ececec;
-    font-size: 300%;
-    padding: 1%;
-}
 
 /******************************
 Header styling
 ******************************/
-/* main header styling */
-.frontPage header {
-    display: flex;
-    padding: 1%;
-}
-
-/* logo styling */
-.frontPage header img {
-    width: 120px;
-    height: 40px;
-}
-
 .imageLogo {
     background-image: url(https://raw.githubusercontent.com/Jmackas/Partnership_CDN/master/scoot_homepage/elements/logo.jpg);
-}
-
-/******************************
-Slider styling
-******************************/
-.frontPage .slider {
-    background: green;
 }
