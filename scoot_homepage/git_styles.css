@@ -17,17 +17,33 @@ Header styling
 /* Header encapsulation */
 header {
     display: flex;
+    padding: 0 4%;
 }
 
-/* Image top left logo styling */
+/* Logo top left container */
 .imageLogo {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Targeted logo */
+.imageLogo img {
     width: 200px;
     height: 75px;
+    display: flex;
 }
 
 /* Menu encapsulated items */
 .menuItems {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
 
+/* Individual menu items */
+.menuItems a {
+    padding: 3% 3%;
 }
 
 /* Menu item 'Contact Us' */
