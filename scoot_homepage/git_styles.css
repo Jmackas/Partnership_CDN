@@ -17,18 +17,19 @@ Header styling
 ******************************/
 /* Header encapsulation */
 header {
-    padding: 3%;
+    padding: 2%;
     border-bottom: 1px solid black;
 }
 
 /* Image top left logo styling */
 .imageLogo {
-    width: 300px;
+    width: 200px;
 }
 
 /* Menu encapsulated items */
 header ul {
     float: right;
+    padding: 1%;
 }
 
 /* Menu individual items */
@@ -40,9 +41,11 @@ header li {
 /* Menu items hyperlink */
 header li a {
     padding: 20px;
+    margin: 0 20px;
 }
 
 /* Menu item 'Contact Us' */
 .contactUs {
     background: rgb(23,185,186);
+    color: white;
 }
