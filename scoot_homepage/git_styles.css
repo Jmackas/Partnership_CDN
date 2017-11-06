@@ -19,11 +19,19 @@ body {
 }
 
 /* Scoot custom button */
-a.scootButton {
+.scootButton {
     color: white;
     border: 1px solid white;
     border-radius: 5px;
+    font-size: 130%;
     padding: 2% 4%;
+    transition: 0.4s;
+}
+
+/* Scoot custom button action */
+.scootButton:hover, .scootButton:focus,.scootButton:active {
+    background: white;
+    color: #333;
 }
 
 /******************************
