@@ -11,6 +11,14 @@ body {
     color: #595959;
 }
 
+/* Module divider */
+.moduleDivider {
+    padding: 1%;
+    background: rgb(23,185,186);
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
 /******************************
 Header styling
 ******************************/
