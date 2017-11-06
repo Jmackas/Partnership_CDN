@@ -22,13 +22,10 @@ header {
 /* Image top left logo styling */
 .imageLogo {
     width: 200px;
+    height: 75px;
 }
 
 /* Menu encapsulated items */
-header ul {
-    margin: 48px 0 0 0;
-    display: flex;
-}
 
 /* Menu individual items */
 header li {
@@ -37,8 +34,6 @@ header li {
 
 /* Menu items hyperlink */
 header li a {
-    padding: 50px 20px;
-    margin: 0 20px;
 }
 
 /* Menu item 'Contact Us' */
