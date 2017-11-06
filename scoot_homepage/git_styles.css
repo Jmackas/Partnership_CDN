@@ -9,19 +9,18 @@ Universal elements
 /* The element that can target everything */
 body {
     font-family: roboto;
-    color: #595959;
+    color: white;
 }
 
 /* Module divider */
-.moduleDivider {
-    padding: 1%;
-    background: rgb(23,185,186);
+.moduleDivider {;
+    border-top: 2px solid white;
 }
 
 /* Scoot custom button */
 .scootButton {
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 5px;
     font-size: 130%;
     padding: 2% 4%;
@@ -90,7 +89,7 @@ header {
 /******************************
 Introductory module
 ******************************/
-/* Introductory module encapsulation */
+/* 'Introductory module' encapsulation */
 .introModule {
     text-align: center;
     padding: 4% 0 10% 0;
@@ -107,9 +106,24 @@ h1 {
     margin: 0;
 }
 
-/* Header two styling (universal) */
-h2 {
+/* Header three styling (universal) */
+h3 {
     color: white;
     font-size: 200%;
     margin: 0 0 10% 0;
+}
+
+/******************************
+About Us
+******************************/
+/* Header two styling (universal) */
+h2 {
+    color: white;
+    font-size: 300%;
+}
+
+/* About Us section' encapsulation */
+.aboutUs{
+    background: #3e89cb;
+    padding: 2% 3%;
 }
