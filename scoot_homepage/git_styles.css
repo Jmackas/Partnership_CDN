@@ -231,6 +231,24 @@ a.seo:hover, a.seo:active, a.seo:focus, a.webDesign:hover, a.webDesign:active, a
     color: rgb(23, 185, 186);
 }
 
+@media only screen and (max-width: 620px) {
+    .servicesBubbles  {
+        display: block;
+    }
+
+    .webDesignSeo, a.digitalMarketing {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    a.seo, a.webDesign {
+        width: 100%;
+        margin: 5px 0;
+        height: 140px;
+    }
+}
+
 /******************************
 'Contact Us' section
 ******************************/
