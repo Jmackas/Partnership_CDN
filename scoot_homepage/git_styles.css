@@ -126,6 +126,11 @@ header {
     background: rgb(66,138,201);
 }
 
+/* Media query for aforementioned elements */
+@media only screen and (max-width: 1125px) {
+
+}
+
 /******************************
 Introductory module
 ******************************/
