@@ -253,7 +253,7 @@ a.seo:hover, a.seo:active, a.seo:focus, a.webDesign:hover, a.webDesign:active, a
 /******************************
 'Contact Us' section
 ******************************/
-/* Contact Form encapsulation */
+/* 'Contact Us' encapsulation */
 .contactUs {
     text-align: center;
     padding: 2% 23%;
@@ -275,11 +275,18 @@ label {
     color: white;
 }
 
+/* Media query that encapsulates the entirety of the 'Contact Us' section */
+@media only screen and (max-width: 869px) {
+    .contactUs {
+        padding: 2%;
+    }
+}
+
 /******************************
 Footer
 ******************************/
 footer {
     background: black;
-    padding: 1%;
+    padding: 2% 3%;
     text-align: center;
 }
