@@ -274,3 +274,10 @@ a.seo:hover, a.seo:active, a.seo:focus, a.webDesign:hover, a.webDesign:active, a
 label {
     color: white;
 }
+
+/******************************
+Footer
+******************************/
+footer {
+    background: black;
+}
