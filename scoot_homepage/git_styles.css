@@ -280,4 +280,6 @@ Footer
 ******************************/
 footer {
     background: black;
+    padding: 1%;
+    text-align: center;
 }
