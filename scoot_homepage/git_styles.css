@@ -123,7 +123,7 @@ header {
 
 /* Menu item 'Contact Us' interaction */
 .menuItems .contactUs:hover, .menuItems .contactUs:active, .menuItems .contactUs:focus {
-    background: rgb(66,138,201);
+    background: rgb(23,185,186);
 }
 
 /* Media query for all 'Header styling' */
