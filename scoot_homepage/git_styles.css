@@ -126,9 +126,16 @@ header {
     background: rgb(66,138,201);
 }
 
-/* Media query for aforementioned elements */
-@media only screen and (max-width: 1125px) {
+/* Media query for all 'Header styling' */
+@media only screen and (max-width: 620px) {
+    .menuItems {
+        display: none;
+    }
 
+    header {
+        justify-content: center;
+        padding: 20px;
+    }
 }
 
 /******************************
