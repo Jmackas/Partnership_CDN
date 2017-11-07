@@ -5,9 +5,9 @@ Gradient colour inspiration: http://www.colorzilla.com/gradient-editor/
 
 What needs to be done:
 
-    Form button changed to Scoot Digital Style
-
     A little more excitement.
+
+    The form needs to lead someowhere.
 
     Fill in the lorem ipsum text.
 
@@ -19,7 +19,7 @@ Universal elements
 ******************************/
 /* The element that can target everything */
 body {
-    font-family: roboto;
+    font-family: 'Ubuntu', sans-serif;
     color: white;
 }
 
