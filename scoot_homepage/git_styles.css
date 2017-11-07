@@ -4,15 +4,12 @@ Inspiration: https://myst.gr/
 Gradient colour inspiration: http://www.colorzilla.com/gradient-editor/
 
 What needs to be done:
-    Mobile friendliness
 
-    Logo fixed to not look weird on the top left.
+    Form button changed to Scoot Digital Style
 
     A little more excitement.
 
     Fill in the lorem ipsum text.
-
-    The contact details need to be fixed up.
 
     The footer needs to be added.
 
@@ -24,6 +21,10 @@ Universal elements
 body {
     font-family: roboto;
     color: white;
+}
+
+p {
+    font-size: 130%;
 }
 
 /* Module divider */
