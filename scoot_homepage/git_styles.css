@@ -117,7 +117,7 @@ header {
 
 /* Menu item 'Contact Us' */
 .menuItems .contactUs {
-    background: rgb(23,185,186);
+    background: #FF6B40;
     color: white;
 }
 
@@ -256,7 +256,7 @@ a.seo:hover, a.seo:active, a.seo:focus, a.webDesign:hover, a.webDesign:active, a
 .contactUs {
     text-align: center;
     padding: 2% 23%;
-    background: #3e89cb;
+    background: #FF6B40;
 }
 
 /* Increase the size of the paragraph text */
