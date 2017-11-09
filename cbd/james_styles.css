@@ -49,14 +49,11 @@ Front page
     }
 }
 
-
+/* Keep the hyperlink colour white */
 .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-2 a, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-3 a, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-4 a, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-5 a {
     color: white;
 }
 
-.siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-2:hover, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-3:hover, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-4:hover, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-5:hover {
-    transform: scale(1.01);
-}
 
 /*********************
 Footer 
