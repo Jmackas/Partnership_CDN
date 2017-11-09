@@ -54,6 +54,25 @@ Front page
     color: white;
 }
 
+/*********************
+Carpet Sandbox
+*********************/
+/* Encapsulating all elements within this class */
+.carpetSandbox {
+
+}
+
+/* Encapsulating all the elements that the display the image */
+.display {
+
+}
+
+/* Encapsulating all the elements that the display the user select buttons */
+.userSelect {
+
+}
+
+
 
 /*********************
 Footer 
