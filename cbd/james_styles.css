@@ -73,6 +73,8 @@ Front page
 /* All modules individually combined */
 .springFeels, .contemporaryFeels, .contrastingWhites, .warmAndCosy {
     font-size: 400%;
+    font-family: cbd-font;
+    font-weight: bold;
     color: white;
     text-shadow: 2px 2px 2px black;
     display: flex;
