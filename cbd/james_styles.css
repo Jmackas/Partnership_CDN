@@ -85,21 +85,25 @@ Front page
 /* 'Spring Feels' module' */
 .springFeels {
     background-image: url('https://carpetsbydesign.net.au/wp-content/uploads/2017/06/M24-Interior-Render-1.jpg');
+        background-position: center;
 }
 
 /* 'Contemporary' module */
 .contemporaryFeels {
     background-image: url('https://carpetsbydesign.net.au/wp-content/uploads/2017/10/Falcon-Kitchen-Living.jpg');
+    background-position: center;
 }
 
 /* 'Contrasting Whites' module */
 .contrastingWhites {
     background-image: url('https://carpetsbydesign.net.au/wp-content/uploads/2017/10/140812-Falcon-Unit-50-Living-Final-2000.jpg');
+    background-position: center;
 }
 
 /* 'Warm and Cosy' module */
 .warmAndCosy {
     background-image: url('https://carpetsbydesign.net.au/wp-content/uploads/2017/10/M24-Interior-Render-2.jpg');
+    background-position: bottom;
 }
 
 /*********************
