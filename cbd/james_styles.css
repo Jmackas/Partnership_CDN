@@ -69,7 +69,6 @@ Front page
 
 /* All modules individually combined */
 .springFeels, .contemporaryFeels, .contrastingWhites, .warmAndCosy {
-    display: flex;
     width: 40%;
     height: 400px;
 }
