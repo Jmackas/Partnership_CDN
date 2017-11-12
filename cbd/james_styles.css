@@ -108,6 +108,13 @@ Front page
     background-position: bottom;
 }
 
+/* Text size reduce at 1027px screen size */
+@media only screen and (max-width: 1027px) {
+    .springFeels, .contemporaryFeels, .contrastingWhites, .warmAndCosy {
+        font-size: 180% !important;
+    }
+}
+
 /*********************
 Carpet Sandbox
 *********************/
