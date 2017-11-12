@@ -61,8 +61,8 @@ Front page
 .getInspired {
     justify-content: center;
     /* Required margin attributes to force full width */
-    margin-left: -381.5px;
-    margin-right: -381.5px;
+    margin-left: -5%;
+    margin-right: -5%;
 }
 
 /* Confined rows for each module */
