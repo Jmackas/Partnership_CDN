@@ -55,6 +55,21 @@ Front page
 }
 
 /*********************
+'Get Inspired' modules on front page
+*********************/
+/* Encapsulating all the elements within thse four modules */
+.getInspired {
+    display: flex;
+    justify-content: center;
+
+    /* Required margin attributes to force full width */
+    margin-left: -381.5px;
+    margin-right: -381.5px;
+}
+
+
+
+/*********************
 Carpet Sandbox
 *********************/
 /* Encapsulating all elements within this class */
