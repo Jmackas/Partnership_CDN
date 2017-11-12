@@ -42,18 +42,6 @@ Front page
     width: 100%;
 }
 
-/* Reduce the size of the 'Contemporary' text under 'Get Inspired' */
-@media only screen and (max-width: 442px) {
-    .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-3 span {
-        font-size: 180% !important;
-    }
-}
-
-/* Keep the hyperlink colour white */
-.siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-2 a, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-3 a, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-4 a, .siteorigin-panels-stretch.panel-row-style-full-width.panel-row-style.panel-row-style-for-255-5 a {
-    color: white;
-}
-
 /*********************
 'Get Inspired' modules on front page
 *********************/
