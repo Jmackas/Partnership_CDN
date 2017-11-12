@@ -58,6 +58,11 @@ Front page
     display: flex;
 }
 
+/* Removal of permanent red colour on links when clicked */
+.getInspired a:visited {
+    color: white;
+}
+
 /* All modules individually combined */
 .springFeels, .contemporaryFeels, .contrastingWhites, .warmAndCosy {
     font-size: 400%;
