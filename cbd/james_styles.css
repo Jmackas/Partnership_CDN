@@ -63,6 +63,11 @@ Front page
     color: white;
 }
 
+/* Addition of a hover effect on links */
+.getInspired a:hover {
+    color: red;
+}
+
 /* All modules individually combined */
 .springFeels, .contemporaryFeels, .contrastingWhites, .warmAndCosy {
     font-size: 400%;

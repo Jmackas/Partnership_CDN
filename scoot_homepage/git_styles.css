@@ -45,7 +45,7 @@ p {
 /* Scoot custom button action */
 .scootButton:hover, .scootButton:focus,.scootButton:active {
     background: white;
-    color: #3e89cb;
+    color: black;
 }
 
 /* Header one styling (universal) */
@@ -70,6 +70,22 @@ h3 {
     margin: 0 0 10% 0;
     text-shadow: 1px 1px 1px black;
 }
+
+/******************************
+Fixed hyperlink modules
+******************************/
+/* 'Fixed hyperlink module' encapsulation */
+.fixedHyperlinks {
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+}
+
+/* Colour of the buttons  */
+.fixedHyperlinks a {
+    color: white;
+}
+
 
 /******************************
 Header styling
@@ -146,14 +162,10 @@ Introductory module
 .introModule {
     text-align: center;
     padding: 4% 0 15% 0;
-    background: -moz-linear-gradient(top, #428ac9 0%, #2989d8 68%, #17b9ba 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #428ac9 0%,#2989d8 68%,#17b9ba 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #428ac9 0%,#2989d8 68%,#17b9ba 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#428ac9', endColorstr='#17b9ba',GradientType=0 );
-    /* IE6-9 */
+    background-image: url('https://raw.githubusercontent.com/Jmackas/Partnership_CDN/master/scoot_homepage/elements/header.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 /******************************
@@ -170,7 +182,10 @@ Introductory module
 ******************************/
 /* 'Services section' encapsulation */
 .ourServices {
-    background: rgb(23,185,186);
+    background-image: url('https://github.com/Jmackas/Partnership_CDN/blob/master/scoot_homepage/elements/person_on_phone.jpg?raw=true');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     padding: 2% 3%;
 }
 
@@ -229,11 +244,11 @@ a.seo {
 /* All bubbles on interaction */
 a.seo:hover, a.seo:active, a.seo:focus, a.webDesign:hover, a.webDesign:active, a.webDesign:focus, a.digitalMarketing:hover, a.digitalMarketing:active, a.digitalMarketing:focus {
     background: white;
-    color: rgb(23, 185, 186);
+    color: black;
 }
 
 @media only screen and (max-width: 620px) {
-    .servicesBubbles  {
+    .servicesBubbles {
         display: block;
     }
 
