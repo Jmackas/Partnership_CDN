@@ -21,17 +21,7 @@ body {
     border: 1px solid black !important;
 }
 
-/* 50% width wrapper for the image */ 
-.halfSizeWrapper {
-    width: 50%;
-}
 
-/* Media Query breakpoint for wrapper */ 
-@media only screen and (max-width: 1027px) {
-    .halfSizeWrapper {
-        width: 50%;
-    }
-}
 
 
 /*********************
@@ -147,4 +137,28 @@ Footer
 /* Product category links underlined */
 ul.product-categories {
     text-decoration: underline;
+}
+
+/*********************
+Article frameworks general
+*********************/
+/* 50% width wrapper for the image */ 
+.halfSizeWrapper {
+    width: 50%;
+    float: left;
+}
+
+/* Media Query breakpoint for wrapper */ 
+@media only screen and (max-width: 1027px) {
+    .halfSizeWrapper {
+        width: 50%;
+    }
+}
+
+/*********************
+Article frameworks No1
+*********************/
+/* Figcaption for articles styles */
+.frameworkOne figcaption {
+    text-align: center;
 }
