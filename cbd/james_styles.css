@@ -146,13 +146,22 @@ Article frameworks general
 .imageWrapper {
     display: flex;
     justify-content: center;
-    width: 50%;
+}
+
+/* Image within wrapper */
+.imageWrapper img {
+
 }
 
 
 /*********************
 Article frameworks No1
 *********************/
+/* Bold H2 styles */
+h2 {
+    font-weight: bold;
+}
+
 /* Figcaption for articles styles */
 .frameworkOne figcaption {
     text-align: center;
