@@ -142,19 +142,11 @@ ul.product-categories {
 /*********************
 Article frameworks general
 *********************/
-/* 50% width wrapper for the image */ 
-.halfSizeWrapper {
-    width: 50%;
-    float: left;
-    padding: 0 20px 0 0;
+/* 100% width wrapper for the image */ 
+.imageWrapper {
+    width: 100%;
 }
 
-/* Media Query breakpoint for wrapper */ 
-@media only screen and (max-width: 1027px) {
-    .halfSizeWrapper {
-        width: 50%;
-    }
-}
 
 /*********************
 Article frameworks No1
