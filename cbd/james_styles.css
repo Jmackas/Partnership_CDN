@@ -146,6 +146,7 @@ Article frameworks general
 .halfSizeWrapper {
     width: 50%;
     float: left;
+    padding: 0 20px 0 0;
 }
 
 /* Media Query breakpoint for wrapper */ 
