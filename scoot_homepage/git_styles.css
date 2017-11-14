@@ -146,14 +146,10 @@ Introductory module
 .introModule {
     text-align: center;
     padding: 4% 0 15% 0;
-    background: -moz-linear-gradient(top, #428ac9 0%, #2989d8 68%, #17b9ba 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #428ac9 0%,#2989d8 68%,#17b9ba 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #428ac9 0%,#2989d8 68%,#17b9ba 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#428ac9', endColorstr='#17b9ba',GradientType=0 );
-    /* IE6-9 */
+    background-image: url('https://raw.githubusercontent.com/Jmackas/Partnership_CDN/master/scoot_homepage/elements/header.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;   
 }
 
 /******************************
