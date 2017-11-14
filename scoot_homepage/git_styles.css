@@ -72,6 +72,15 @@ h3 {
 }
 
 /******************************
+Fixed hyperlink modules
+******************************/
+/* 'Fixed hyperlink module' encapsulation */
+.fixedHyperlinks {
+    position: fixed;
+}
+
+
+/******************************
 Header styling
 ******************************/
 /* Header encapsulation */
