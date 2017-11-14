@@ -149,9 +149,10 @@ Article frameworks general
 }
 
 /* Force image to full mobile width */
-@media only screen and (max-width: 1027px) {
+@media only screen and (max-width: 800px) {
     .imageWrapper img {
         width: 100%;
+        display: block;
     }
 }
 
