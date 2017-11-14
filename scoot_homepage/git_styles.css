@@ -2,17 +2,6 @@
 Link to website: http://4ff.b17.myftpupload.com/
 Inspiration: https://myst.gr/ 
 Gradient colour inspiration: http://www.colorzilla.com/gradient-editor/
-
-What needs to be done:
-
-    A little more excitement.
-
-    The form needs to lead someowhere.
-
-    Fill in the lorem ipsum text.
-
-    The footer needs to be added.
-
 */
 /******************************
 Universal elements
@@ -77,13 +66,19 @@ Fixed hyperlink modules
 /* 'Fixed hyperlink module' encapsulation */
 .fixedHyperlinks {
     position: fixed;
-    right: 0;
+    right: 1%;
     bottom: 50%;
 }
 
 /* Colour of the buttons  */
 .fixedHyperlinks a {
     color: white;
+    transition: 0.4s;
+    font-size: 120%;
+}
+
+.fixedHyperlinks a:hover {
+    color: #15babc
 }
 
 
