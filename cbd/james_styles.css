@@ -21,6 +21,19 @@ body {
     border: 1px solid black !important;
 }
 
+/* 50% width wrapper for the image */ 
+.halfSizeWrapper {
+    width: 50%;
+}
+
+/* Media Query breakpoint for wrapper */ 
+@media only screen and (max-width: 1027px) {
+    .halfSizeWrapper {
+        width: 50%;
+    }
+}
+
+
 /*********************
 Menu items
 *********************/
