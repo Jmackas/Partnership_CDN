@@ -45,7 +45,7 @@ p {
 /* Scoot custom button action */
 .scootButton:hover, .scootButton:focus,.scootButton:active {
     background: white;
-    color: #3e89cb;
+    color: black;
 }
 
 /* Header one styling (universal) */
