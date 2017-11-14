@@ -77,6 +77,13 @@ Fixed hyperlink modules
 /* 'Fixed hyperlink module' encapsulation */
 .fixedHyperlinks {
     position: fixed;
+    right: 0;
+    bottom: 50%;
+}
+
+/* Colour of the buttons  */
+.fixedHyperlinks a {
+    color: white;
 }
 
 
