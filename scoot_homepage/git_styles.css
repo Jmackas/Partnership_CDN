@@ -77,6 +77,7 @@ Fixed hyperlink modules
     font-size: 120%;
 }
 
+/* Individual menu items interaction */
 .fixedHyperlinks a:hover {
     color: #15babc
 }
