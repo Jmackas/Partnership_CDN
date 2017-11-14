@@ -150,8 +150,9 @@ Article frameworks general
 
 /* Force image to full mobile width */
 @media only screen and (max-width: 800px) {
-    .imageWrapper img {
+    .imageWrapper {
         width: 100%;
+        text-align: center;
         display: block;
     }
 }
