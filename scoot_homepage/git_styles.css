@@ -149,7 +149,7 @@ Introductory module
     background-image: url('https://raw.githubusercontent.com/Jmackas/Partnership_CDN/master/scoot_homepage/elements/header.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;   
+    background-position: center;
 }
 
 /******************************
@@ -166,7 +166,10 @@ Introductory module
 ******************************/
 /* 'Services section' encapsulation */
 .ourServices {
-    background: rgb(23,185,186);
+    background-image: url('https://github.com/Jmackas/Partnership_CDN/blob/master/scoot_homepage/elements/person_on_phone.jpg?raw=true');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     padding: 2% 3%;
 }
 
@@ -229,7 +232,7 @@ a.seo:hover, a.seo:active, a.seo:focus, a.webDesign:hover, a.webDesign:active, a
 }
 
 @media only screen and (max-width: 620px) {
-    .servicesBubbles  {
+    .servicesBubbles {
         display: block;
     }
 
