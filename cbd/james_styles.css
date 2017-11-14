@@ -148,9 +148,11 @@ Article frameworks general
     justify-content: center;
 }
 
-/* Image within wrapper */
-.imageWrapper img {
-
+/* Force image to full mobile width */
+@media only screen and (max-width: 1027px) {
+    .imageWrapper img {
+        width: 100%;
+    }
 }
 
 
