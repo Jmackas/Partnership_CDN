@@ -142,9 +142,11 @@ ul.product-categories {
 /*********************
 Article frameworks general
 *********************/
-/* 100% width wrapper for the image */ 
+/* Width wrapper for the image */ 
 .imageWrapper {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
 }
 
 
