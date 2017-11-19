@@ -162,7 +162,7 @@ Article frameworks general
 Article frameworks No1
 *********************/
 /* Bold H2 styles */
-h2 {
+.frameworkOne h2 {
     font-weight: bold;
 }
 
