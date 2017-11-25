@@ -170,7 +170,7 @@ Introductory module
 /* About Us section' encapsulation */
 .aboutUs {
     background: #3e89cb;
-    padding: 2% 3%;
+    padding: 2% 20%;
 }
 
 /******************************
@@ -182,7 +182,7 @@ Introductory module
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    padding: 2% 3%;
+    padding: 2% 20%;
 }
 
 /* Encapsulating the bubbles */
