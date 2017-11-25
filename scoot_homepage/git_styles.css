@@ -301,3 +301,13 @@ footer {
     padding: 2% 3%;
     text-align: center;
 }
+
+/******************************
+Other miscellaneous code
+******************************/
+/* Force the article widths back to normal in mobile */
+@media only screen and (max-width: 782px) {
+    .ourServices, .aboutUs {
+    padding: 2% 3%;
+    }
+}
