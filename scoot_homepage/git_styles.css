@@ -188,6 +188,7 @@ Introductory module
 /* Encapsulating the bubbles */
 .servicesBubbles {
     display: flex;
+    text-align: center;
 }
 
 /* Encapsulating the 'Web Design' bubble and 'Search Engine Optimisation' bubble */
@@ -235,6 +236,7 @@ a.seo {
     justify-content: center;
     align-items: center;
     height: 185px;
+    /*! text-align: center; */
 }
 
 /* All bubbles on interaction */
