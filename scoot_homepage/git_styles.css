@@ -77,9 +77,14 @@ Fixed hyperlink modules
     font-size: 120%;
 }
 
+/* Static colour of buttons when selected */
+.fixedHyperlinks a:focus {
+    background: #15babc;
+}
+
 /* Individual menu items interaction */
 .fixedHyperlinks a:hover {
-    color: #15babc
+    color: #15babc;
 }
 
 
