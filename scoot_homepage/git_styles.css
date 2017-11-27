@@ -78,6 +78,17 @@ Fixed hyperlink modules
     font-size: 120%;
 }
 
+/* Hide label in original state */
+.fixedHyperlinks span {
+    display: none;
+}
+
+/* Show label on hover */
+.fixedHyperlinks:hover span {
+    display: inline-block;
+}
+
+
 /* Static colour of buttons when selected */
 .fixedHyperlinks a:focus {
     color: #15babc;
