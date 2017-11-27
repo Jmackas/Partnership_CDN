@@ -79,7 +79,7 @@ Fixed hyperlink modules
 
 /* Static colour of buttons when selected */
 .fixedHyperlinks a:focus {
-    background: #15babc;
+    color: #15babc;
 }
 
 /* Individual menu items interaction */
