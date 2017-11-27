@@ -74,8 +74,8 @@ Fixed hyperlink modules
 /* Colour of the buttons  */
 .fixedHyperlinks a {
     color: white;
-    transition: 0.4s;
     font-size: 120%;
+    transition: 0.4s;
 }
 
 /* Hide label in original state */
