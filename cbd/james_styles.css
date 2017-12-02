@@ -125,6 +125,14 @@ ul.product-categories {
 }
 
 /*********************
+WooCommerce Modules
+*********************/
+/* Increased padding under the product displays */
+.woocommerce-products-header {
+    padding: 2% 0 0 0;
+}
+
+/*********************
 Article frameworks general
 *********************/
 /* Width wrapper for the image */ 
