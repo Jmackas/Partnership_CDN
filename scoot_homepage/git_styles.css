@@ -2,6 +2,7 @@
 Link to website: http://4ff.b17.myftpupload.com/
 Inspiration: https://myst.gr/ 
 Gradient colour inspiration: http://www.colorzilla.com/gradient-editor/
+https://www.wauc.org.au/
 */
 /******************************
 Universal elements
@@ -73,13 +74,29 @@ Fixed hyperlink modules
 /* Colour of the buttons  */
 .fixedHyperlinks a {
     color: white;
-    transition: 0.4s;
     font-size: 120%;
+    transition: 0.4s;
+}
+
+/* Hide label in original state */
+.fixedHyperlinks span {
+    display: none;
+}
+
+/* Show label on hover */
+.fixedHyperlinks:hover span {
+    display: inline-block;
+}
+
+
+/* Static colour of buttons when selected */
+.fixedHyperlinks a:focus {
+    color: #15babc;
 }
 
 /* Individual menu items interaction */
 .fixedHyperlinks a:hover {
-    color: #15babc
+    color: #15babc;
 }
 
 
@@ -170,7 +187,7 @@ Introductory module
 /* About Us section' encapsulation */
 .aboutUs {
     background: #3e89cb;
-    padding: 2% 3%;
+    padding: 2% 20%;
 }
 
 /******************************
@@ -182,12 +199,13 @@ Introductory module
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    padding: 2% 3%;
+    padding: 2% 20%;
 }
 
 /* Encapsulating the bubbles */
 .servicesBubbles {
     display: flex;
+    text-align: center;
 }
 
 /* Encapsulating the 'Web Design' bubble and 'Search Engine Optimisation' bubble */
@@ -235,6 +253,7 @@ a.seo {
     justify-content: center;
     align-items: center;
     height: 185px;
+    /*! text-align: center; */
 }
 
 /* All bubbles on interaction */
@@ -300,4 +319,14 @@ footer {
     background: black;
     padding: 2% 3%;
     text-align: center;
+}
+
+/******************************
+Other miscellaneous code
+******************************/
+/* Force the article widths back to normal in mobile */
+@media only screen and (max-width: 782px) {
+    .ourServices, .aboutUs {
+    padding: 2% 3%;
+    }
 }
