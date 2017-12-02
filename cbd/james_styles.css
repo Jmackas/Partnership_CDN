@@ -8,7 +8,19 @@ Notes:
 Completed (excluding stylesheet updates below):
     - The font size of the text on the first page under the header 'Carpets By Design', + some grammar fixes.
 
+Table of Contents:
+# Universal elements
+# Menu items
+# Front Page
+    # 'Get Inspired' modules
+# Footer
+# WooCommerce Modules
+# Article frameworks general
+    # Article frameworks No1
+
 */
+
+
 /*********************
 Universal elements
 *********************/
@@ -46,7 +58,7 @@ Front page
 }
 
 /*********************
-'Get Inspired' modules on front page
+'Get Inspired' modules
 *********************/
 /* Encapsulating all the elements within thse four modules */
 .getInspired {
