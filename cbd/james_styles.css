@@ -35,18 +35,17 @@ body {
 
 
 
-
 /*********************
 Menu items
 *********************/
 /* Top menu item won't move down on hover */
 #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item a.mega-menu-link:before {
-    position: absolute;
+  position: absolute;
 }
 
 /* Menu mobile view banner pushed to the top */
 .logged-in #mobile-trigger {
-    top: 0;
+  top: 0;
 }
 
 /*********************
@@ -54,7 +53,7 @@ Front page
 *********************/
 /* Force the width of the product range ('our range') to 100% */
 .product-list-wrap img {
-    width: 100%;
+  width: 100%;
 }
 
 /*********************
@@ -62,39 +61,39 @@ Front page
 *********************/
 /* Encapsulating all the elements within thse four modules */
 .getInspired {
-    justify-content: center;
+  justify-content: center;
     /* Required margin attributes to force full width */
-    margin-left: -5%;
-    margin-right: -5%;
+  margin-left: -5%;
+  margin-right: -5%;
 }
 
 /* Confined rows for each module */
 .getInspiredRows {
-    display: flex;
+  display: flex;
 }
 
 /* Removal of permanent red colour on links when clicked */
 .getInspired a:visited {
-    color: white;
+  color: white;
 }
 
 /* Addition of a hover effect on links */
 .getInspired a:hover {
-    color: red;
+  color: red;
 }
 
 /* All modules individually combined */
 .springFeels, .contemporaryFeels, .contrastingWhites, .warmAndCosy {
-    font-size: 400%;
-    font-family: cbd-font;
-    font-weight: bold;
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 400px;
+  font-size: 400%;
+  font-family: cbd-font;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
 }
 
 /* 'Spring Feels' module' */
@@ -141,6 +140,11 @@ WooCommerce Modules
 *********************/
 /* Increased padding under the product displays */
 .woocommerce-products-header {
+    padding: 2% 0 0 0;
+}
+
+/* Woocommerce padding */
+.site-main {
     padding: 2% 0 0 0;
 }
 
