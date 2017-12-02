@@ -62,45 +62,6 @@ h3 {
 }
 
 /******************************
-Fixed hyperlink modules
-******************************/
-/* 'Fixed hyperlink module' encapsulation */
-.fixedHyperlinks {
-    position: fixed;
-    right: 1%;
-    bottom: 50%;
-}
-
-/* Colour of the buttons  */
-.fixedHyperlinks a {
-    color: white;
-    font-size: 120%;
-    transition: 0.4s;
-}
-
-/* Hide label in original state */
-.fixedHyperlinks span {
-    display: none;
-}
-
-/* Show label on hover */
-.fixedHyperlinks:hover span {
-    display: inline-block;
-}
-
-
-/* Static colour of buttons when selected */
-.fixedHyperlinks a:focus {
-    color: #15babc;
-}
-
-/* Individual menu items interaction */
-.fixedHyperlinks a:hover {
-    color: #15babc;
-}
-
-
-/******************************
 Header styling
 ******************************/
 /* Header encapsulation */
