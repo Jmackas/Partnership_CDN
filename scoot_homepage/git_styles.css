@@ -167,10 +167,7 @@ Introductory module
 ******************************/
 /* 'Services section' encapsulation */
 .ourServices {
-    background-image: url('https://github.com/Jmackas/Partnership_CDN/blob/master/scoot_homepage/elements/person_on_phone.jpg?raw=true');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+    background: #15babc;
     padding: 2% 20%;
 }
 
