@@ -151,7 +151,7 @@ Article frameworks general
 *********************/
 /* Width wrapper for the image */ 
 .imageWrapper {
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
