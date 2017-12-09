@@ -12,8 +12,6 @@ Table of Contents:
     # Article frameworks No1
 
 */
-
-
 /*********************
 Universal elements
 *********************/
@@ -34,7 +32,7 @@ body {
 /*********************
 Menu items
 *********************/
-/* Force the header width to 100% */ 
+/* Force the header width to 100% */
 header#masthead .container {
     width: 100%;
 }
@@ -46,12 +44,12 @@ img.custom-logo {
 
 /* Top menu item won't move down on hover */
 #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item a.mega-menu-link:before {
-  position: absolute;
+    position: absolute;
 }
 
 /* Menu mobile view banner pushed to the top */
 .logged-in #mobile-trigger {
-  top: 0;
+    top: 0;
 }
 
 /*********************
@@ -59,7 +57,7 @@ Front page
 *********************/
 /* Force the width of the product range ('our range') to 100% */
 .product-list-wrap img {
-  width: 100%;
+    width: 100%;
 }
 
 /*********************
@@ -67,47 +65,47 @@ Front page
 *********************/
 /* Encapsulating all the elements within thse four modules */
 .getInspired {
-  justify-content: center;
+    justify-content: center;
     /* Required margin attributes to force full width */
-  margin-left: -5%;
-  margin-right: -5%;
+    margin-left: -5%;
+    margin-right: -5%;
 }
 
 /* Confined rows for each module */
 .getInspiredRows {
-  display: flex;
+    display: flex;
 }
 
 /* Removal of permanent red colour on links when clicked */
 .getInspired a:visited {
-  color: white;
+    color: white;
 }
 
 /* Addition of a hover effect on links */
 .getInspired a:hover {
-  color: red;
+    color: red;
 }
 
 /* All modules individually combined */
 .springFeels, .contemporaryFeels, .contrastingWhites, .warmAndCosy {
-  font-size: 400%;
-  font-family: cbd-font;
-  font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px 2px black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 400px;
-  text-align: center;
+    font-size: 400%;
+    font-family: cbd-font;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    text-align: center;
     transition: 0.4s;
 }
 
 /* 'Spring Feels' module' */
 .springFeels {
     background-image: url('https://carpetsbydesign.net.au/wp-content/uploads/2017/06/M24-Interior-Render-1.jpg');
-        background-position: center;
+    background-position: center;
 }
 
 /* 'Contemporary' module */
@@ -154,7 +152,7 @@ WooCommerce Modules
 /*********************
 Article frameworks general
 *********************/
-/* Width wrapper for the image */ 
+/* Width wrapper for the image */
 .imageWrapper {
     display: block;
     justify-content: center;
@@ -168,7 +166,6 @@ Article frameworks general
         display: block;
     }
 }
-
 
 /*********************
 Article frameworks No1
