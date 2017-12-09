@@ -26,6 +26,11 @@ body {
     border: 1px solid black !important;
 }
 
+/* Removal of theme copyright text */
+.site-info {
+    display: none;
+}
+
 /*********************
 Menu items
 *********************/
