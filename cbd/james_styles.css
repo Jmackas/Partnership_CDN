@@ -29,6 +29,17 @@ body {
     display: none;
 }
 
+/* Header slideshow */
+@media only screen and (max-width: 800px) {
+    /* Hide the buttons in mobile */ .siteorigin-panels-stretch.panel-row-style-full-stretched.panel-row-style.panel-row-style-for-255-0 .sow-hero-buttons {
+        display: none;
+    }
+
+    li.sow-slider-image.sow-slider-image-cover.cycle-slide.cycle-slide-active div div h2 span {
+        font-size: 70%;
+    }
+}
+
 /*------------------------------------------
 Menu items
 ------------------------------------------*/
