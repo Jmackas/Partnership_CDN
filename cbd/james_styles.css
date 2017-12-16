@@ -170,7 +170,7 @@ nav.navigation.post-navigation {
 
 /* Width wrapper for the image */
 .imageWrapper {
-    display: block;
+    display: flex;
     justify-content: center;
 }
 
