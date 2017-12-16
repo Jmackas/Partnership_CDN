@@ -163,6 +163,11 @@ WooCommerce Modules
 /*------------------------------------------
 Article frameworks general
 ------------------------------------------*/
+/* Removal of 'next article' */
+nav.navigation.post-navigation {
+    display: none;
+}
+
 /* Width wrapper for the image */
 .imageWrapper {
     display: block;
