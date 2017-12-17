@@ -48,11 +48,6 @@ header#masthead .container {
     width: 100%;
 }
 
-/* Remove logo clipping over the top slideshow */
-img.custom-logo {
-    width: 76%;
-}
-
 /* Indentation of 'Contact Us' menu item */
 li#mega-menu-item-534 {
     padding: 0 0 0 30px !important;
