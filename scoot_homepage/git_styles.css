@@ -18,9 +18,13 @@ Table of Contents:
 /******************************
 Universal elements
 ******************************/
+/* Alegreya Font from Google Import */
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+
+
 /* The element that can target everything */
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Alegreya', sans-serif;
     color: white;
 }
 
