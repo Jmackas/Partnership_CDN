@@ -15,9 +15,9 @@ Table of Contents:
 # Other miscellaneous code
  
 */
-/******************************
+/*--------------------------------------
 Universal elements
-******************************/
+--------------------------------------*/
 /* Alegreya Font from Google Import */
 @import url('https://fonts.googleapis.com/css?family=Alegreya');
 
@@ -76,9 +76,9 @@ h3 {
     text-shadow: 1px 1px 1px black;
 }
 
-/******************************
+/*--------------------------------------
 Header styling
-******************************/
+--------------------------------------*/
 /* Header encapsulation */
 header {
     display: flex;
@@ -144,9 +144,9 @@ header {
     }
 }
 
-/******************************
+/*--------------------------------------
 Introductory module
-******************************/
+--------------------------------------*/
 /* 'Introductory module' encapsulation */
 .introModule {
     text-align: center;
@@ -157,18 +157,18 @@ Introductory module
     background-position: center;
 }
 
-/******************************
+/*--------------------------------------
 'About Us' section
-******************************/
+--------------------------------------*/
 /* About Us section' encapsulation */
 .aboutUs {
     background: rgb(35,84,152);
     padding: 2% 20%;
 }
 
-/******************************
+/*--------------------------------------
 'Services' section
-******************************/
+--------------------------------------*/
 /* 'Services section' encapsulation */
 .ourServices {
     background: #1aa4a5;
@@ -253,9 +253,9 @@ a.seo:hover, a.seo:active, a.seo:focus, a.webDesign:hover, a.webDesign:active, a
     }
 }
 
-/******************************
+/*--------------------------------------
 'Contact Us' section
-******************************/
+--------------------------------------*/
 /* 'Contact Us' encapsulation */
 .contactUs {
     text-align: center;
@@ -285,18 +285,18 @@ label {
     }
 }
 
-/******************************
+/*--------------------------------------
 Footer
-******************************/
+--------------------------------------*/
 footer {
     background: black;
     padding: 2% 3%;
     text-align: center;
 }
 
-/******************************
+/*--------------------------------------
 Other miscellaneous code
-******************************/
+--------------------------------------*/
 /* Force the article widths back to normal in mobile */
 @media only screen and (max-width: 782px) {
     .ourServices, .aboutUs {
