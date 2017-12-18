@@ -47,16 +47,15 @@ p {
     transition: 0.4s;
 }
 
-/* Scoot custom button two */
-.scootButtonTwo {
-
-}
-
-
 /* Scoot custom button action */
 .scootButtonOne:hover, .scootButtonOne:focus,.scootButtonOne:active {
     background: white;
     color: black;
+}
+
+/* Scoot custom button two */
+.scootButtonTwo {
+
 }
 
 /* Center an element with Flex */
