@@ -184,7 +184,6 @@ Introductory module
 .aboutUs {
     background: rgb(35,84,152);
     padding: 2% 20%;
-    height: 100vh;
 }
 
 /*--------------------------------------
@@ -194,7 +193,6 @@ Introductory module
 .ourServices {
     background: #1aa4a5;
     padding: 2% 20%;
-    height: 100vh;
 }
 
 /* Encapsulating the bubbles */
@@ -283,7 +281,7 @@ a.seo:hover, a.seo:active, a.seo:focus, a.webDesign:hover, a.webDesign:active, a
     text-align: center;
     padding: 2% 23%;
     background: rgb(60,109,176);
-    ; }
+     }
 
 /* Increase the size of the paragraph text */
 .contactUs p {
