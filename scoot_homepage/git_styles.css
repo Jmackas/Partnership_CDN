@@ -36,19 +36,19 @@ p {
 
 /* Scoot custom button one */
 .scootButtonOne {
-    color: #333;
-    background: white;
+    color: white;
+    background: rgba(0,0,0,0);
     border: 2px solid white;
     border-radius: 3px;
-    font-size: 130%;
+    font-size: 150%;
     padding: 3% 7%;
     transition: 0.4s;
 }
 
 /* Scoot custom button one action */
 .scootButtonOne:hover, .scootButtonOne:focus,.scootButtonOne:active {
-    background: rgba(0,0,0,0);
-    color: white;
+    background: white;
+    color: #333;
 }
 
 /* Scoot custom button two */
