@@ -19,10 +19,7 @@ Table of Contents:
 Universal elements
 --------------------------------------*/
 /* Alegreya Font from Google Import */
-@import url('https://fonts.googleapis.com/css?family=Alegreya');
-
-
-/* The element that can target everything */
+@import url('https://fonts.googleapis.com/css?family=Alegreya'); /* The element that can target everything */
 body {
     font-family: 'Alegreya', sans-serif;
     color: white;
@@ -39,7 +36,8 @@ p {
 
 /* Scoot custom button one */
 .scootButtonOne {
-    color: white;
+    color: #333;
+    background: white;
     border: 2px solid white;
     border-radius: 3px;
     font-size: 130%;
@@ -49,14 +47,13 @@ p {
 
 /* Scoot custom button one action */
 .scootButtonOne:hover, .scootButtonOne:focus,.scootButtonOne:active {
-    background: white;
-    color: black;
+    background: rgba(0,0,0,0);
+    color: white;
 }
 
 /* Scoot custom button two */
 .scootButtonTwo {
-    color: #333;
-    background: white;
+    color: white;
     border: 2px solid white;
     border-radius: 3px;
     font-size: 130%;
@@ -66,8 +63,8 @@ p {
 
 /* Scoot custom button two action */
 .scootButtonTwo:hover, .scootButtonTwo:focus,.scootButtonTwo:active {
-    background: rgba(0,0,0,0);
-    color: white;
+    background: white;
+    color: black;
 }
 
 /* Center an element with Flex */
@@ -283,8 +280,8 @@ a.seo:hover, a.seo:active, a.seo:focus, a.webDesign:hover, a.webDesign:active, a
 .contactUs {
     text-align: center;
     padding: 2% 23%;
-    background: rgb(60,109,176);;
-}
+    background: rgb(60,109,176);
+    ; }
 
 /* Increase the size of the paragraph text */
 .contactUs p {
@@ -323,6 +320,6 @@ Other miscellaneous code
 /* Force the article widths back to normal in mobile */
 @media only screen and (max-width: 782px) {
     .ourServices, .aboutUs {
-    padding: 2% 3%;
+        padding: 2% 3%;
     }
 }
