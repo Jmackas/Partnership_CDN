@@ -48,7 +48,7 @@ p {
 /* Scoot custom button one action */
 .scootButtonOne:hover, .scootButtonOne:focus,.scootButtonOne:active {
     background: white;
-    color: #333;
+    color: black;
 }
 
 /* Scoot custom button two */
