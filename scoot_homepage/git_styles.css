@@ -54,7 +54,7 @@ p {
 
 
 /* Scoot custom button action */
-.scootButton:hover, .scootButton:focus,.scootButton:active {
+.scootButtonOne:hover, .scootButtonOne:focus,.scootButtonOne:active {
     background: white;
     color: black;
 }
