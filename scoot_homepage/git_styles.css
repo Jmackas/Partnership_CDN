@@ -191,8 +191,9 @@ Introductory module
 --------------------------------------*/
 /* 'Services section' encapsulation */
 .ourServices {
-    background: #1aa4a5;
+    /* background: #1aa4a5; */
     padding: 2% 20%;
+    background: linear-gradient(to bottom, #235498, #3c6db0); 
 }
 
 /* Encapsulating the bubbles */
