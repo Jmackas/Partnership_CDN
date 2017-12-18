@@ -41,13 +41,13 @@ p {
 .scootButtonOne {
     color: white;
     border: 2px solid white;
-    border-radius: 5px;
+    border-radius: 3px;
     font-size: 130%;
     padding: 2% 4%;
     transition: 0.4s;
 }
 
-/* Scoot custom button action */
+/* Scoot custom button one action */
 .scootButtonOne:hover, .scootButtonOne:focus,.scootButtonOne:active {
     background: white;
     color: black;
@@ -55,7 +55,19 @@ p {
 
 /* Scoot custom button two */
 .scootButtonTwo {
+    color: #333;
+    background: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 130%;
+    padding: 2% 4%;
+    transition: 0.4s;
+}
 
+/* Scoot custom button two action */
+.scootButtonTwo:hover, .scootButtonTwo:focus,.scootButtonTwo:active {
+    background: rgba(0,0,0,0);
+    color: white;
 }
 
 /* Center an element with Flex */
