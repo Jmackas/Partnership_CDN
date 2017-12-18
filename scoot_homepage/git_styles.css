@@ -37,8 +37,8 @@ p {
     border-top: 2px solid white;
 }
 
-/* Scoot custom button */
-.scootButton {
+/* Scoot custom button one */
+.scootButtonOne {
     color: white;
     border: 2px solid white;
     border-radius: 5px;
@@ -46,6 +46,12 @@ p {
     padding: 2% 4%;
     transition: 0.4s;
 }
+
+/* Scoot custom button two */
+.scootButtonTwo {
+    
+}
+
 
 /* Scoot custom button action */
 .scootButton:hover, .scootButton:focus,.scootButton:active {
