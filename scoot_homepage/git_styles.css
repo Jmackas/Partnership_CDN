@@ -5,14 +5,19 @@ Gradient colour inspiration: http://www.colorzilla.com/gradient-editor/
 https://www.wauc.org.au/
 
 Table of Contents:
-# Universal elements
-# Header styling
-# Introductory module
-# 'About Us' section
-# 'Services' section
-# 'Contact Us' section
-# Footer
-# Other miscellaneous code
+    Universal
+        Universal elements
+        Footer
+    Front Page    
+        Header styling
+        Introductory module
+        'About Us' section
+        'Services' section
+        'Contact Us' section
+    Services
+    Other miscellaneous code
+
+
  
 */
 /*--------------------------------------
@@ -94,6 +99,15 @@ h3 {
     font-size: 200%;
     margin: 0 0 10% 0;
     text-shadow: 1px 1px 1px black;
+}
+
+/*--------------------------------------
+Footer
+--------------------------------------*/
+footer {
+    background: black;
+    padding: 2% 3%;
+    text-align: center;
 }
 
 /*--------------------------------------
@@ -306,14 +320,20 @@ label {
     }
 }
 
-/*--------------------------------------
-Footer
---------------------------------------*/
-footer {
-    background: black;
-    padding: 2% 3%;
-    text-align: center;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*--------------------------------------
 Other miscellaneous code
