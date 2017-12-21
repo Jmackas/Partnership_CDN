@@ -76,6 +76,18 @@ Front page
     max-width: 100% !important;
 }
 
+/* Slideshow caption */
+.metaslider .caption-wrap {
+    position: absolute;
+    background:  none;
+    top: 2%;
+    left: 2%;
+    font-size:  213%;
+    opacity: 1;
+    text-shadow: 1px 1px 1px black;
+    font-family: sol;
+}
+
 /*------------------------------------------
 'Get Inspired' modules
 ------------------------------------------*/
