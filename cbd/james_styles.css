@@ -89,6 +89,14 @@ Front page
     font-weight: bold;
 }
 
+/* Slideshow caption mobile */
+@media only screen and (max-width: 600px) {
+    .metaslider .caption-wrap {
+        font-size: 120% !important;
+    }
+}
+
+
 /*------------------------------------------
 'Get Inspired' modules
 ------------------------------------------*/
