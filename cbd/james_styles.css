@@ -79,13 +79,14 @@ Front page
 /* Slideshow caption */
 .metaslider .caption-wrap {
     position: absolute;
-    background:  none;
+    background:  none !important;
     top: 2%;
-    left: 2%;
+    left: 1% !important;
     font-size:  213%;
-    opacity: 1;
+    opacity: 1 !important;
     text-shadow: 1px 1px 1px black;
-    font-family: sol;
+    font-family: cbd-font;
+    font-weight: bold;
 }
 
 /*------------------------------------------
