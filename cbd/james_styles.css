@@ -71,13 +71,8 @@ Front page
     width: 100%;
 }
 
-/* Div that surrounds the front page slideshow */
-.frontPageSlideshow {
-    width: 100% !important;
-}
-
 /* Front page slideshow targeted */
-.frontPageSlideshow .ml-slider-3-6-7.metaslider.metaslider-flex.metaslider-2896.ml-slider {
+.ml-slider-3-6-7.metaslider.metaslider-flex.metaslider-2896.ml-slider {
     max-width: 100% !important;
 }
 
