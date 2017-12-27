@@ -111,6 +111,7 @@ Front page
     z-index: 99 !important;
 }
 
+/* Individual slider buttons active selection */
 .flex-control-paging li a.flex-active {
     background-color: red !important;
 }
