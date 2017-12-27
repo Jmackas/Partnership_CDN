@@ -87,7 +87,7 @@ Front page
     left: 1% !important;
     font-size:  250%;
     opacity: 1 !important;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 2px black;
     font-family: cbd-font;
     font-weight: bold;
 }
@@ -109,6 +109,10 @@ Front page
     opacity: 1 !important;
     width: 50px !important;
     z-index: 99 !important;
+}
+
+.flex-control-paging li a.flex-active {
+    background-color: red !important;
 }
 
 /* Slideshow caption mobile */
