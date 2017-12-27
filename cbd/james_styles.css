@@ -74,7 +74,7 @@ Front page
 /* Div that surrounds the front page slideshow */
 .frontPageSlideshow {
     width: 100% !important;
-    margin: -60px 0 0 0;
+    /* Don't add a negative margin */
 }
 
 /* Front page slideshow targeted */
