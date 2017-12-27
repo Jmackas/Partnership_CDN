@@ -100,6 +100,8 @@ Front page
     font-weight: bold;
 }
 
+
+
 /* Slider buttons */
 .flex-control-nav {
     bottom: 3% !important;
@@ -117,6 +119,13 @@ Front page
     opacity: 1 !important;
     width: 50px !important;
     z-index: 99 !important;
+}
+
+
+/* Slider button size allocation */
+.metaslider .flexslider .flex-direction-nav li a {
+    width: 54px;
+    height: 54px;
 }
 
 /* Individual slider buttons active selection */
