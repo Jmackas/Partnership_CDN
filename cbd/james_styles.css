@@ -105,6 +105,7 @@ Front page
 /* Slider button container */
 .sliderButtonContainer {
     display: flex;
+    justify-content: center;
 }
 
 /* Slider button */
@@ -163,6 +164,10 @@ a.sliderButtons {
 @media only screen and (max-width: 600px) {
     .metaslider .caption-wrap {
         font-size: 120% !important;
+    }
+
+    .sliderButtons {
+        display: none;
     }
 }
 
