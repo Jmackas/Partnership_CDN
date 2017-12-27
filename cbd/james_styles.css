@@ -97,6 +97,7 @@ Front page
     top: 2%;
     left: 1% !important;
     font-size:  250%;
+    width: 98%;
     opacity: 1 !important;
     text-shadow: 2px 2px 2px black;
     font-family: cbd-font;
@@ -127,6 +128,19 @@ Front page
     background-color: red !important;
 }
 
+/* Slideshow decrease in size */
+@media only screen and (max-width: 600px) {
+    div#panel-675-0-0-0 {
+        margin: -5.5% -26% 0 -26% !important;
+    }
+}
+
+/* Slideshow height mobile */
+@media only screen and (max-width: 800px) {
+    .metaslider img {
+        height: 400px;
+    }
+}
 /* Slideshow caption mobile */
 @media only screen and (max-width: 600px) {
     .metaslider .caption-wrap {
