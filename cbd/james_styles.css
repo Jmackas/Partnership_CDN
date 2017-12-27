@@ -73,13 +73,14 @@ Front page
 
 /* Div that surrounds the front page slideshow */
 .frontPageSlideshow {
-
+    width: 100% !important;
 }
 
-/* Meta slider general */
-.ml-slider-3-6-7.metaslider.metaslider-flex.metaslider-2896.ml-slider {
+/* Front page slideshow targeted */
+.frontPageSlideshow .ml-slider-3-6-7.metaslider.metaslider-flex.metaslider-2896.ml-slider {
     max-width: 100% !important;
 }
+
 
 /* Slideshow caption */
 .metaslider .caption-wrap {
