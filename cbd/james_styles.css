@@ -107,15 +107,18 @@ Front page
     display: flex;
 }
 
-
 /* Slider button */
 a.sliderButtons {
     background: red;
     background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #bd2020), color-stop(1, #dd3333));
     border-radius: 4px;
     color: white;
-    padding: 15px;
+    padding:15px;
+    line-height: initial !important;
+    text-shadow: initial;
+    font-size: 40%;
 }
+
 
 
 /* Slider left/right */
