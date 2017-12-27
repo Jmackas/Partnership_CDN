@@ -78,6 +78,9 @@ Front page
 
 /* Slideshow caption */
 .metaslider .caption-wrap {
+    display: flex !important;
+    align-items:  center;
+    justify-content:  center;
     position: absolute;
     background:  none !important;
     top: 2%;
