@@ -124,8 +124,8 @@ Front page
 
 /* Slider button size allocation */
 .metaslider .flexslider .flex-direction-nav li a {
-    width: 54px;
-    height: 54px;
+    width: 54px !important;
+    height: 54px !important;
 }
 
 /* Individual slider buttons active selection */
