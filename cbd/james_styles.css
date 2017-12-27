@@ -71,6 +71,11 @@ Front page
     width: 100%;
 }
 
+/* Page builder widget that surrounds the slider */
+.widget_text.panel-widget-style.panel-widget-style-for-675-0-0-0 {
+    margin: 0 -5%;
+}
+
 /* Div that surrounds the front page slideshow */
 .frontPageSlideshow {
     width: 100% !important;
