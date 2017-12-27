@@ -128,17 +128,11 @@ Front page
     background-color: red !important;
 }
 
-/* Slideshow decrease in size */
-@media only screen and (max-width: 600px) {
-    div#panel-675-0-0-0 {
-        margin: -5.5% -26% 0 -26% !important;
-    }
-}
 
 /* Slideshow height mobile */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 450px) {
     .metaslider img {
-        height: 400px;
+        height: 250px !important;
     }
 }
 /* Slideshow caption mobile */
