@@ -9,13 +9,13 @@ Warning:
 
 */
 
-@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
 
 /*================================
 Universal
 ================================*/
 body {
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Dosis', sans-serif;
 }
 
 /* Article width */
