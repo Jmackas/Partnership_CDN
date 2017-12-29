@@ -69,6 +69,8 @@ animation: AnimationName 4s ease infinite;
 /* Header 1 */
 .custom-header h1 {
     font-size: 113px;
+    color: white;
+    text-shadow: 2px 1px 2px black;
     padding: 0;
 }
 
