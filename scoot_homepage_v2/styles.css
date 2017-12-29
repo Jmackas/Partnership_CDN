@@ -9,9 +9,16 @@ Warning:
 
 */
 
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
 /*================================
 Universal
 ================================*/
+body {
+    font-family: 'Amatic SC', cursive;
+}
+
+/* Article width */
 .wrap {
     width: 100%;
     margin: 0;
