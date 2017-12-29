@@ -9,13 +9,12 @@ Warning:
 
 */
 
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
 /*================================
 Universal
 ================================*/
 body {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Architects Daughter', cursive;
 }
 
 /* Article width */
