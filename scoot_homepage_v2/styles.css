@@ -10,6 +10,7 @@ Warning:
 */
 
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+
 /*================================
 Universal
 ================================*/
@@ -38,7 +39,7 @@ Top Header
 /* Header 1 */
 .custom-header h1 {
     padding: 5% 12%;
-    font-size: 441%;
+    font-size: 113px;
 }
 
 
