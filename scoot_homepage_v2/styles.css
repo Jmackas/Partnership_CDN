@@ -24,8 +24,15 @@ Universal
 /*================================
 Top Header
 ================================*/
+/* Header container */
 .custom-header {
     height: 100vh;
+}
+
+/* Header 1 */
+.custom-header h1 {
+    padding: 4%;
+    font-size: 441%;
 }
 
 
