@@ -17,9 +17,24 @@ Universal
 
 
 
+/*================================
+Menu Bar
+================================*/
+/* Overall menu bar */
+.navigation-top {
+    display: flex;
+    justify-content: center;
+}
+
+/* Menu bar targeted */
+.navigation-top .wrap {
+    display: flex;
+    justify-content: center;
+}
+
 
 /*================================
-Undesirable code
+Undesirable Code
 ================================*/
 
 
