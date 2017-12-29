@@ -34,12 +34,19 @@ Top Header
 /* Header container */
 .custom-header {
     height: 100vh;
+    padding: 5% 12%;
+    background: white;
+}
+
+/* Logo */
+.custom-header img {
+    width: 20%;
 }
 
 /* Header 1 */
 .custom-header h1 {
-    padding: 5% 12%;
     font-size: 113px;
+    padding: 0;
 }
 
 
