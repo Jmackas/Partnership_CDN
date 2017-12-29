@@ -9,13 +9,13 @@ Warning:
 
 */
 
-@import url('https://fonts.googleapis.com/css?family=Dosis'); 
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 /*================================
 Universal
 ================================*/
 body {
-    font-family: Calibri;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Article width */
