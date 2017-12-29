@@ -8,11 +8,14 @@ Warning:
 
 
 */
-@import url('https://fonts.googleapis.com/css?family=Dosis'); /*================================
+
+@import url('https://fonts.googleapis.com/css?family=Dosis'); 
+
+/*================================
 Universal
 ================================*/
 body {
-    font-family: 'Dosis', sans-serif;
+    font-family: Calibri;
 }
 
 /* Article width */
