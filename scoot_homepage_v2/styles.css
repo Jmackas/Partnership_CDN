@@ -35,7 +35,30 @@ Top Header
 .custom-header {
     height: 100vh;
     padding: 5% 12%;
-    background: white;
+
+    background: linear-gradient(270deg, #15babc, #408bc9);
+background-size: 400% 400%;
+
+-moz-animation: AnimationName 4s ease infinite;
+-o-animation: AnimationName 4s ease infinite;
+animation: AnimationName 4s ease infinite;
+
+}
+
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 /* Logo */
