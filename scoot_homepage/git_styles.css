@@ -23,10 +23,12 @@ Table of Contents:
 /*--------------------------------------
 Universal elements
 --------------------------------------*/
-/* Alegreya Font from Google Import */
-@import url('https://fonts.googleapis.com/css?family=Alegreya'); /* The element that can target everything */
+/* Sans Font from Google Import */
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
+
+/* The element that can target everything */
 body {
-    font-family: 'Alegreya', sans-serif;
+    font-family: 'Encode Sans Expanded', sans-serif;
     color: white;
 }
 
