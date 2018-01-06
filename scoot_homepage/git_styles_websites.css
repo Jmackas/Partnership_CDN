@@ -1,0 +1,63 @@
+.websiteServices a {
+    color: black;
+}
+
+.pDeals1, .pDeals2, .pDeals3, .pDeals4, .pDeals5 {
+    border: 1px solid lightblue;
+    padding: 10px;
+    margin: 0 3px 6px 3px;
+    border-radius: 3px;
+    float: left;
+    width: 48%;
+    min-height: 377px;
+    transition: .4s ease-in-out;
+}
+
+@media only screen and (max-width: 644px) {
+    .pDeals1, .pDeals2, .pDeals3, .pDeals4, .pDeals5 {
+        float: initial;
+        width: 100%;
+    }
+}
+
+.pDeals1:hover {
+    background: #00b7bc;
+}
+
+.pDeals2:hover {
+    background: #0055d3;
+}
+
+.pDeals3:hover {
+    background: linear-gradient(to bottom right, #003f9b, black);
+}
+
+.pDeals4:hover {
+    background: #002966;
+}
+
+.pDeals5:hover {
+   background: #ca9800;
+}
+
+.pDeals1:hover, .pDeals2:hover, .pDeals3:hover, .pDeals4:hover, .pDeals5:hover {
+    border: 1px solid rgba(0,0,0,0);
+    color: white;
+}
+
+.websiteServices h3 {
+    margin: 0 0 10px 0;
+}
+
+.websiteServices .combo {
+    width: 97%;
+    margin: 0 0 0 2px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 644px) {
+    .websiteServices .combo {
+        width: 100%;
+        text-align: initial;
+    }
+}
