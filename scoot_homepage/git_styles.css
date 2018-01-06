@@ -199,8 +199,13 @@ Introductory module
 --------------------------------------*/
 /* About Us section' encapsulation */
 .aboutUs {
-    background: rgb(35,84,152);
+    color: #333;
     padding: 2% 20%;
+}
+
+.aboutUs h2 {
+    color: #333;
+    text-shadow: initial;
 }
 
 /*--------------------------------------
