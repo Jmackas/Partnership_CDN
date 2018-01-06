@@ -153,7 +153,7 @@ header {
 
 /* Individual menu items interaction */
 .menuItems a:hover, .menuItems a:active, .menuItems a:focus {
-    background: rgb(23,185,186);
+    background: #408ac9;
     color: white;
 }
 
