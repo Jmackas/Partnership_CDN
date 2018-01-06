@@ -185,7 +185,8 @@ Introductory module
 .introModule {
     text-align: center;
     padding: 4% 0 15% 0;
-    background-image: url('https://raw.githubusercontent.com/Jmackas/Partnership_CDN/master/scoot_homepage/elements/header.jpg');
+    background: linear-gradient(to bottom right, #16babc 0%, #408bc9 63%);
+    /* background-image: url('https://raw.githubusercontent.com/Jmackas/Partnership_CDN/master/scoot_homepage/elements/header.jpg'); */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
