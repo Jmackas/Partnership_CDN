@@ -297,15 +297,15 @@ a.seo:hover, a.seo:active, a.seo:focus, a.webDesign:hover, a.webDesign:active, a
 }
 
 /*--------------------------------------
-'Our Profile'
+'Our Clients'
 --------------------------------------*/
-/* Our Profile' section encapsulation */
-.ourProfile {
+/* Our Clients' section encapsulation */
+.ourClients {
     color: #333;
     padding: 2% 20%;
 }
 
-.ourProfile h2 {
+.ourClients h2 {
     color: #333;
     text-shadow: initial;
 }
