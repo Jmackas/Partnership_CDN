@@ -11,11 +11,6 @@ Universal Elements
     text-shadow: initial;
 }
 
-/* Article encapsulation */
-.websitePackages {
-    padding: 2% 20%;
-}
-
 ul {
     margin: 0 0 0 19px;
 }
@@ -31,4 +26,20 @@ Header Title Section
 
 .headerMenu h1, .headerMenu h3 {
     color: white;
+}
+
+
+
+
+/*--------------------------------------
+Article Content
+--------------------------------------*/
+/* Article encapsulation */
+.websitePackages {
+    padding: 2% 20%;
+}
+
+.websites h2 {
+    border-bottom: 1px dashed #e0e0e0;
+    padding-bottom: 5px;
 }
