@@ -1,3 +1,6 @@
+/*--------------------------------------
+Universal Elements
+--------------------------------------*/
 /* 'Websites' page encapsulation */
 .websites {
     color: #333;
@@ -8,6 +11,21 @@
     text-shadow: initial;
 }
 
+/* Article encapsulation */
 .websitePackages {
     padding: 2% 20%;
+}
+
+
+/*--------------------------------------
+Header Title Section
+--------------------------------------*/
+/* Title and header encapsulation */
+.headerMenu {
+    background: #408ac9;
+    padding: 2% 20%;
+}
+
+.headerMenu h1, .headerMenu h3 {
+    color: white;
 }
