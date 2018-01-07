@@ -313,14 +313,18 @@ a.seo:hover, a.seo:active, a.seo:focus, a.webDesign:hover, a.webDesign:active, a
 /* Module to hold the portfolio items */
 .portfolioCanvas {
     display: block;
+    transition: .4s;
     height: 100px;
     width: 20%;
     background-repeat: no-repeat;
     background-position: center;
-    border: 1px solid black; /* Remove in the final version */
-
+    border: 1px solid #e3e3e3; /* Remove in the final version */
 }
 
+/* Portfolio canvas on hover */
+.portfolioCanvas:hover {
+    transform: scale(1.05);
+}
 
 /*--------------------------------------
 'Contact Us' section
