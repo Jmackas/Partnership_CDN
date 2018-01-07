@@ -388,5 +388,5 @@ Other miscellaneous code
 
 
 
-
-@import url('/git_styles_websites.css');
+/* Import 'Websites' page styling */
+@import url('https://rawgit.com/Jmackas/Partnership_CDN/master/scoot_homepage/git_styles_websites.css');
