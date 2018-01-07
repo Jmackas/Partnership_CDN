@@ -297,18 +297,27 @@ a.seo:hover, a.seo:active, a.seo:focus, a.webDesign:hover, a.webDesign:active, a
 }
 
 /*--------------------------------------
-'Our Clients'
+'Our Portfolio'
 --------------------------------------*/
-/* Our Clients' section encapsulation */
-.ourClients {
+/* Our Portfolio' section encapsulation */
+.ourPortfolio {
     color: #333;
     padding: 2% 20%;
 }
 
-.ourClients h2 {
+.ourPortfolio h2 {
     color: #333;
     text-shadow: initial;
 }
+
+/* Module to hold the portfolio items */
+.portfolioCanvas {
+    display: block;
+    height: 100px;
+    width: 20%;
+}
+
+
 /*--------------------------------------
 'Contact Us' section
 --------------------------------------*/
