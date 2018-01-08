@@ -215,7 +215,8 @@ Introductory module
 .ourServices {
     /* background: #1aa4a5; */
     padding: 2% 20%;
-    background: linear-gradient(to bottom, #235498, #3c6db0); 
+    /* background: linear-gradient(to bottom, #235498, #3c6db0); */
+    background: #408ac9;
 }
 
 /* Encapsulating the bubbles */
@@ -333,8 +334,8 @@ a.seo:hover, a.seo:active, a.seo:focus, a.webDesign:hover, a.webDesign:active, a
 .contactUs {
     text-align: center;
     padding: 2% 23%;
-    background: rgb(60,109,176);
-     }
+    background: rgb(64, 138, 201);
+    }
 
 /* Increase the size of the paragraph text */
 .contactUs p {
