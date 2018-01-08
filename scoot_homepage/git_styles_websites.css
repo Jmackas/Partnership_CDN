@@ -29,10 +29,9 @@ Header Title Section
     color: white;
 }
 
-
 @media only screen and (max-width: 869px) {
     .headerMenu {
-        padding: initial;
+        padding: 2% 4%;
     }
 }
 
@@ -47,4 +46,10 @@ Article Content
 .websites h2 {
     border-bottom: 1px dashed #e0e0e0;
     padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 869px) {
+    .websitePackages {
+        padding: 2% 4%;
+    }
 }
