@@ -24,11 +24,10 @@ Header Title Section
     padding: 2% 20%;
 }
 
-.headerMenu h1, .headerMenu h3 {
+.websites h1, .websites h3 {
+    text-shadow: 1px 1px 1px black;
     color: white;
 }
-
-
 
 
 /*--------------------------------------
