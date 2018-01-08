@@ -30,6 +30,12 @@ Header Title Section
 }
 
 
+@media only screen and (max-width: 869px) {
+    .headerMenu {
+        padding: initial;
+    }
+}
+
 /*--------------------------------------
 Article Content
 --------------------------------------*/
