@@ -1,0 +1,166 @@
+/**************** General Elements ****************/
+h1 {
+    font-size: 40px !important;
+    line-height: 1.2 !important;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: bold !important;
+    margin: 15px 0 0 0 !important;
+}
+
+h2 {
+    /* An effort to counter the bootstrap overwriting */
+    line-height: 1.2 !important;
+    font-family: 'Lato', sans-serif !important;
+    color: #716c71 !important;
+    font-weight: 100 !important;
+    margin: 0 !important;
+}
+
+.wsb-line-element {
+    display: none;
+}
+
+@media screen and (max-device-width: 480px) {
+    iframe {
+        height: 673px;
+    }
+}
+
+    div#wsb-element-e60df7e2-129f-4005-85be-ba7c41351275 {
+        display: none;
+    }
+
+    /* Hiding the Facebook Overlay on the main page */
+    div#wsb-element-5c42a525-3d6d-4344-b1de-f0efdcb11a52 {
+        display: none;
+    }
+
+    /* Menu Items */
+    #wsb-element-8941a3c3-48a4-4002-b2e9-a099bb61df5a .wsb-shape {
+        border-radius: 0px;
+    }
+
+    /* Mobile Logo Text */
+    @media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+        div#wsb-element-bf25289b-5e1e-4e76-bdb7-20f46c549a7e {
+            margin-left: 65px;
+        }
+    }
+
+    /* Book Now Button */
+    a#wsb-button-d985e240-f15f-43b3-9355-8b75c9cde689 {
+        position: fixed;
+        top: 0;
+    }
+
+    /* Main Page Text */
+    #wsb-element-696a49a0-5239-4a3b-a45b-ba713f359175 .txt {
+        padding: 15px 0px 0px 0px !important;
+        margin-top: -15px;
+        height: initial !important;
+        background: linear-gradient(to right, white, #d4ffaa, white) !important;
+    }
+
+    .wsb-shape.customStyle {
+        border-radius: 5px;
+    }
+
+    /* Form */
+    .form-label {
+        color: black;
+    }
+
+    #wsb-element-89faeba7-7552-40c3-a89c-8b467b8076ed .wsb-shape {
+        opacity: 0 !important;
+    }
+
+    .form-value {
+        background: white;
+    }
+
+    @media screen and (max-width: 480px) {
+        .form-label, .form-value {
+            background: initial;
+            color: initial;
+        }
+
+        .wsb-shape {
+            background: #799e2e;
+        }
+    }
+
+    input.form-submit.form-button-disabled {
+        opacity: initial;
+        background: white;
+        color: black;
+        border: 1px solid #836f94;
+    }
+
+    /**************** Main Page Text ****************/
+    .wsb-htmlsnippet-element audio {
+        position: fixed;
+        top: 0;
+    }
+
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        audio {
+            display: none;
+        }
+    }
+
+    /* Footer */
+    #wsb-element-d56073c4-c1c6-4f5f-a5e9-ea3142b29962 .wsb-htmlsnippet-element {
+        height: initial !important;
+    }
+
+    /* Minor Touchups */
+    div#wsb-element-9b337398-da23-45c6-871f-fe09e30f842e a {
+        color: #c1a52e;
+        text-decoration: underline;
+    }
+
+    div#wsb-element-62cce872-8a36-452e-a455-e02a35a676a8 {
+        display: none;
+    }
+
+    /* Mobile Edits */
+    .shape_rounded_corners {
+        background: #799e2e !important;
+    }
+
+    #wsb-element-262a349c-1b48-4049-9ec4-9e20a9324923 .wsb-htmlsnippet-element {
+        height: initial !important;
+    }
+
+    /* Facebook icon touchups */
+    .button_share_tw .wsb-button-content:before, .button_share_gp .wsb-button-content:before, .button_share_li .wsb-button-content:before, .button_share_fb .wsb-button-content:before {
+        font-size: 30px !important;
+    }
+
+    /* Slideshow Arrow Positioning */
+    .wsb-media-gallery-arrows-right-arrow {
+        transform: translate(-38px, 242px);
+        z-index: 999;
+    }
+
+    .wsb-media-gallery-arrows-left-arrow {
+        transform: translate(38px, 242px);
+        z-index: 999;
+    }
+
+    /* Slideshow captions */
+    .wsb-media-gallery-caption {
+        transform: translate(-1px, -159px);
+        width: 120px !important;
+        border-radius: 5px;
+        text-align: center;
+        color: green;
+        font-size: 216%;
+        font-family: Viner Hand ITC;
+        background: rgba(255,255,255,0) !important;
+    }
+
+    /* blocks to cover annoying overflow scroll bars */
+    #wsb-element-23920955-008e-4e7a-8535-f0f9a38a0b05 {
+        transform: translate(-150px,-15px);
+    }
