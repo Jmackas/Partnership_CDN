@@ -6,7 +6,10 @@ Universal Elements
 /*===================================
 Header
 ===================================*/
-
+/* Scoot Digital logo */
+.scootDigitalLogo img {
+    width: 230px;
+}
 
 
 
