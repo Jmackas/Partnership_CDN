@@ -9,11 +9,3 @@ Universal Elements
 /*===================================
 Miscellaneous Code
 ===================================*/
-div#primary {
-    max-width: 100% !important;
-}
-
-.wrap {
-    max-width: 100%;
-    padding: 0;
-}
