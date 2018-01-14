@@ -6,11 +6,16 @@ Universal Elements
 /*===================================
 Header
 ===================================*/
+/* Scoot Digital logo container */
+.scootDigitalLogo {
+    padding: 1% 2%;
+}
+
+
 /* Scoot Digital logo */
 .scootDigitalLogo img {
     width: 230px;
 }
-
 
 
 /*===================================
