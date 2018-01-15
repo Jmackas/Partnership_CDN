@@ -44,8 +44,8 @@ Services Carousel
 /* Carousel all individual elements */
 .servicesCarousel a {
     display: flex;
-    width: 10%;
-    height: 200px;
+    width: 15%;
+    height: 300px;
     color: #c8c8c8;
     justify-content: center;
     align-items: center;
