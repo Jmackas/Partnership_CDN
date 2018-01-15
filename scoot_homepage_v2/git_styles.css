@@ -4,8 +4,8 @@ Universal Elements
 /* Sans Font from Google Import */
 @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
 
-/* Import font icons */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+/* Header font from Google Import */
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
 
 /* The element that can target everything */
 body {
@@ -16,6 +16,7 @@ body {
 h1 {
     font-size: 300%;
     color: #ffffff;
+    font-family: Calligraffitti;
     text-shadow: 1px 1px 1px #000;
 }
 
