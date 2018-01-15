@@ -21,7 +21,8 @@ Header
 
 /* Scoot Digital logo */
 .scootDigitalLogo img {
-    width: 230px;
+    width: 290px;
+    padding: 5% 0 0 5%;
 }
 
 /* Header main content */
