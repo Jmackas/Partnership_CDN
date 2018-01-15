@@ -77,6 +77,12 @@ Services Carousel
 /*===================================
 About Us Section
 ===================================*/
+/* About us container */
+.aboutUs {
+    width: 80%;
+    margin: auto;
+    padding: 2% 0 0 0;
+}
 
 
 
