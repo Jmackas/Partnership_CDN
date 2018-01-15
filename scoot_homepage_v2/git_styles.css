@@ -42,9 +42,11 @@ Header
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 /* Header main content */
 .headerMainContent {
     width: 60%;
+    padding: 1% 0 0 0;
     height: 100vh;
 }
 
