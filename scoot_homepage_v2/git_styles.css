@@ -50,10 +50,15 @@ Services Carousel
     justify-content: center;
     align-items: center;
     background: #191919;
+    transition: .2s;
+    border-bottom: 4px solid #191919;
 }
 
+/* Carousel all individual elements on hover */
 .servicesCarousel a:hover {
-    
+    background: white;
+    color: #333;
+    border-bottom: 4px solid #408bc9;
 }
 
 
