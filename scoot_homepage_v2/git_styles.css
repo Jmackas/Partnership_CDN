@@ -4,6 +4,9 @@ Universal Elements
 /* Sans Font from Google Import */
 @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
 
+/* Import font icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
 /* The element that can target everything */
 body {
     font-family: 'Encode Sans Expanded', sans-serif;
