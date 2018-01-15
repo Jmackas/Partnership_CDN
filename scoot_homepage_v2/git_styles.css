@@ -34,5 +34,20 @@ Header
 }
 
 /*===================================
+Services Carousel
+===================================*/
+/* Carousel container */
+.servicesCarousel {
+    display: flex;
+}
+
+/* Carousel all individual elements */
+.servicesCarousel a {
+    display: flex;
+    width: 10%;
+}
+
+
+/*===================================
 Miscellaneous Code
 ===================================*/
