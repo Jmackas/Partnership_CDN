@@ -9,7 +9,6 @@ Header
 /* Header container */
 .header {
     display: flex;
-    background: #408bc9;
     height: 100vh;
 }
 
