@@ -1,6 +1,15 @@
 /*===================================
 Universal Elements
 ===================================*/
+/* Sans Font from Google Import */
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
+
+/* The element that can target everything */
+body {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 140%;
+    color: white;
+}
 
 
 /*===================================
