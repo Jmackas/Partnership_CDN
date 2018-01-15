@@ -30,14 +30,8 @@ Header
 
 /* Scoot Digital logo container */
 .scootDigitalLogo {
-    padding: 1% 2%;
     width: 30%;
     height: 100vh;
-}
-
-/* Scoot Digital logo */
-.scootDigitalLogo img {
-    padding: 5% 0 0 5%;
 }
 
 /* Header main content */
