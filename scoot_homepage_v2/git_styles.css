@@ -16,6 +16,7 @@ Header
 .scootDigitalLogo {
     padding: 1% 2%;
     width: 30%;
+    height: 100vh;
 }
 
 /* Scoot Digital logo */
@@ -26,6 +27,7 @@ Header
 /* Header main content */
 .headerMainContent {
     width: 70%;
+    height: 100vh;
 }
 
 /*===================================
