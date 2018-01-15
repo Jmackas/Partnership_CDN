@@ -10,9 +10,13 @@ Universal Elements
 /* The element that can target everything */
 body {
     font-family: 'Encode Sans Expanded', sans-serif;
-    color: white;
+    color: #333;
 }
 
+h2 {
+    font-size: 60px;
+    color: #333;
+}
 
 /*===================================
 Header
@@ -81,7 +85,7 @@ About Us Section
 .aboutUs {
     width: 80%;
     margin: auto;
-    padding: 2% 0 0 0;
+    padding: 3% 0 0 0;
 }
 
 
