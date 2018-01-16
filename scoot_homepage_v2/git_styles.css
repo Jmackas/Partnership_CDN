@@ -28,6 +28,7 @@ h2 {
 /*===================================
 Header
 ===================================*/
+
 /* Header container */
 .header {
     display: flex;
@@ -49,8 +50,17 @@ Header
     width: 60%;
     padding: 1% 0 0 0;
     height: 100vh;
-    align-items: center;
+}
+
+/* Menu items */
+.menuItems {
     display: flex;
+    justify-content: center;
+}
+
+/* Individual menu items grouped */
+.menuItems a {
+    padding: 1% 3%;
 }
 
 /*===================================
