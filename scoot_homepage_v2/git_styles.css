@@ -2,12 +2,8 @@
 Universal Elements
 ===================================*/
 /* Sans Font from Google Import */
-@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
-
-/* Header font from Google Import */
-@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
-
-/* The element that can target everything */
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded'); /* Header font from Google Import */
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti'); /* The element that can target everything */
 body {
     font-family: 'Encode Sans Expanded', sans-serif;
     color: #333;
@@ -17,7 +13,7 @@ h1 {
     font-size: 400%;
     color: #ffffff;
     font-family: Calligraffitti;
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 1px #333;
 }
 
 h2 {
@@ -28,7 +24,6 @@ h2 {
 /*===================================
 Header
 ===================================*/
-
 /* Header container */
 .header {
     display: flex;
@@ -60,7 +55,18 @@ Header
 
 /* Individual menu items grouped */
 .menuItems a {
-    padding: 1% 3%;
+    padding: 1% 5%;
+    color: white;
+    text-shadow: 1px 1px 1px #333;
+    font-size: 130%;
+    transition: .2s;
+}
+
+/* Menu items on hover */
+.menuItems a:hover {
+    background: white;
+    color: #333;
+    text-shadow: initial;
 }
 
 /*===================================
@@ -92,7 +98,6 @@ Services Carousel
     border-bottom: 4px solid #408bc9;
 }
 
-
 /*===================================
 About Us Section
 ===================================*/
@@ -103,8 +108,6 @@ About Us Section
     margin: auto;
     padding: 3% 0 0 0;
 }
-
-
 
 /*===================================
 Miscellaneous Code
