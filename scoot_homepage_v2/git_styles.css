@@ -72,11 +72,16 @@ Header
 }
 
 /*===================================
-Services Carousel
+Services List
 ===================================*/
-/* Carousel container */
+/* Services container */
 .servicesCarousel {
     display: flex;
+}
+
+/* Block display of services items */
+.servicesCarousel a span {
+    display: block;
 }
 
 /* Carousel all individual elements */
