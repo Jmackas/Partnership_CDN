@@ -62,6 +62,7 @@ Header
     text-shadow: 1px 1px 1px #333;
     font-size: 130%;
     transition: .2s;
+    text-align: center;
 }
 
 /* Menu items on hover */
