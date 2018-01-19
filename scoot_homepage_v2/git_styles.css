@@ -79,6 +79,11 @@ Services List
     display: flex;
 }
 
+/* Icon sizing */
+.servicesCarousel a span {
+    font-size: 270%;
+}
+
 /* Carousel all individual elements */
 .servicesCarousel a {
     display: flex;
