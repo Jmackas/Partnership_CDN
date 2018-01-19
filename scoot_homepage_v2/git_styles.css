@@ -79,11 +79,6 @@ Services List
     display: flex;
 }
 
-/* Block display of services items */
-.servicesCarousel a span {
-    display: block;
-}
-
 /* Carousel all individual elements */
 .servicesCarousel a {
     display: flex;
