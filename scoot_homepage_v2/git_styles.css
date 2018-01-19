@@ -80,8 +80,8 @@ Services List
 }
 
 /* Icon sizing */
-.servicesCarousel a span {
-    font-size: 270%;
+.servicesCarousel a span i {
+    font-size: 180%;
 }
 
 /* Carousel all individual elements */
