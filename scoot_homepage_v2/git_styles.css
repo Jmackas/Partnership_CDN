@@ -105,6 +105,21 @@ Services List
     border-bottom: 4px solid #408bc9;
 }
 
+@media only screen and (max-width: 680px) {
+    .servicesCarousel {
+        display: block;
+    }
+    
+    .servicesCarousel a {
+                width: 100%;
+        border-bottom: none;
+        height: 200px;
+    }
+    
+    .servicesCarousel a:hover {
+                border-bottom: none
+    }
+}
 /*===================================
 About Us Section
 ===================================*/
