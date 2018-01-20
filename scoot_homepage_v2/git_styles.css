@@ -141,10 +141,20 @@ About Us Section
     padding: 3% 0 0 0;
 }
 
+/* About us image */
+.aboutUs img {
+	width: 275px;
+	float: left;
+	margin: 0 17px 0 0;
+}
+
+/* About us paragraph */
 .aboutUs p {
     font-size: 140%;
     text-align: justify;
 }
+
+
 
 /*===================================
 Portfolio
