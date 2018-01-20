@@ -151,17 +151,22 @@ Contact Form
     text-shadow: 1px 1px 1px #333;
 }
 
-/* Input button styling */
-input.wpcf7-form-control.wpcf7-submit {
-    background: #333;
-    border-radius: 0;
+/* Form submit button container */
+.formButtonSubmit {
+    display: flex;
+    justify-content: center;
+}
+
+/* Form submit button targetted */
+.wpcf7-form-control.wpcf7-submit {
     border: 1px solid #333;
 }
 
-input.wpcf7-form-control.wpcf7-submit:hover {
+/* Form submit button targetted hover */
+.wpcf7-form-control.wpcf7-submit:hover {
     background: white;
-    border-radius: 0;
     color: #333;
+    border: 1px solid #333;
 }
 
 /*===================================
