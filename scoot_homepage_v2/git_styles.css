@@ -133,6 +133,11 @@ About Us Section
     padding: 3% 0 0 0;
 }
 
+.aboutUs p {
+    font-size: 140%;
+    text-align: justify;
+}
+
 /*===================================
 Contact Form
 ===================================*/
