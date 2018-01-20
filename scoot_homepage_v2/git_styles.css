@@ -53,6 +53,8 @@ Header
 /* Menu items */
 .menuItems {
     display: flex;
+    height: 5%;
+    align-items: center;
     justify-content: center;
 }
 
@@ -71,6 +73,12 @@ Header
     background: white;
     color: #333;
     text-shadow: initial;
+}
+
+.headerSlogan {
+    display: flex;
+    height: 95%;
+    align-items: center;
 }
 
 /*===================================
