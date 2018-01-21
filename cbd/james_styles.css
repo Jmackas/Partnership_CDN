@@ -92,6 +92,13 @@ Front page
     text-align: center;
 }
 
+/* Caption wrap */
+.metaslider .caption {
+    background: #3336;
+    padding: 5% !important;
+    border-radius: 4px;
+}
+
 /* Slider button container */
 .sliderButtonContainer {
     display: flex;
