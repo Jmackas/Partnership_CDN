@@ -12,9 +12,9 @@ Table of Contents:
     # Article frameworks No1
 
 */
-/*------------------------------------------
+/*====================================
 Universal elements
-------------------------------------------*/
+====================================*/
 body {
     font-family: roboto;
 }
@@ -40,9 +40,9 @@ body {
     }
 }
 
-/*------------------------------------------
+/*====================================
 Menu items
-------------------------------------------*/
+====================================*/
 /* Force the header width to 100% */
 header#masthead .container {
     width: 100%;
@@ -63,9 +63,9 @@ li#mega-menu-item-534 {
     top: 0;
 }
 
-/*------------------------------------------
+/*====================================
 Front page
-------------------------------------------*/
+====================================*/
 /* Force the width of the product range ('our range') to 100% */
 .product-list-wrap img {
     width: 100%;
@@ -184,9 +184,9 @@ a.sliderButtons:hover {
 
 
 
-/*------------------------------------------
+/*====================================
 'Get Inspired' modules
-------------------------------------------*/
+====================================*/
 /* Encapsulating all the elements within thse four modules */
 .getInspired {
     justify-content: center;
@@ -257,25 +257,25 @@ a.sliderButtons:hover {
     }
 }
 
-/*------------------------------------------
+/*====================================
 Footer 
-------------------------------------------*/
+====================================*/
 /* Product category links underlined */
 ul.product-categories {
     text-decoration: underline;
 }
 
-/*------------------------------------------
+/*====================================
 WooCommerce Modules
-------------------------------------------*/
+====================================*/
 /* Increased padding under the product displays */
 .woocommerce-products-header {
     padding: 2% 0 0 0;
 }
 
-/*------------------------------------------
+/*====================================
 Article frameworks general
-------------------------------------------*/
+====================================*/
 /* Removal of 'next article' */
 nav.navigation.post-navigation {
     display: none;
@@ -296,9 +296,9 @@ nav.navigation.post-navigation {
     }
 }
 
-/*------------------------------------------
+/*====================================
 Article frameworks No1
-------------------------------------------*/
+====================================*/
 /* Bold H2 styles */
 .frameworkOne h2 {
     font-weight: bold;
@@ -308,3 +308,13 @@ Article frameworks No1
 .frameworkOne figcaption {
     text-align: center;
 }
+
+
+
+/*====================================
+Miscellaneous Code
+====================================*/
+/* Hiding the search bar in Internet Explorer */
+*::-ms-backdrop, .right-bar {
+    display: none;
+  } 
