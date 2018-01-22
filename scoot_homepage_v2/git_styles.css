@@ -135,9 +135,8 @@ About Us Section
 ===================================*/
 /* About us container */
 .aboutUs {
-    width: 80%;
     margin: auto;
-    padding: 3% 0 0 0;
+    padding: 5% 20%;
 }
 
 /* About us image */
