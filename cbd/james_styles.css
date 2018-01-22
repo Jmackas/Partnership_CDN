@@ -314,3 +314,8 @@ Miscellaneous Code
 *::-ms-backdrop, .right-bar {
     display: none;
   } 
+
+/* Category header colour overwrite */
+#custom-header::after {
+    background: #353535;
+}
