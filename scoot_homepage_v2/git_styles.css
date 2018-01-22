@@ -169,7 +169,7 @@ Portfolio
 Contact Form
 ===================================*/
 .contactForm {
-    padding: 1% 5%;
+    padding: 1% 22%;
     background: #408bc9;
 }
 
@@ -199,6 +199,12 @@ Contact Form
     background: white;
     color: #333;
     border: 1px solid #333;
+}
+
+@media only screen and (max-width: 903px) {
+    .contactForm {
+        padding: 0 2%;
+    }
 }
 
 /*===================================
