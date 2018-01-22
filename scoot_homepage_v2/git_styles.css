@@ -152,6 +152,12 @@ About Us Section
     text-align: justify;
 }
 
+@media only screen and (max-width: 1000px) {
+    .aboutUs {
+        padding: 5% 5%;
+    }
+}
+
 /*===================================
 Portfolio
 ===================================*/
