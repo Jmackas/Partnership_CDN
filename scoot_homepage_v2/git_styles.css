@@ -29,8 +29,12 @@ Header
 /* Side buttons fixed */
 .fixedSideButtons {
     position:  fixed;
-    right: 1%;
+    right: 0;
+    padding: 5px 5px 5px 10px;
+    background: #19191938;
     top: 50%;
+    border-top-left-radius:  8px;
+    border-bottom-left-radius: 8px;
 }
 
 .fixedSideButtons a {
