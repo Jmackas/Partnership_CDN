@@ -24,7 +24,7 @@ h2 {
 }
 
 /*===================================
-Header
+Fixed side buttons module
 ===================================*/
 /* Side buttons fixed */
 .fixedSideButtons {
@@ -40,12 +40,17 @@ Header
 .fixedSideButtons a {
     color: white;
     opacity: 0.4;
+    transition: .2s;
 }
 
 .fixedSideButtons a:hover {
-    color: rgb(223, 223, 223);
     opacity: 0.8;
 }
+
+.fixedSideButtons a:focus {
+    color: #408bc9;
+}
+
 
 /*===================================
 Header
