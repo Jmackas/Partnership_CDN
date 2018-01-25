@@ -181,7 +181,7 @@ a.sliderButtons:hover {
 
 
 /*====================================
-'Get Inspired' modules
+'Our Flooring Selection' section
 ====================================*/
 /* Encapsulating all the elements within thse four modules */
 .getInspired {
@@ -251,6 +251,16 @@ a.sliderButtons:hover {
     .springFeels, .contemporaryFeels, .contrastingWhites, .warmAndCosy {
         font-size: 180% !important;
     }
+}
+
+/* White margin below this section */
+div#pg-675-2 {
+    margin-bottom: 0;
+}
+
+
+#primary .panel-grid > div {
+    padding-bottom: 0 !important;
 }
 
 /*====================================
