@@ -30,7 +30,16 @@ Header
 .fixedSideButtons {
     position:  fixed;
     right: 1%;
+    opacity: 0.4;
     top: 50%;
+}
+
+.fixedSideButtons a {
+    color: white;
+}
+
+.fixedSideButtons a:hover {
+    color: rgb(223, 223, 223);
 }
 
 /*===================================
