@@ -26,6 +26,16 @@ h2 {
 /*===================================
 Header
 ===================================*/
+/* Side buttons fixed */
+.fixedSideButtons {
+    position:  fixed;
+    right: 1%;
+    top: 50%;
+}
+
+/*===================================
+Header
+===================================*/
 /* Header container */
 .header {
     display: flex;
