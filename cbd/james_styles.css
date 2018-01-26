@@ -314,6 +314,39 @@ Article frameworks No1
     text-align: center;
 }
 
+/*====================================
+'Radiance' category test
+====================================*/
+.radianceImageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+img.radianceImage {
+    display: flex;
+    width: 40%;
+    height: 380px;
+}
+
+img.radianceImageBackdrop {
+    display: flex;
+    width: 90%;
+    height: 200px;
+}
+
+@media only screen and (max-width: 736px) {
+.radianceImageContainer {
+    display: block;
+    text-align: center;
+}    
+
+img.radianceImage, img.radianceImageBackdrop {
+        display: block;
+        height: initial;
+        width: 100%;
+    }
+}
+
 
 
 /*====================================
