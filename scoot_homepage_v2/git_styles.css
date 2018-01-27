@@ -5,9 +5,14 @@ Universal Elements
 @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded'); /* Header font from Google Import */
 @import url('https://fonts.googleapis.com/css?family=Calligraffitti'); /* The element that can target everything */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); /* Font awesome import*/
+html {
+    background: #408bc9; 
+}
+
 body {
     font-family: 'Encode Sans Expanded', sans-serif;
     color: #333;
+    background: white;
     animation: fadein 1s;
 }
 
