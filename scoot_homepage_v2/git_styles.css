@@ -8,6 +8,19 @@ Universal Elements
 body {
     font-family: 'Encode Sans Expanded', sans-serif;
     color: #333;
+    background: #408bc9;
+    animation: fadein 1s;
+}
+
+/*  Fade in effect */
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 h1 {
