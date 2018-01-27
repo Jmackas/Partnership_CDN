@@ -78,6 +78,7 @@ Header
     height: 5%;
     align-items: center;
     justify-content: center;
+    white-space: nowrap;
 }
 
 /* Individual menu items grouped */
