@@ -46,8 +46,6 @@ Fixed contact button
     opacity: 1;
 }
 
-
-
 /*===================================
 Header
 ===================================*/
@@ -163,6 +161,7 @@ About Us Section
     margin: auto;
     max-width: 80%;
     padding: 2% 0;
+    height: 100vh;
 }
 
 /* About us image */
@@ -179,6 +178,12 @@ About Us Section
 }
 
 @media only screen and (max-width: 1000px) {
+    .aboutUs {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 752px) {
     .aboutUs {
         width: 100%;
     }
