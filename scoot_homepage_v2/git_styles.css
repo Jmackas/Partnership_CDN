@@ -104,6 +104,17 @@ Header
     align-items: center;
 }
 
+/* Hide menu items except for the contact us button */
+@media only screen and (max-width: 774px) {
+    .menuItems a {
+        display: none;
+    }
+
+    a.contactUsItem {
+        display: block;
+    }
+}
+
 /*===================================
 Services List
 ===================================*/
