@@ -183,6 +183,7 @@ About Us Section
     }
 }
 
+/* Height parameters reset */
 @media only screen and (max-width: 752px) {
     .aboutUs {
         height: initial;
@@ -197,6 +198,7 @@ Meet the Scoot Digital Team
     margin: auto;
     color: white;
     padding: 2% 10%;
+    height: 100vh;
     background: #408bc9;
 }
 
@@ -220,6 +222,13 @@ Meet the Scoot Digital Team
 /* Paragraph text targeted */
 .profilePictures p {
     text-align: center;
+}
+
+/* Height parameters reset */
+@media only screen and (max-width: 752px) {
+    .scootTeam {
+        height: initial;
+    }
 }
 
 /*===================================
