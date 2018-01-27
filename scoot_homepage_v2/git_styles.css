@@ -35,13 +35,16 @@ Fixed contact button
     border-radius: 40px;
     background: white;
     border: 1px solid #333;
-    transition: .2s;
+    transition: 0.2s;
+    opacity: 0.6;
 }
 
 .fixedContactButton a:hover {
     background: #333;
     color: white;
+    opacity: 1;
 }
+
 
 
 /*===================================
