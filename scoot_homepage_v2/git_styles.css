@@ -187,12 +187,16 @@ About Us Section
 /*===================================
 Meet the Scoot Digital Team
 ===================================*/
-/* Container */
+/* Container for Scoot Digital Team */
 .scootTeam {
     margin: auto;
-    max-width: 80%;
-    padding: 2% 0;
+    color: white;
+    padding: 2% 10%;
     background: #408bc9;
+}
+
+.scootTeam h2 {
+    color: white;
 }
 
 
