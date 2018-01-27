@@ -29,8 +29,8 @@ Fixed contact button
 .fixedContactButton a {
     font-size: 220%;
     position: fixed;
-    right: 3%;
-    bottom: 3%;
+    right: 35px;
+    bottom: 28px;
     padding: 10px 20px;
     border-radius: 40px;
     background: white;
