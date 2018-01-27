@@ -211,6 +211,10 @@ Meet the Scoot Digital Team
     justify-content: center;
 }
 
+/* Paragraph text targeted */
+.profilePictures p {
+    text-align: center;
+}
 
 /*===================================
 Portfolio
