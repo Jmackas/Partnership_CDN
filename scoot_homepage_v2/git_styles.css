@@ -160,7 +160,8 @@ About Us Section
 /* About us container */
 .aboutUs {
     margin: auto;
-    padding: 5% 20%;
+    max-width: 80%;
+    padding: 2% 0;
 }
 
 /* About us image */
@@ -178,7 +179,7 @@ About Us Section
 
 @media only screen and (max-width: 1000px) {
     .aboutUs {
-        padding: 5% 5%;
+        width: 100%;
     }
 }
 
