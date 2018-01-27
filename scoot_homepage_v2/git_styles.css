@@ -37,6 +37,7 @@ Fixed contact button
     border: 1px solid #333;
     transition: 0.2s;
     opacity: 0.6;
+    z-index: 2;
 }
 
 .fixedContactButton a:hover {
