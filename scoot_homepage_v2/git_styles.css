@@ -314,3 +314,7 @@ Contact Form
 /*===================================
 Miscellaneous Code
 ===================================*/
+/* Hide the slow scroll (go to top) button */
+a#scroll-to-top {
+    display: none !important;
+}
