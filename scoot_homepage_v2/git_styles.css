@@ -24,35 +24,6 @@ h2 {
 }
 
 /*===================================
-Fixed side buttons module
-===================================*/
-/* Side buttons fixed */
-.fixedSideButtons {
-    position:  fixed;
-    right: 0;
-    padding: 5px 5px 5px 10px;
-    background: #19191938;
-    top: 50%;
-    border-top-left-radius:  8px;
-    border-bottom-left-radius: 8px;
-}
-
-.fixedSideButtons a {
-    color: white;
-    opacity: 0.4;
-    transition: .2s;
-}
-
-.fixedSideButtons a:hover {
-    opacity: 0.8;
-}
-
-.fixedSideButtons a:focus {
-    color: #15babc;
-}
-
-
-/*===================================
 Header
 ===================================*/
 /* Header container */
