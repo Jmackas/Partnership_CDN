@@ -187,6 +187,12 @@ About Us Section
 /*===================================
 Meet the Scoot Digital Team
 ===================================*/
+/* About us paragraph */
+.scootTeam p {
+    font-size: 140%;
+    text-align: justify;
+}
+
 .scootTeam {
     background: #408bc9;
 }
