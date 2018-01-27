@@ -185,7 +185,7 @@ About Us Section
 
 @media only screen and (max-width: 752px) {
     .aboutUs {
-        width: 100%;
+        height: initial;
     }
 }
 
