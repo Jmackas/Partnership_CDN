@@ -187,14 +187,19 @@ About Us Section
 /*===================================
 Meet the Scoot Digital Team
 ===================================*/
-/* About us paragraph */
+/* Container */
+.scootTeam {
+    margin: auto;
+    max-width: 80%;
+    padding: 2% 0;
+    background: #408bc9;
+}
+
+
+/* Scoot Digital Team Paragraph */
 .scootTeam p {
     font-size: 140%;
     text-align: justify;
-}
-
-.scootTeam {
-    background: #408bc9;
 }
 
 /*===================================
