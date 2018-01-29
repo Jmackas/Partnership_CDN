@@ -187,10 +187,12 @@ About Us Section
 ===================================*/
 /* About us container */
 .aboutUs {
-    /* margin: auto; */
-    /* max-width: 80%; */
     padding: 2% 10%;
     height: 100vh;
+    background-image: url(https://i.imgur.com/CysN40z.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:contain;
 }
 
 /* About us image */
