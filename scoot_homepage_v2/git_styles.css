@@ -187,9 +187,9 @@ About Us Section
 ===================================*/
 /* About us container */
 .aboutUs {
-    margin: auto;
-    max-width: 80%;
-    padding: 2% 0;
+    /* margin: auto; */
+    /* max-width: 80%; */
+    padding: 2% 10%;
     height: 100vh;
 }
 
