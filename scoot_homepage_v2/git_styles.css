@@ -190,6 +190,21 @@ About Us Section
     padding: 2% 10% 6% 10%;
 }
 
+/* Image and text container */
+.imageSideByText {
+    display: flex;
+}
+
+/* Image container */
+.imageSideByText .imageContainer {
+    width: 20%;
+}
+
+/* Text container */
+.imageSideByText .textContainer {
+    width: 80%;
+}
+
 /* About us image */
 .aboutUs img {
     width: 275px;
@@ -203,19 +218,23 @@ About Us Section
     text-align: justify;
 }
 
-@media only screen and (max-width: 1000px) {
-    .aboutUs {
-        width: 100%;
-    }
-}
-
-/* Height parameters reset */
 @media only screen and (max-width: 752px) {
-    .aboutUs {
-        height: initial;
+    .imageSideByText {
+        display: block;
+    }
+
+    .imageSideByText .imageContainer {
+        width: 100%;
+        margin: initial;
+        text-align: center;
+    }
+
+    .imageSideByText .textContainer {
+        width: 100%;
+        margin: initial;
+        text-align: center;
     }
 }
-
 /*===================================
 Meet the Scoot Digital Team
 ===================================*/
