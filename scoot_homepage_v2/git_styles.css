@@ -189,10 +189,6 @@ About Us Section
 .aboutUs {
     padding: 2% 10%;
     height: 100vh;
-    background-image: url('https://i.imgur.com/jg4SqE0.png');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 /* About us image */
