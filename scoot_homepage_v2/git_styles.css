@@ -6,7 +6,7 @@ Universal Elements
 @import url('https://fonts.googleapis.com/css?family=Calligraffitti'); /* The element that can target everything */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); /* Font awesome import*/
 html {
-    background: #408bc9; 
+    background: #408bc9;
 }
 
 body {
@@ -192,7 +192,7 @@ About Us Section
     background-image: url('https://i.imgur.com/jg4SqE0.png');
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
 }
 
 /* About us image */
@@ -251,6 +251,12 @@ Meet the Scoot Digital Team
 }
 
 /* Targetting all profile pictures */
+.profilePictures div {
+    width: 33%;
+    text-align: center;
+}
+
+/* Targetting all profile pictures images */
 .profilePictures div img {
     width: 220px;
     height: 300px;
