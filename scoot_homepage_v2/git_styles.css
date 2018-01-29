@@ -250,6 +250,12 @@ Meet the Scoot Digital Team
     justify-content: center;
 }
 
+/* Targetting all profile pictures */
+.profilePictures div img {
+    width: 220px;
+    height: 300px;
+}
+
 /* Paragraph text targeted */
 .profilePictures p {
     text-align: center;
