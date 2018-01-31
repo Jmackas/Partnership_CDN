@@ -317,6 +317,16 @@ Article frameworks No1
 /*====================================
 'Radiance' category test
 ====================================*/
+/* Hide the bottom panel on the top section */
+#topPanel .belowPanel {
+    display: none;
+}
+
+/* Hide the top panel on the bottom section */
+#bottomPanel .topPanel {
+    display: none;
+}
+
 .radianceImageContainer {
     display: flex;
     justify-content: center;
