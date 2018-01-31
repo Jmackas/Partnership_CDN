@@ -72,17 +72,16 @@ Front page
     max-width: 100% !important;
 }
 
-
 /* Slideshow caption */
 .metaslider .caption-wrap {
     display: flex !important;
-    align-items:  center;
-    justify-content:  center;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    background:  none !important;
+    background: none !important;
     top: 2%;
     left: 1% !important;
-    font-size:  250%;
+    font-size: 250%;
     width: 98%;
     opacity: 1 !important;
     font-family: cbd-font;
@@ -118,8 +117,7 @@ a.sliderButtons {
 
 /* Slider button hover */
 a.sliderButtons:hover {
- background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #b21d1d), color-stop(1, #d33232));
-
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #b21d1d), color-stop(1, #d33232));
 }
 
 /* Slider left/right */
@@ -141,7 +139,6 @@ a.sliderButtons:hover {
     z-index: 99 !important;
 }
 
-
 /* Slider button size allocation */
 .metaslider .flexslider .flex-direction-nav li a {
     width: 54px !important;
@@ -153,13 +150,13 @@ a.sliderButtons:hover {
     background-color: red !important;
 }
 
-
 /* Slideshow height mobile */
 @media only screen and (max-width: 450px) {
     .metaslider img {
         height: 250px !important;
     }
 }
+
 /* Slideshow caption mobile */
 @media only screen and (max-width: 600px) {
     .metaslider .caption-wrap {
@@ -174,11 +171,9 @@ a.sliderButtons:hover {
 /* Slideshow front page */
 @media only screen and (max-width: 1080px) {
     .frontPageSlideshow {
-        margin-top: -20px;   
+        margin-top: -20px;
     }
 }
-
-
 
 /*====================================
 'Our Flooring Selection' section
@@ -325,6 +320,7 @@ Article frameworks No1
 /* Hide the top panel on the bottom section */
 #bottomPanel .topPanel {
     display: none;
+    margin-bottom: 10px;
 }
 
 .radianceImageContainer {
@@ -345,18 +341,36 @@ img.radianceImageBackdrop {
 }
 
 @media only screen and (max-width: 736px) {
-.radianceImageContainer {
-    display: block;
-    text-align: center;
-}    
+    .radianceImageContainer {
+        display: block;
+        text-align: center;
+    }
 
-img.radianceImage, img.radianceImageBackdrop {
+    img.radianceImage, img.radianceImageBackdrop {
         display: block;
         height: initial;
         width: 100%;
     }
 }
 
+/* 
+Brands category 
+*/
+.brandsContainer {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.brandsContainer img {
+    width: 250px;
+    margin: 0 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .belowPanel {
+        display: none;
+    }
+}
 
 
 /*====================================
@@ -365,7 +379,7 @@ Miscellaneous Code
 /* Hiding the search bar in Internet Explorer */
 *::-ms-backdrop, .right-bar {
     display: none;
-  } 
+}
 
 /* Category header colour overwrite */
 #custom-header::after {
