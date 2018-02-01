@@ -66,6 +66,15 @@ Fixed Contact Button
 /*===================================
 Fixed Social Media Buttons
 ===================================*/
+.fixedSocialMedia a {
+    font-size: 220%;
+    position: fixed;
+    left: 35px;
+    bottom: 28px;
+    transition: 0.2s;
+    opacity: 0.6;
+    z-index: 2;
+}
 
 /*===================================
 Header
