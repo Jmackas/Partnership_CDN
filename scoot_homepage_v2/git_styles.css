@@ -41,7 +41,7 @@ h2 {
 }
 
 /*===================================
-Fixed contact button
+Fixed Contact Button
 ===================================*/
 .fixedContactButton a {
     font-size: 220%;
@@ -62,6 +62,10 @@ Fixed contact button
     color: white;
     opacity: 1;
 }
+
+/*===================================
+Fixed Social Media Buttons
+===================================*/
 
 /*===================================
 Header
