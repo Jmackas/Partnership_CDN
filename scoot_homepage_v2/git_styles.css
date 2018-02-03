@@ -79,9 +79,9 @@ Fixed Social Media Buttons
 }
 
 .fixedSocialMedia a {
-    color: white;
-    text-shadow: 1px 1px 1px #333;
+    transition: 0.4s;
 }
+
 
 
 /*===================================
