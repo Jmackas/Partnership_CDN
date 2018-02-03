@@ -67,7 +67,8 @@ Fixed Contact Button
 /*===================================
 Fixed Social Media Buttons
 ===================================*/
-.fixedSocialMedia a {
+/* Fixed social media buttons container */
+.fixedSocialMedia {
     font-size: 220%;
     position: fixed;
     left: 35px;
@@ -76,6 +77,12 @@ Fixed Social Media Buttons
     opacity: 0.6;
     z-index: 2;
 }
+
+.fixedSocialMedia a {
+    color: white;
+    text-shadow: 1px 1px 1px #333;
+}
+
 
 /*===================================
 Header
