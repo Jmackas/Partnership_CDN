@@ -86,8 +86,8 @@ Fixed Social Media Buttons
 
 /* Social media icons on hover */
 .fixedSocialMedia a:hover {
-    -webkit-text-stroke: 1px black;
-    color: rgba(0,0,0,0);
+    -webkit-text-stroke: 1px white;
+    color: #333;
 }
 
 
