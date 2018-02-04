@@ -240,7 +240,8 @@ Meet the Scoot Digital Team
     background: #408bc9;
     background-image: url(https://i.imgur.com/PwFsk5I.jpg);
     background-size: cover;
-    background-repeat:  no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .scootTeam h2 {
