@@ -71,8 +71,8 @@ Fixed Social Media Buttons
 .fixedSocialMedia {
     font-size: 220%;
     position: fixed;
-    left: 35px;
-    bottom: 28px;
+    left: 30px;
+    bottom: 18px;
     transition: 0.2s;
     opacity: 0.8;
     z-index: 2;
