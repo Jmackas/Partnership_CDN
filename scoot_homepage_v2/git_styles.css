@@ -74,12 +74,20 @@ Fixed Social Media Buttons
     left: 35px;
     bottom: 28px;
     transition: 0.2s;
-    opacity: 0.6;
+    opacity: 0.8;
     z-index: 2;
 }
 
 .fixedSocialMedia a {
     transition: 0.4s;
+    color: #16babc;
+    -webkit-text-stroke: 1px rgba(0,0,0,0);
+}
+
+/* Social media icons on hover */
+.fixedSocialMedia a:hover {
+    -webkit-text-stroke: 1px black;
+    color: rgba(0,0,0,0);
 }
 
 
