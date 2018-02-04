@@ -5,7 +5,6 @@ Universal Elements
 @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded'); /* Header font from Google Import */
 @import url('https://fonts.googleapis.com/css?family=Calligraffitti'); /* The element that can target everything */
 @import url('https://use.fontawesome.com/releases/v5.0.6/css/all.css'); /* Font awesome import*/
-
 html {
     background: #408bc9;
 }
@@ -91,8 +90,6 @@ Fixed Social Media Buttons
     color: #418bca;
 }
 
-
-
 /*===================================
 Header
 ===================================*/
@@ -104,10 +101,7 @@ Header
     background-image: url('https://i.imgur.com/oQ9ABDg.png');
 }
 
-/* Scoot Digital logo container */
 .scootDigitalLogo {
-    height: 100vh;
-    width: 40%;
     background-image: url('https://i.imgur.com/ItTKwuR.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -243,9 +237,9 @@ Meet the Scoot Digital Team
     padding: 2% 10%;
     height: 100vh;
     background: #408bc9;
-    background-image:  url(https://i.imgur.com/a7rFytc.jpg);
+    background-image: url(https://i.imgur.com/a7rFytc.jpg);
     background-size: contain;
-    background-attachment:  fixed;
+    background-attachment: fixed;
 }
 
 .scootTeam h2 {
@@ -342,7 +336,6 @@ Contact Form
     background: #408bc9;
     color: white;
 }
-
 
 @media only screen and (max-width: 903px) {
     .contactForm {
