@@ -69,7 +69,6 @@ Fixed Social Media Buttons
 ===================================*/
 /* Fixed social media buttons container */
 .fixedSocialMedia {
-    font-size: 220%;
     position: fixed;
     left: 30px;
     bottom: 18px;
@@ -79,6 +78,7 @@ Fixed Social Media Buttons
 }
 
 .fixedSocialMedia a {
+    font-size: 270%;
     transition: 0.4s;
     color: #16babc;
     -webkit-text-stroke: 1px rgba(0,0,0,0);
