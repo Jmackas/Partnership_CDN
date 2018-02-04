@@ -57,7 +57,8 @@ Fixed Contact Button
 }
 
 .fixedContactButton a:hover {
-    background: #333;
+    background: #16babc;
+    border: 1px solid white;
     color: white;
     opacity: 1;
 }
