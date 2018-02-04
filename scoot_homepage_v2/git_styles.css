@@ -104,6 +104,7 @@ Header
 .scootDigitalLogo {
     background-image: url('https://i.imgur.com/ItTKwuR.png');
     background-repeat: no-repeat;
+    background-size: 35%;
     width: 100%;
 }
 
