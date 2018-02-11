@@ -69,8 +69,8 @@ Fixed Social Media Buttons
 /* Fixed social media buttons container */
 .fixedSocialMedia {
     position: fixed;
-    left: 30px;
-    bottom: 18px;
+    left: 45px;
+    bottom: 26px;
     transition: 0.2s;
     opacity: 0.8;
     z-index: 2;
