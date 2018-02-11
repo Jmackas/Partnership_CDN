@@ -208,6 +208,11 @@ Services List
     .servicesCarousel a:hover {
         border-bottom: none
     }
+
+    /* Background header logo size */
+    .scootDigitalLogo {
+        background-size: 60%;
+    }
 }
 
 /*===================================
