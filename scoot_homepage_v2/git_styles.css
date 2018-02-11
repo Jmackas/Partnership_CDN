@@ -347,6 +347,15 @@ Contact Form
 }
 
 /*===================================
+Footer
+===================================*/
+footer {
+    padding: 2%;
+    text-align:  center;
+}
+
+
+/*===================================
 Miscellaneous Code
 ===================================*/
 /* Hide the slow scroll (go to top) button */
