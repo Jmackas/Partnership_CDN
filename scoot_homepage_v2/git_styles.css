@@ -355,9 +355,20 @@ Contact Form
 Footer
 ===================================*/
 footer {
+    background: #191919;
     padding: 2%;
     text-align:  center;
+    border-top: 1px solid #4e4e4e;
 }
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: lightgray;
+}
+
 
 
 /*===================================
