@@ -9,11 +9,6 @@ body {
     font-family: roboto;
 }
 
-/* Border around buttons */
-.so-widget-sow-button-wire-f94a0f44a242 .ow-button-base a {
-    border: 1px solid black !important;
-}
-
 /* Removal of theme copyright text */
 .site-info {
     display: none;
