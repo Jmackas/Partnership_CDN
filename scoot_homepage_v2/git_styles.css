@@ -80,14 +80,14 @@ Fixed Social Media Buttons
     font-size: 270%;
     margin: 0 15px 0 0;
     transition: 0.4s;
-    color: #16babc;
+    color: #408ac9;
     -webkit-text-stroke: 1px rgba(0,0,0,0);
 }
 
 /* Social media icons on hover */
 .fixedSocialMedia a:hover {
     -webkit-text-stroke: 1px white;
-    color: #418bca;
+    color: #15babc;
 }
 
 /*===================================
