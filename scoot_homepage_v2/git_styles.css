@@ -177,6 +177,7 @@ Services List
 /* Icon sizing */
 .servicesCarousel a span i {
     font-size: 180%;
+        background: linear-gradient(to right, #408ac9 , #16babc);
 }
 
 /* Carousel all individual elements */
@@ -188,7 +189,6 @@ Services List
     color: #c8c8c8;
     justify-content: center;
     align-items: center;
-    background: #191919;
     transition: .2s;
     border-bottom: 4px solid #191919;
 }
