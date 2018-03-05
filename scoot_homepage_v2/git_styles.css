@@ -172,12 +172,13 @@ Services List
 /* Services container */
 .servicesCarousel {
     display: flex;
+  background: linear-gradient(to right, #408ac9 , #16babc);
 }
 
 /* Icon sizing */
 .servicesCarousel a span i {
     font-size: 180%;
-        background: linear-gradient(to right, #408ac9 , #16babc);
+        
 }
 
 /* Carousel all individual elements */
