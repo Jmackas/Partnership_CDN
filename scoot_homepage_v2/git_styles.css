@@ -39,6 +39,12 @@ h2 {
     text-align: center;
 }
 
+/* Scroll to top button plugin */
+.scroll-top-inner {
+    right: 52px;
+    bottom: 112px;
+}
+
 /*===================================
 Fixed Contact Button
 ===================================*/
