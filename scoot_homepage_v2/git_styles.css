@@ -331,7 +331,7 @@ Contact Form
 /* Form submit button targetted */
 .wpcf7-form-control.wpcf7-submit {
     color: #333;
-    padding: 2% 5%;
+    padding: 13px 30px;
     background: white;
     border: 1px solid rgba(0,0,0,0);
 }
