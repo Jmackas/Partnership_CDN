@@ -248,6 +248,10 @@ About Us Section
 /* About us container */
 .aboutUs {
     padding: 10%;
+    background-image: url(https://i.imgur.com/iFpSEi8.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 /* Image and text container */
