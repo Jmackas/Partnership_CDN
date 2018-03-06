@@ -121,8 +121,9 @@ Header
 /* Menu bar container */
 .menuBar {
     display: flex;
+    justify-content:  center;
     background: white;
-  padding: 2%;
+    padding: 2%;
     position: fixed;
     width: 100%;
 }
