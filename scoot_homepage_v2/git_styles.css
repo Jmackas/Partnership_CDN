@@ -281,10 +281,7 @@ Meet the Scoot Digital Team
     margin: auto;
     color: white;
     padding: 10%;
-    background-image: url(https://i.imgur.com/k3XCx2i.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: linear-gradient(to right, #408ac9 , #16babc);
     
 }
 
@@ -311,6 +308,10 @@ Portfolio
 /* Portfolio container */
 .ourClients {
     padding: 10%;
+    background-image: url(https://i.imgur.com/k3XCx2i.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /*===================================
