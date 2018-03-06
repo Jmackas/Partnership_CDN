@@ -38,6 +38,11 @@ h1 {
     text-shadow: 3px 2px 7px #333;
 }
 
+/* Mobile header hidden temporarily */
+#mobileHeader {
+    visibility: hidden;
+}
+
 h2 {
     font-size: 60px;
     color: #333;
@@ -169,6 +174,17 @@ Header
 
     a.contactUsItem {
         display: block;
+    }
+}
+
+/* Disable the Typewriting */
+@media only screen and (max-width: 500px) {
+    #desktopHeader {
+        visibility: hidden;
+    }
+    
+    #mobileHeader {
+        visibility: visible;
     }
 }
 
