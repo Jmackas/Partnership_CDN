@@ -274,7 +274,11 @@ Meet the Scoot Digital Team
     text-align: center;
 }
 
-
+/* Container for the carousel */
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+}
 
 /*===================================
 Footer
