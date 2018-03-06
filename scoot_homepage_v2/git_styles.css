@@ -143,11 +143,10 @@ Header
     white-space: nowrap;
 }
 
-/* Individual menu items grouped */
+/* Change the menu styling */
 .menuItems a {
-    padding: 1% 5%;
-    color: white;
-    text-shadow: 1px 1px 1px #333;
+    padding: 4% 6%;
+    color: black;
     font-size: 130%;
     transition: .2s;
     text-align: center;
