@@ -254,8 +254,8 @@ Meet the Scoot Digital Team
 .scootTeam {
     margin: auto;
     color: white;
-    padding: 2% 10%;
-    height: 100vh;
+    padding: 10%;
+    /* height: 100vh; */
     background: #191919;
     /* background-image: url(https://i.imgur.com/xvOTG7n.jpg); */
     background-size: cover;
