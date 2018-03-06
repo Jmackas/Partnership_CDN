@@ -126,6 +126,7 @@ Header
     padding: 2%;
     position: fixed;
     width: 100%;
+    z-index: 9;
 }
 
 /* Scoot Digital Logo */
