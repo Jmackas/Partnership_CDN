@@ -150,11 +150,13 @@ Header
 
 /* Change the menu styling */
 .menuItems a {
+    display: flex;
     padding: 4% 6%;
     color: black;
     font-size: 130%;
     transition: .2s;
     text-align: center;
+    align-items: end;
 }
 
 .headerSlogan {
