@@ -140,7 +140,7 @@ Header
     display: flex;
     width: 80%;
     justify-content: right;
-    align-items: baseline;
+    align-items: end;
 }
 
 /* Scoot Digital Logo */
