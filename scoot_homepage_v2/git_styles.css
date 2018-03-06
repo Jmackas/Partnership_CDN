@@ -256,7 +256,7 @@ Meet the Scoot Digital Team
     color: white;
     padding: 10%;
     /* height: 100vh; */
-    background: #191919;
+    background: #1919198a;
     /* background-image: url(https://i.imgur.com/xvOTG7n.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
@@ -317,7 +317,7 @@ Contact Form
 ===================================*/
 .contactForm {
         padding: 10%;
-    background: #191919;
+    background: #1919198a;
 }
 
 .contactForm h2 {
