@@ -123,7 +123,6 @@ Header
     display: flex;
     justify-content: center;
     background: white;
-    padding: 2%;
     position: fixed;
     width: 100%;
     z-index: 9;
