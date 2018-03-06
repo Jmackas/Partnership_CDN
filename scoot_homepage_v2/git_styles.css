@@ -132,7 +132,8 @@ Header
 
 /* Scoot Digital Logo */
 .menuBar .logo {
-    width: 20%;   
+    width: 20%;
+    padding-bottom: 20px;
 }
 
 /* Menu items */
