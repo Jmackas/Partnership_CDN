@@ -312,6 +312,11 @@ Contact Form
     background: linear-gradient(to right, #408ac9 , #16babc);
 }
 
+.contactForm h2 {
+    color: white;
+    text-shadow: 1px 1px 1px #333;
+}
+
 .contactForm label {
     color: white;
     text-shadow: 1px 1px 1px #333;
