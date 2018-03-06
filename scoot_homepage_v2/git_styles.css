@@ -117,6 +117,9 @@ Header
 .menuBar {
     display: flex;
     background: white;
+  padding: 2%;
+    position: fixed;
+    width: 100%;
 }
 
 /* Scoot Digital Logo */
