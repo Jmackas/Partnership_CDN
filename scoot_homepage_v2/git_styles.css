@@ -158,6 +158,11 @@ Header
     align-items: end;
 }
 
+.menuItems a:hover {
+    background: #333;
+    color: white;
+}
+
 .headerSlogan {
     display: flex;
     height: 95%;
