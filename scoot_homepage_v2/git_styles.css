@@ -172,7 +172,7 @@ Services List
 /* Services container */
 .servicesCarousel {
     display: flex;
-  background: linear-gradient(to right, #408ac9 , #16babc);
+    background: linear-gradient(to right, #408ac9 , #16babc);
 }
 
 /* Icon sizing */
@@ -191,7 +191,7 @@ Services List
     justify-content: center;
     align-items: center;
     transition: .2s;
-    border-bottom: 4px solid #191919;
+    border-bottom: 4px solid #3f8bc8;
 }
 
 /* Carousel all individual elements on hover */
