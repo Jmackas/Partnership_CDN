@@ -129,18 +129,23 @@ Header
     z-index: 9;
 }
 
+
 /* Scoot Digital Logo */
 .menuBar .logo {
-    width: 220px;
+    width: 20%;   
 }
 
 /* Menu items */
-.menuItems {
+.menuBar .menuItems {
     display: flex;
-    height: 5%;
-    align-items: center;
-    justify-content: flex-end;
-    white-space: nowrap;
+    width: 80%;
+    justify-content: right;
+    align-items: baseline;
+}
+
+/* Scoot Digital Logo */
+.menuBar .logo {
+    width: 20%;
 }
 
 /* Change the menu styling */
