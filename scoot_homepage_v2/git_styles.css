@@ -150,17 +150,12 @@ Header
 /* Change the menu styling */
 .menuItems a {
     display: flex;
-    padding: 10px 3%;
+    padding: 4% 6%;
     color: black;
     font-size: 130%;
     transition: .2s;
     text-align: center;
     align-items: end;
-}
-
-.menuItems a:hover {
-    background: #333;
-    color: white;
 }
 
 .headerSlogan {
@@ -254,7 +249,7 @@ About Us Section
 /* About us container */
 .aboutUs {
     padding: 10%;
-    background-image: url(https://i.imgur.com/k3XCx2i.jpg);
+    background-image: url(https://i.imgur.com/QoduF7M.jpg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -279,10 +274,11 @@ Meet the Scoot Digital Team
     margin: auto;
     color: white;
     padding: 10%;
-    background: linear-gradient(to right, #408ac9 , #16babc);
+    background-image: url(https://i.imgur.com/k3XCx2i.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
 
 .scootTeam h2 {
