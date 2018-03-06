@@ -113,6 +113,12 @@ Header
     height: 100vh;
 }
 
+/* Menu bar container */
+.menuBar {
+    display: flex;
+    background: white;
+}
+
 /* Scoot Digital Logo */
 .menuBar .logo {
     width: 220px;
