@@ -40,7 +40,7 @@ h1 {
 
 /* Mobile header hidden temporarily */
 #mobileHeader {
-    visibility: hidden;
+    display: none;
 }
 
 h2 {
@@ -180,11 +180,11 @@ Header
 /* Disable the Typewriting */
 @media only screen and (max-width: 500px) {
     #desktopHeader {
-        visibility: hidden;
+        display: none;
     }
     
     #mobileHeader {
-        visibility: visible;
+        display: block;
     }
 }
 
