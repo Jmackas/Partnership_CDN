@@ -1,3 +1,104 @@
+/*===================================
+Universal Elements
+===================================*/
+/* Sans Font from Google Import */
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded'); /* Font font from Google Import */
+@import url('https://use.fontawesome.com/releases/v5.0.6/css/all.css'); /* Font awesome import*/
+html {
+    background: #408bc9;
+}
+
+body {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    color: #333;
+    background: white;
+    animation: fadein 1s;
+}
+
+/*  Fade in effect */
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    font-size: 250%;
+    color: #ffffff;
+    font-family: monospace;
+    text-shadow: 3px 2px 7px #333;
+}
+
+h2 {
+    font-size: 60px;
+    color: #333;
+    text-align: center;
+}
+
+/* Scroll to top button plugin */
+.scroll-top-inner {
+    right: 52px;
+    bottom: 112px;
+}
+
+/*===================================
+Fixed Contact Button
+===================================*/
+.fixedContactButton a {
+    font-size: 220%;
+    position: fixed;
+    right: 35px;
+    bottom: 28px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background: white;
+    border: 1px solid #333;
+    transition: 0.2s;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+.fixedContactButton a:hover {
+    background: #408ac8;
+    border: 1px solid white;
+    color: white;
+    opacity: 1;
+}
+
+/*===================================
+Fixed Social Media Buttons
+===================================*/
+/* Fixed social media buttons container */
+.fixedSocialMedia {
+    position: fixed;
+    left: 45px;
+    bottom: 26px;
+    transition: 0.2s;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.fixedSocialMedia a {
+    font-size: 270%;
+    margin: 0 15px 0 0;
+    transition: 0.4s;
+    color: #408ac9;
+    -webkit-text-stroke: 1px rgba(0,0,0,0);
+}
+
+/* Social media icons on hover */
+.fixedSocialMedia a:hover {
+    -webkit-text-stroke: 1px white;
+    color: #15babc;
+}
+
+/*===================================
+Header
+===================================*/
 /* Header container */
 .header {
     height: 100vh;
@@ -17,6 +118,7 @@
     display: flex;
     height: 5%;
     align-items: center;
+    justify-content: flex-end;
     white-space: nowrap;
 }
 
@@ -35,4 +137,243 @@
     background: white;
     color: #333;
     text-shadow: initial;
+}
+
+.headerSlogan {
+    display: flex;
+    height: 95%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4%;
+}
+
+/* Hide menu items except for the contact us button */
+@media only screen and (max-width: 774px) {
+    .menuItems a {
+        display: none;
+    }
+
+    a.contactUsItem {
+        display: block;
+    }
+}
+
+/*===================================
+Services List
+===================================*/
+/* Services container */
+.servicesCarousel {
+    display: flex;
+    background: linear-gradient(to right, #408ac9 , #16babc);
+}
+
+/* Icon sizing */
+.servicesCarousel a span i {
+    font-size: 180%;
+        
+}
+
+/* Carousel all individual elements */
+.servicesCarousel a {
+    display: flex;
+    text-align: center;
+    width: calc(100% / 6);
+    height: 300px;
+    color: #c8c8c8;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    border-bottom: 4px solid #3f8bc8;
+}
+
+/* Carousel all individual elements on hover */
+.servicesCarousel a:hover {
+    background: white;
+    color: #333;
+    border-bottom: 4px solid #408bc9;
+}
+
+@media only screen and (max-width: 680px) {
+    .servicesCarousel {
+        display: block;
+    }
+
+    .servicesCarousel a {
+        width: 100%;
+        border-bottom: none;
+        height: 200px;
+    }
+
+    .servicesCarousel a:hover {
+        border-bottom: none
+    }
+
+    /* Background header logo size */
+    .scootDigitalLogo {
+        background-size: 60%;
+    }
+}
+
+/*===================================
+About Us Section
+===================================*/
+/* About us container */
+.aboutUs {
+    padding: 2% 10% 6% 10%;
+}
+
+/* Image and text container */
+.imageSideByText {
+    display: flex;
+}
+
+/* About us paragraph */
+.aboutUs p {
+    font-size: 140%;
+    text-align: center;
+}
+
+/*===================================
+Meet the Scoot Digital Team
+===================================*/
+/* Container for Scoot Digital Team */
+.scootTeam {
+    margin: auto;
+    color: white;
+    padding: 2% 10%;
+    height: 100vh;
+    background: #191919;
+    /* background-image: url(https://i.imgur.com/xvOTG7n.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.scootTeam h2 {
+    color: white;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* Scoot Digital Team Paragraph */
+.scootTeam p {
+    font-size: 140%;
+    text-align: center;
+}
+
+/* Profile picture container */
+.profilePictures {
+    display: flex;
+    justify-content: center;
+}
+
+/* Targetting all profile pictures */
+.profilePictures div {
+    width: 33%;
+    text-align: center;
+}
+
+/* Targetting all profile pictures images */
+.profilePictures div img {
+    width: 220px;
+    height: 300px;
+}
+
+/* Paragraph text targeted */
+.profilePictures p {
+    text-align: center;
+}
+
+/* Height parameters reset */
+@media only screen and (max-width: 752px) {
+    .scootTeam {
+        height: initial;
+    }
+}
+
+/*===================================
+Portfolio
+===================================*/
+/* Portfolio container */
+.ourClients {
+    padding: 2% 0 6% 0;
+}
+
+/*===================================
+Contact Form
+===================================*/
+.contactForm {
+    padding: 1% 22%;
+    background: #191919;
+}
+
+.contactForm h2 {
+    color: white;
+    text-shadow: 1px 1px 1px #333;
+}
+
+.contactForm label {
+    color: white;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* Form submit button container */
+.formButtonSubmit {
+    display: flex;
+    justify-content: center;
+}
+
+/* Form submit button targetted */
+.wpcf7-form-control.wpcf7-submit {
+    color: #333;
+    padding: 2% 5%;
+    background: white;
+    border: 1px solid rgba(0,0,0,0);
+}
+
+/* Form submit button targetted hover */
+.wpcf7-form-control.wpcf7-submit:hover {
+    background: #191919;
+    color: white;
+    border: 1px solid white;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* Form submit button targetted on press */
+.wpcf7-form-control.wpcf7-submit:focus {
+    background: #408bc9;
+    color: white;
+}
+
+@media only screen and (max-width: 903px) {
+    .contactForm {
+        padding: 0 2%;
+    }
+}
+
+/*===================================
+Footer
+===================================*/
+footer {
+    background: #191919;
+    padding: 2%;
+    text-align:  center;
+    border-top: 1px solid #4e4e4e;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: lightgray;
+}
+
+
+
+/*===================================
+Miscellaneous Code
+===================================*/
+/* Hide the slow scroll (go to top) button */
+a#scroll-to-top {
+    display: none !important;
 }
