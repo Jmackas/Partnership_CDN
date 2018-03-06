@@ -146,13 +146,6 @@ Header
     text-align: center;
 }
 
-/* Menu items on hover */
-.menuItems a:hover {
-    background: white;
-    color: #333;
-    text-shadow: initial;
-}
-
 .headerSlogan {
     display: flex;
     height: 95%;
