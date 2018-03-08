@@ -45,11 +45,11 @@ h2 {
 }
 
 /* Pseudo selector h2 stylers */
-h2::before {
+h2:before {
     content: "- ";
 }
 
-h2::after {
+h2:after {
     content: " -";
 }
 
