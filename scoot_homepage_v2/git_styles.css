@@ -238,6 +238,11 @@ Services List
     color: #333;
 }
 
+/* Carousel all individual elements on action */
+.servicesCarousel a:active {
+    border-bottom: 3px solid #FFB423;
+}
+
 @media only screen and (max-width: 680px) {
     .servicesCarousel {
         display: block;
