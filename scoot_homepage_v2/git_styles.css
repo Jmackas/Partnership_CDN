@@ -141,7 +141,7 @@ Header
     display: flex;
     width: 80%;
     justify-content: flex-end;
-    align-items: end;
+    align-items: flex-end;
 }
 
 /* Scoot Digital Logo */
