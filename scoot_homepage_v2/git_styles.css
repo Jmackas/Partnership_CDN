@@ -140,7 +140,7 @@ Header
 .menuBar .menuItems {
     display: flex;
     width: 80%;
-    justify-content: right;
+    justify-content: flex-end;
     align-items: end;
 }
 
