@@ -27,3 +27,16 @@ Header elements
 	color: white;
 	text-shadow: 1px 1px 1px #333;
 }
+
+
+/*===================================
+Services descriptions
+===================================*/
+/* Services descriptions container */
+.services_desc {
+    padding: 4% 20%;
+}
+
+.services_desc h3 {
+	font-size: 210%;
+}
