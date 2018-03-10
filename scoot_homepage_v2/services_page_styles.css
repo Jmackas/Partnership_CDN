@@ -38,5 +38,7 @@ Services descriptions
 }
 
 .services_desc h3 {
-	font-size: 210%;
+    font-size: 210%;
+	padding: 0 0 8px 0;
+	border-bottom: 3px dashed #1abbbd;
 }
