@@ -37,8 +37,14 @@ Services descriptions
     padding: 4% 20%;
 }
 
+/* H3 */
 .services_desc h3 {
     font-size: 210%;
 	padding: 0 0 8px 0;
 	border-bottom: 3px solid #1abbbd;
+}
+
+/* Images within the services container */
+.services_image {
+    margin: 2% 0 10% 0;
 }
