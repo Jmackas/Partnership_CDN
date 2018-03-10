@@ -404,6 +404,15 @@ footer a:hover {
 }
 
 /*===================================
+Anchor Tags
+===================================*/
+#about_us {
+    position: absolute;
+	transform: translate(0,-147px);
+}
+
+
+/*===================================
 Miscellaneous Code
 ===================================*/
 /* Hide the slow scroll (go to top) button */
