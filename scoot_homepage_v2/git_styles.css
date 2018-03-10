@@ -91,14 +91,14 @@ Fixed Social Media Buttons
     font-size: 270%;
     margin: 0 15px 0 0;
     transition: 0.4s;
-    color: #408ac9;
+    color: #333;
     -webkit-text-stroke: 1px rgba(0,0,0,0);
 }
 
 /* Social media icons on hover */
 .fixedSocialMedia a:hover {
-    -webkit-text-stroke: 1px white;
-    color: #15babc;
+    -webkit-text-stroke: 1px #333;
+    color: #ffffff;
 }
 
 /*===================================
