@@ -1,7 +1,14 @@
 /*===================================
 Header elements
 ===================================*/
-/* Header 2 services styling */
+/* Header*/
 .services_page header {
-    padding: 2% 20%;
+	padding: 2% 20%;
+	background: linear-gradient(to right, #408ac9 , #16babc);
+}
+
+/* H2 */
+.services_page h2 {
+	color: white;
+	text-shadow: 1px 1px 1px #333;
 }
