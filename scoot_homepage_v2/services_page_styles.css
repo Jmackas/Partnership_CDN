@@ -1,8 +1,16 @@
 /*===================================
 Header elements
 ===================================*/
+.services_page .header {
+	/* Elements to reset the main page's styling */
+	background: initial;
+	background-image: initial;
+	height: initial;
+}
+
 /* Header*/
-.services_page header {
+.services_page .header_bar {
+	/* New elements */
 	padding: 2% 20%;
 	background: linear-gradient(to right, #408ac9 , #16babc);
 }
