@@ -406,17 +406,11 @@ footer a:hover {
 /*===================================
 Anchor Tags
 ===================================*/
-/* About us anchor */
-#about_us {
+/* Grouped anchors*/
+#about_us, #contact_us {
     position: absolute;
 	transform: translate(0,-147px);
 }
-
-/* Contact form anchor */
-#contact_us {
-
-}
-
 
 /*===================================
 Miscellaneous Code
