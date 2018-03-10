@@ -44,15 +44,6 @@ h2 {
     text-align: center;
 }
 
-/* Pseudo selector h2 stylers */
-h2:before {
-    content: "- ";
-}
-
-h2:after {
-    content: " -";
-}
-
 /* Scroll to top button plugin */
 .scroll-top-inner {
     right: 54px !important;
