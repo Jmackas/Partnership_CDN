@@ -3,7 +3,7 @@ Header elements
 ===================================*/
 /* Navbar buffer that restricts the nav menu from overlaying the header content */
 .navbar_buffer {
-	padding: 5% 0;
+	height: 140px;
 	background: linear-gradient(to right, #408ac9 , #16babc);
 }
 
