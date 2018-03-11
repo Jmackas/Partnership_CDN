@@ -153,7 +153,7 @@ Header
 /* Change the menu styling */
 .menuItems a {
 	display: flex;
-	padding: 10px 3%;
+	padding: 10px 2%;
 	color: black;
 	font-size: 130%;
 	transition: .2s;
