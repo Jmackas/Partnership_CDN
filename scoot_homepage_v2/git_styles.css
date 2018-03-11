@@ -120,31 +120,28 @@ Header
 
 /* Menu bar container */
 .menuBar {
-	display: flex;
-	justify-content: center;
-	background: white;
-	position: fixed;
-	width: 100%;
-	z-index: 9;
-	padding: 2% 2% 0 2%;
-	border-bottom: 5px solid #1abbbd;
-	height: 140px;
-}
-
-/* Scoot Digital Logo */
-.menuBar .logo {
-	width: 20%;
-	background-image: url(https://i.imgur.com/GqhvTG5.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	padding-bottom: 20px;
+    /* Primary properties */
+    display: flex;
+    justify-content: center;
+    background: white;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    padding: 2% 2% 0 2%;
+    border-bottom: 5px solid #1abbbd;
+    height: 140px;
+    /* Scoot Digital logo */
+    background-image: url(https://i.imgur.com/GqhvTG5.png);
+    background-size: 350px;
+    background-position: 13px 22px;
+    background-repeat: no-repeat;
 }
 
 /* Menu items */
 .menuBar .menuItems {
-	display: flex;
-	width: 80%;
-	justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    	justify-content: flex-end;
 	align-items: flex-end;
 }
 
