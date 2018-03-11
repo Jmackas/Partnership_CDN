@@ -175,13 +175,9 @@ Header
 }
 
 /* Hide menu items except for the contact us button */
-@media only screen and (max-width: 774px) {
+@media only screen and (max-width: 863px) {
 	.menuItems a {
 		display: none;
-	}
-
-	a.contactUsItem {
-		display: block;
 	}
 }
 
