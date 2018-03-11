@@ -144,6 +144,11 @@ Header
 	align-items: flex-end;
 }
 
+/* Login for mobile */
+.menuBar .login_mobile {
+	display: none;
+}
+
 /* Scoot Digital Logo */
 .menuBar .logo {
 	width: 20%;
@@ -179,20 +184,15 @@ Header
 		display: none;
 	}
 
-	/* Menu bar container */
-	.menuBar {
-		/* Scoot Digital logo */
-		background-image: url(https://i.imgur.com/GqhvTG5.png);
-		background-size: 159px;
-		background-position: 13px 17px;
-	}
-
-	#login_mobile {
+	.login_mobile {
 		display: block;
 	}
 
+
+
 	#contact_us_mobile {
 		background: yellow;
+		display: block;
 	}
 }
 
