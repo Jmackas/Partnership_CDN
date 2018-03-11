@@ -14,8 +14,6 @@ body {
 	animation: fadein 1s;
 }
 
-/* test sync 2 */
-
 /*  Fade in effect */
 @keyframes fadein {
 	from {
