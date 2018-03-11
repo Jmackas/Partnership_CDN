@@ -333,6 +333,11 @@ Contact Form
 	color: white;
 	text-shadow: 1px 1px 1px #333;
 }
+/* Contact Form internal padding*/
+div.wpcf7 {
+    margin: 0;
+    padding: 70px;
+}
 
 /* Form submit button container */
 .formButtonSubmit {
