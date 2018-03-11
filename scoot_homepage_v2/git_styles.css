@@ -11,7 +11,7 @@ html {
 body {
 	font-family: 'Encode Sans Expanded', sans-serif;
 	color: #333;
-    animation: fadein 1s;
+	animation: fadein 1s;
 }
 
 /*  Fade in effect */
@@ -119,28 +119,28 @@ Header
 
 /* Menu bar container */
 .menuBar {
-    /* Primary properties */
-    display: flex;
-    justify-content: center;
-    background: white;
-    position: fixed;
-    width: 100%;
-    z-index: 9;
-    padding: 2% 2% 0 2%;
-    border-bottom: 5px solid #1abbbd;
-    height: 140px;
-    /* Scoot Digital logo */
-    background-image: url(https://i.imgur.com/GqhvTG5.png);
-    background-size: 350px;
-    background-position: 13px 18px;
-    background-repeat: no-repeat;
+	/* Primary properties */
+	display: flex;
+	justify-content: center;
+	background: white;
+	position: fixed;
+	width: 100%;
+	z-index: 9;
+	padding: 2% 2% 0 2%;
+	border-bottom: 5px solid #1abbbd;
+	height: 140px;
+	/* Scoot Digital logo */
+	background-image: url(https://i.imgur.com/GqhvTG5.png);
+	background-size: 350px;
+	background-position: 13px 18px;
+	background-repeat: no-repeat;
 }
 
 /* Menu items */
 .menuBar .menuItems {
-    display: flex;
-    width: 100%;
-    	justify-content: flex-end;
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
 	align-items: flex-end;
 }
 
@@ -173,10 +173,19 @@ Header
 	padding: 0 4%;
 }
 
-/* Hide menu items except for the contact us button */
+/* Menu item swap */
 @media only screen and (max-width: 863px) {
 	.menuItems a {
 		display: none;
+	}
+
+	/* Menu bar container */
+	.menuBar {
+		height: 80px;
+		/* Scoot Digital logo */
+		background-image: url(https://i.imgur.com/GqhvTG5.png);
+		background-size: 159px;
+		background-position: 13px 17px;
 	}
 }
 
@@ -332,10 +341,11 @@ Contact Form
 	color: white;
 	text-shadow: 1px 1px 1px #333;
 }
+
 /* Contact Form internal padding*/
 div.wpcf7 {
-    margin: 0;
-    padding: 70px;
+	margin: 0;
+	padding: 70px;
 }
 
 /* Form submit button container */
