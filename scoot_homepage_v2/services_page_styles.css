@@ -28,6 +28,20 @@ Header elements
 	text-shadow: 1px 1px 1px #333;
 }
 
+/* Button one styling */
+.button_one {
+    background: #1abbbd;
+    color: white;
+    padding: 18px;
+    transition: .2s;
+    border: 1px solid rgba(0,0,0,0);
+}
+
+.button_one:hover {
+    background: rgba(0,0,0,0);
+    border: 1px solid #333;
+}
+
 
 /*===================================
 Services descriptions
@@ -54,3 +68,5 @@ Services descriptions
 .services_image {
     margin: 2% 0 20% 0;
 }
+
+
