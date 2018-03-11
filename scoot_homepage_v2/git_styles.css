@@ -184,14 +184,13 @@ Header
 		display: none;
 	}
 
-	.login_mobile {
+	.menuBar .login_mobile {
 		display: block;
 	}
 
-
-
-	#contact_us_mobile {
-		background: yellow;
+	.menuBar a.contact_us_item {
+		background: #FFB623;
+		color: white;
 		display: block;
 	}
 }
