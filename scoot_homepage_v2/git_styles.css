@@ -194,6 +194,15 @@ Header
 		display: block;
 	}
 
+	.menuBar {
+		background-size: 206px;
+		background-position: top;
+	}
+
+	.menuBar .menuItems {
+		justify-content: center;
+	}
+
 	.menuBar a.contact_us_item {
 		background: #FFB623;
 		color: white;
