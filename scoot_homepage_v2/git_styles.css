@@ -193,6 +193,9 @@ Header
 		background-position: top;
 	}
 
+	.menuBar .menuItems {
+		justify-content: center;
+	}
 
 	.menuBar a.contact_us_item {
 		background: #FFB623;
