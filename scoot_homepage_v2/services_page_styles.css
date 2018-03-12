@@ -1,13 +1,6 @@
 /*===================================
 Header elements
 ===================================*/
-/* Navbar buffer that restricts the nav menu from overlaying the header content */
-.navbar_buffer {
-	height: 140px;
-	background: linear-gradient(to right, #408ac9 , #16babc);
-}
-
-
 .services_page .header {
 	/* Elements to reset the main page's styling */
 	background: initial;

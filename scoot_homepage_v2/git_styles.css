@@ -49,6 +49,12 @@ h2 {
 	bottom: 112px !important;
 }
 
+/* Navbar buffer that restricts the nav menu from overlaying the header content */
+.navbar_buffer {
+	height: 140px;
+	background: linear-gradient(to right, #408ac9 , #16babc);
+}
+
 /*===================================
 Fixed Contact Button
 ===================================*/
