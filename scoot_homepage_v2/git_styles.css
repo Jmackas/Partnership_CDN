@@ -425,7 +425,7 @@ footer a:hover {
 Anchor Tags
 ===================================*/
 /* Grouped anchors*/
-#about_us, #contact_us {
+#about_us, #contact_us, #services_digital_marketing, #services_seo, #services_remarketing, #services_web_design, #services_paid_advertising {
 	position: absolute;
 	transform: translate(0,-147px);
 }
