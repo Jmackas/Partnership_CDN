@@ -363,6 +363,12 @@ div.wpcf7 {
 	padding: 70px;
 }
 
+/* "Send" button */
+.formButtonSubmit {
+	text-align: center;
+}
+
+
 /* Form submit button targetted */
 .wpcf7-form-control.wpcf7-submit {
 	color: #333;
