@@ -62,4 +62,9 @@ Services descriptions
     margin: 4% 0 20% 0;
 }
 
+@media only screen and (max-width: 680px) {
+    .services_desc p {
+        text-align: initial;
+    }
+}
 
