@@ -287,12 +287,12 @@ About Us Section
 ===================================*/
 /* About us container */
 .aboutUs {
-    padding: 10%;
-    background-image: url("https://i.imgur.com/ShTMlbP.jpg");
-    background-position: center;
-    background-size: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+	padding: 10%;
+	background-image: url("https://i.imgur.com/Q8esfP2.png");
+	background-position: center;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 /* Image and text container */
