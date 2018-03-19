@@ -57,6 +57,14 @@ h2 {
     background: linear-gradient(to right, #408ac9 , #16babc);
 }
 
+/* Header 2 size in mobile */
+@media only screen and (max-width: 680px) {
+    h2 {
+        font-size: 200%;
+        font-weight: bolder;
+    }
+}
+
 /*===================================
 Fixed Contact Button
 ===================================*/
