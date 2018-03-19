@@ -390,7 +390,7 @@ div.wpcf7 {
 
 @media only screen and (max-width: 903px) {
     .contactForm {
-        padding: 0 2%;
+        padding: 10% 0;
     }
 }
 
