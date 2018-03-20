@@ -3,11 +3,7 @@
 
 /*=================================
 Universal Elements
-
-/* Scoot Portal Login Page Header Removel */
-.header-callout {
-    display: none;
-}
+=================================*/
 
 
 
@@ -19,4 +15,14 @@ section.content-area {
     background: url(https://i.imgur.com/TeXuqeO.jpg);
     background-size: 100%;
     background-position: 35% 90%;
+}
+
+
+
+/*=================================
+Tentative Styles
+=================================*/
+/* Scoot Portal Login Page Header Removal */
+.header-callout {
+    display: none;
 }
