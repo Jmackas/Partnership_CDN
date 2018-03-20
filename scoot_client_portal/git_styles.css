@@ -3,3 +3,20 @@
 
 /*=================================
 Universal Elements
+
+/* Scoot Portal Login Page Header Removel */
+element.style {
+    display: none;
+}
+
+
+
+/* Scoot Portal Background */
+section, footer {
+    padding: 96px 0;
+    position: relative;
+    overflow: hidden;
+    background: url(https://i.imgur.com/TeXuqeO.jpg);
+    background-size: 100%;
+    background-position: 35% 90%;
+}
