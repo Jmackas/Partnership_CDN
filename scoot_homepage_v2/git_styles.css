@@ -346,10 +346,10 @@ Portfolio
 Contact Form
 ===================================*/
 .contactForm {
-    padding: 10%;
-    background: url(https://i.imgur.com/5jCf0IY.jpg);
-    background-size: cover;
-    background-position-x: 50%;
+	padding: 10% 15%;
+	background: url(https://i.imgur.com/5jCf0IY.jpg);
+	background-size: cover;
+	background-position-x: 50%;
 }
 
 .contactForm h2 {
