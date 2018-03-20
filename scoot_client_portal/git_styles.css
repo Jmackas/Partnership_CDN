@@ -5,7 +5,7 @@
 Universal Elements
 
 /* Scoot Portal Login Page Header Removel */
-section.page-title-section.bg-secondary {
+.header-callout {
     display: none;
 }
 
