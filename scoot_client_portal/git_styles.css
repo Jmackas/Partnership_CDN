@@ -20,9 +20,9 @@ section.content-area {
 
 
 /*=================================
-Tentative Styles
+Miscellaneous styles
 =================================*/
-/* Scoot Portal Login Page Header Removal */
+/* Scoot Portal Login Page Header Removal https://colorlib.com/wp/forums/topic/remove-header-callout-from-all-pages-but-not-portfolio/ */
 .header-callout {
     display: none;
 }
