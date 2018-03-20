@@ -12,7 +12,7 @@ section.page-title-section.bg-secondary {
 
 
 /* Scoot Portal Background */
-section, footer {
+section.content-area {
     padding: 96px 0;
     position: relative;
     overflow: hidden;
