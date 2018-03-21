@@ -11,8 +11,10 @@ Header elements
 /* Header*/
 .services_page .header_bar {
 	/* New elements */
-	padding: 10%;
-	background: linear-gradient(to right, #408ac9 , #16babc);
+    padding: 10%;
+    background: url(https://i.imgur.com/Q7zIvyl.jpg);
+    background-size: 100%;
+    background-position: 150%;
 }
 
 /* H2 */

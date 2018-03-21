@@ -300,12 +300,12 @@ About Us Section
 ===================================*/
 /* About us container */
 .aboutUs {
-    padding: 10%;
-    background-image: url("https://i.imgur.com/ShTMlbP.jpg");
-    background-position: center;
-    background-size: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+	padding: 10%;
+	background-image: url("https://i.imgur.com/Q8esfP2.png");
+	background-position: center;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 /* Image and text container */
@@ -327,7 +327,9 @@ Meet the Scoot Digital Team
     margin: auto;
     color: white;
     padding: 10%;
-    background: linear-gradient(to right, #408ac9 , #16babc);
+    background: url(https://i.imgur.com/JBF0VYz.jpg);
+    background-position: 25% 88%;
+    background-size: 109%;
 }
 
 .scootTeam h2 {
@@ -357,13 +359,10 @@ Portfolio
 Contact Form
 ===================================*/
 .contactForm {
-    padding: 10%;
-    background: #1919198a;
-}
-
-.contactForm {
-    padding: 10%;
-    background: linear-gradient(to right, #408ac9 , #16babc);
+	padding: 10% 15%;
+	background: url(https://i.imgur.com/5jCf0IY.jpg);
+	background-size: cover;
+	background-position-x: 50%;
 }
 
 .contactForm h2 {
