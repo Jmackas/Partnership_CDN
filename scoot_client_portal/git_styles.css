@@ -35,6 +35,9 @@ Front Page Login Module
 .front_page_login .cleanlogin-form input[type="submit"] {
     height: initial;
     padding: initial;
+    background-color: #17b6bc;
+    border: none;
+    border-radius: 3rem !important;
 }
 
 
