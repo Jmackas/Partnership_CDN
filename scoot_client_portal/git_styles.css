@@ -31,6 +31,14 @@ Front Page Login Module
     margin: 0;
 }
 
+/* Log in input field */
+.front_page_login .cleanlogin-form input[type="submit"] {
+    height: initial;
+    padding: initial;
+}
+
+
+
 /*=================================
 Miscellaneous styles
 =================================*/
