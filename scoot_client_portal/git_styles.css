@@ -19,7 +19,7 @@ Front Page Login Module
 =================================*/
 /* Container class */
 .front_page_login .cleanlogin-container {
-	background: linear-gradient(to bottom, #fffc, #fff6);
+	background: linear-gradient(to bottom, #fff, #fff6);
 	border: initial;
 	border-radius: 0px;
 	box-shadow: none;
