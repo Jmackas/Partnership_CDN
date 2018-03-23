@@ -4,15 +4,6 @@
 /*=================================
 Universal Elements
 =================================*/
-/* Scoot Portal Background */
-section.content-area {
-    padding: 96px 0;
-    position: relative;
-    overflow: hidden;
-    background: url(https://i.imgur.com/TeXuqeO.jpg);
-    background-size: 100%;
-    background-position: 35% 90%;
-}
 
 /*=================================
 Miscellaneous styles
