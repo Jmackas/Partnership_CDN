@@ -26,6 +26,10 @@ Front Page Login Module
 	padding: 250px 25px 0px 25px;
 }
 
+/* Input fields */
+.front_page_login .cleanlogin-field {
+    margin: 0;
+}
 
 /*=================================
 Miscellaneous styles
