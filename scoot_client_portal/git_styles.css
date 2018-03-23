@@ -26,10 +26,16 @@ Front Page Login Module
 	padding: 370px 25px 0px 25px;
 }
 
-/* Input fields */
-.front_page_login .cleanlogin-field {
-    margin: 0;
+
+/* Username and password fields */
+input.cleanlogin-field-username, input.cleanlogin-field-password {
+	margin: 0;
+	border: initial;
+	border-bottom: 1px solid #b7b7b7;
+	background: initial;
 }
+
+
 
 /* Log in input field */
 .front_page_login .cleanlogin-form input[type="submit"] {
