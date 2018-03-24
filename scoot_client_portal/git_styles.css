@@ -29,15 +29,6 @@ Front Page Login Module
 	padding: 370px 25px 0px 25px;
 }
 
-/* Login Scoot Digital logo */
-.front_page_login img {
-    position:  absolute;
-    z-index:  9;
-    width: 180px;
-    right: 505px;
-    top: 50px;
-}
-
 /* Username and password fields */
 input.cleanlogin-field-username, input.cleanlogin-field-password {
 	margin: 0;
