@@ -23,7 +23,7 @@ Front Page Login Module
 .front_page_login .cleanlogin-container {
     background: linear-gradient(to bottom, #fff, #fff6);
     background-image: url("https://i.imgur.com/GqhvTG5.png"), linear-gradient(to bottom, #fff, #fff6);
-    background-position: center;
+    background-position: center top;
     background-size: contain;
     background-repeat: no-repeat;
     border: initial;
