@@ -11,7 +11,9 @@ section.content-area {
     overflow: hidden;
     background: url(https://i.imgur.com/TeXuqeO.jpg);
     background-size: 100%;
-    background-position: 35% 90%;
+   /* background-position: 35% 90%;*/
+	background-size: cover;
+    background-position: center;
 }
 
 /*=================================
