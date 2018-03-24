@@ -49,7 +49,7 @@ input.cleanlogin-field-username, input.cleanlogin-field-password {
 /* Log in input field hover */
 .front_page_login .cleanlogin-form input[type="submit"]:hover {
     background: white;
-    color: #333;
+    color: #8c979e;
     border: 2px solid #17b6bc;
 }
 
