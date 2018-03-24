@@ -22,8 +22,8 @@ Front Page Login Module
 /* Container class */
 .front_page_login .cleanlogin-container {
     background: linear-gradient(to bottom, #fff, #fff6);
-    background-image: url("https://i.imgur.com/GqhvTG5.png"), linear-gradient(to bottom, #fff, #fff6);
-    background-position: center top;
+    background-image: url("https://i.imgur.com/gUFTdp2.png"), linear-gradient(to bottom, #fff, #fff6);
+    background-position: 0 3%;
     background-size: contain;
     background-repeat: no-repeat;
     border: initial;
@@ -31,6 +31,7 @@ Front Page Login Module
     box-shadow: none;
     padding: 370px 25px 0px 25px;
 }
+
 
 /* Username and password fields */
 input.cleanlogin-field-username, input.cleanlogin-field-password {
