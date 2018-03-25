@@ -68,3 +68,8 @@ Miscellaneous styles
 .header-callout {
     display: none;
 }
+
+/* Overwriting the client portal background */
+div#main {
+    background: initial;
+}
