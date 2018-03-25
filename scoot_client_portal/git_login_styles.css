@@ -62,6 +62,13 @@ input.cleanlogin-field-username, input.cleanlogin-field-password {
 } 
 
 /*=================================
+Client Portal Dashboard
+=================================*/
+div#main {
+    background: white;
+}
+
+/*=================================
 Miscellaneous styles
 =================================*/
 /* Scoot Portal Login Page Header Removal https://colorlib.com/wp/forums/topic/remove-header-callout-from-all-pages-but-not-portfolio/ */
