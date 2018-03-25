@@ -61,14 +61,6 @@ input.cleanlogin-field-username, input.cleanlogin-field-password {
 	transform: translate(0, 2px);
 } 
 
-
-/*=================================
-Client Portal Dashboard
-=================================*/
-div#main {
-    background: white;
-}
-
 /*=================================
 Miscellaneous styles
 =================================*/
