@@ -4,7 +4,12 @@
 /*=================================
 Universal Elements
 =================================*/
-/* Scoot Portal Background */
+/* Menu logo styling */
+.scoot_digital_logo {
+	width: 138px;
+}
+
+/* Scoot Portal background */
 section.content-area {
     padding: 96px 0;
     position: relative;
