@@ -351,8 +351,16 @@ Our Methods
     width: 50%;
 }
 
+/* Right block image */
+.rightBlock {
+    background-image: url(https://i.imgur.com/2iqLDUL.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
 
 
+/* Image source: https://pixabay.com/en/icon-file-extension-document-2488093/ */
 /*===================================
 Portfolio
 ===================================*/
