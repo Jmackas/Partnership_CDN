@@ -337,6 +337,11 @@ Our Methods
     background-size: 109%;
 }
 
+/* Our Methods paragraph */
+.ourMethods p {
+    font-size: 140%;
+}
+
 .ourMethods h2 {
     color: white;
     text-shadow: 1px 1px 1px #333;
