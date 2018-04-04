@@ -358,6 +358,16 @@ Our Methods
     background-size: 65%;
 }
 
+@media only screen and (max-width: 800px) {
+    .leftBlock {
+        width: 100%;
+    }
+
+    .rightBlock {
+        display: none;
+    }
+}
+
 
 /* Image source: https://pixabay.com/en/icon-file-extension-document-2488093/ */
 /*===================================
