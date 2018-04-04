@@ -70,6 +70,11 @@ h2 {
     background: linear-gradient(to right, #408ac9 , #16babc);
 }
 
+/* Container to invoke flex */
+.flexContainer {
+    display: flex;
+}
+
 /* Header 2 size in mobile */
 @media only screen and (max-width: 680px) {
     h2 {
@@ -320,10 +325,10 @@ About Us Section
 }
 
 /*===================================
-Meet the Scoot Digital Team
+Our Methods 
 ===================================*/
 /* Container for Scoot Digital Team */
-.scootTeam {
+.ourMethods {
     margin: auto;
     color: white;
     padding: 10%;
@@ -332,16 +337,16 @@ Meet the Scoot Digital Team
     background-size: 109%;
 }
 
-.scootTeam h2 {
+.ourMethods h2 {
     color: white;
     text-shadow: 1px 1px 1px #333;
 }
 
-/* Scoot Digital Team Paragraph */
-.scootTeam p {
-    font-size: 140%;
-    text-align: center;
+.leftBlock, .rightBlock {
+    width: 50%;
 }
+
+
 
 /*===================================
 Portfolio
