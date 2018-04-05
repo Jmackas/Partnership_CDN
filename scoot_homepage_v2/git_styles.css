@@ -165,10 +165,11 @@ Header
     height: 140px;
     /* Scoot Digital logo */
     background-image: url("https://i.imgur.com/GqhvTG5.png");
-    background-size: 350px;
-    background-position: 13px 18px;
+    background-size: 215px;
+    background-position: 36px 34px;
     background-repeat: no-repeat;
 }
+
 
 /* Menu items */
 .menuBar .menuItems {
