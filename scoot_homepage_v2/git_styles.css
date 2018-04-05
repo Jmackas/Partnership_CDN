@@ -308,7 +308,7 @@ About Us Section
 .aboutUs {
     padding: 15%;
     background-image: url(https://i.imgur.com/OZFKppr.jpg);
-    background-position: center;
+    background-position: initial;
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
