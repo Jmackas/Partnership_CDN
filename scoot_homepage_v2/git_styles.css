@@ -162,14 +162,13 @@ Header
     z-index: 9;
     padding: 2% 2% 0;
     border-bottom: 5px solid #1abbbd;
-    height: 140px;
+    height: 150px;
     /* Scoot Digital logo */
     background-image: url("https://i.imgur.com/GqhvTG5.png");
-    background-size: 215px;
-    background-position: 36px 34px;
+    background-size: 350px;
+    background-position: 13px 18px;
     background-repeat: no-repeat;
 }
-
 
 /* Menu items */
 .menuBar .menuItems {
