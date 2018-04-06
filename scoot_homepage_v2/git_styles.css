@@ -235,6 +235,13 @@ Header
         color: white;
         display: block;
     }
+    .header {
+        height: 100vh;
+        background: #112434;
+        background-image: url(https://i.imgur.com/EHYL8Lx.jpg);
+        background-size: cover;
+        background-position: 60%;
+    }
 }
 /* Disable the Typewriting */
 @media only screen and (max-width: 500px) {
@@ -367,6 +374,8 @@ Our Methods
     .rightBlock {
         display: none;
     }
+
+    
 }
 
 
