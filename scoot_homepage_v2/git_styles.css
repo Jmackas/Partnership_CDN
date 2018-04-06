@@ -386,6 +386,14 @@ Our Methods
         display: none;
     }
 
+    .ourMethods {
+        margin: auto;
+        color: white;
+        padding: 10%;
+        background: url(https://i.imgur.com/WhBhEQM.jpg);
+        background-size: cover;
+        background-position: 40%;
+    }
     
 }
 
