@@ -234,6 +234,7 @@ Header
         background: #FFB623;
         color: white;
         display: block;
+        white-space: nowrap;
     }
     .header {
         height: 100vh;
