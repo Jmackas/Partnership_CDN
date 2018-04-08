@@ -1,1 +1,16 @@
 /* This document controls the styles of the sandbox page with the iframe. Anything within the iframe is out of scope. */
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+iframe {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: none;
+    height: 100%;
+}
