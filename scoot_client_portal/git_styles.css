@@ -70,6 +70,7 @@ Client Portal Dashboard
 =================================*/
 div#main {
     background: white;
+    text-align: center;
 }
 
 /* Google Docs statistics iFrame */
