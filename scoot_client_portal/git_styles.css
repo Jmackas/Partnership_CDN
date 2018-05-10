@@ -72,6 +72,11 @@ div#main {
     background: white;
 }
 
+/* Google Docs statistics iFrame */
+.statsGdoc {
+    width: 100%;
+}
+
 /*=================================
 Miscellaneous styles
 =================================*/
