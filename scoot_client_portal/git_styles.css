@@ -25,6 +25,12 @@ h3 {
     text-align: center;
 }
 
+/* Header 4 */
+h4 {
+    margin-bottom: 5px;
+}
+
+
 /*=================================
 Front Page Login Module
 =================================*/
