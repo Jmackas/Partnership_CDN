@@ -25,9 +25,9 @@ h3 {
     text-align: center;
 }
 
-/* Header 4 */
-h4 {
-    margin-bottom: 5px;
+/* All general text selectors targeted */
+h1, h2, h3, h4, h5, h6, p, ul, ol, table, blockquote, input, textarea {
+    margin-bottom: 0;
 }
 
 
