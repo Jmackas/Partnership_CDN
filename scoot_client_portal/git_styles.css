@@ -20,6 +20,11 @@ section.content-area {
     background-position: center;
 }
 
+/* Header 3 */
+h3 {
+    text-align: center;
+}
+
 /*=================================
 Front Page Login Module
 =================================*/
@@ -70,7 +75,6 @@ Client Portal Dashboard
 =================================*/
 div#main {
     background: white;
-    text-align: center;
 }
 
 /* Google Docs statistics iFrame */
