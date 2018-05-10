@@ -4,6 +4,11 @@
 /*=================================
 Universal Elements
 =================================*/
+/* Website container */
+body {
+    color: #333;
+}
+
 /* Menu logo styling */
 .scoot_digital_logo {
 	width: 138px;
